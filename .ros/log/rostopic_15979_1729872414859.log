@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2024-10-26 00:06:54,968: init_node, name[/rostopic_15979_1729872414859], pid[15979]
+[xmlrpc][INFO] 2024-10-26 00:06:54,970: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-10-26 00:06:54,972: Started XML-RPC server [http://nx:35365/]
+[rospy.init][INFO] 2024-10-26 00:06:54,973: ROS Slave URI: [http://nx:35365/]
+[rospy.impl.masterslave][INFO] 2024-10-26 00:06:54,974: _ready: http://nx:35365/
+[rospy.registration][INFO] 2024-10-26 00:06:54,979: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2024-10-26 00:06:54,981: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-10-26 00:06:55,077: registered with master
+[rospy.rosout][INFO] 2024-10-26 00:06:55,081: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-10-26 00:06:55,091: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-10-26 00:06:55,094: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2024-10-26 00:06:55,270: topic[/unitree_legged_msgs/HighState] adding connection to [http://nx:43229/], count 0
+[rospy.internal][INFO] 2024-10-26 00:06:55,353: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][WARNING] 2024-10-26 00:07:30,581: Unknown error initiating TCP/IP socket to nx:45783 (http://nx:43229/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2024-10-26 00:07:30,582: topic[/unitree_legged_msgs/HighState] removing connection to http://nx:43229/
+[rospy.core][INFO] 2024-10-26 00:07:35,606: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2024-10-26 00:07:35,642: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2024-10-26 00:07:35,643: signal-2
+[rospy.core][INFO] 2024-10-26 00:07:36,260: signal_shutdown [atexit]

@@ -1,0 +1,10 @@
+package slam_planner;
+
+struct IMU
+        {
+                float quaternion[4];               
+                float gyroscope[3];                
+                float accelerometer[3];            
+                float rpy[3];                      
+                int8_t temperature;
+        }  

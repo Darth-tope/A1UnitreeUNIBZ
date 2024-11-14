@@ -1,0 +1,118 @@
+In file included from /home/unitree/librealsense/third-party/glfw/src/input.c:28:0:
+/home/unitree/librealsense/third-party/glfw/src/input.c: In function ‘glfwSetKeyCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:797:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.key, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:797:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.key, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/input.c: In function ‘glfwSetCharCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:807:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.character, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:807:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.character, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/input.c: In function ‘glfwSetCharModsCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:817:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.charmods, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:817:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.charmods, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/input.c: In function ‘glfwSetMouseButtonCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:828:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.mouseButton, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:828:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.mouseButton, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/input.c: In function ‘glfwSetCursorPosCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:839:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.cursorPos, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:839:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.cursorPos, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/input.c: In function ‘glfwSetCursorEnterCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:850:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.cursorEnter, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:850:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.cursorEnter, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/input.c: In function ‘glfwSetScrollCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:861:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.scroll, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:861:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.scroll, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/input.c: In function ‘glfwSetDropCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:871:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.drop, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:871:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.drop, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/input.c: In function ‘glfwSetJoystickCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:1073:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(_glfw.callbacks.joystick, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/input.c:1073:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(_glfw.callbacks.joystick, cbfun);
+     ^~~~~~~~~~~~~~~~~~~

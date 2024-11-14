@@ -1,0 +1,68 @@
+2024/11/13-00:26:58.912 2227 Reusing MANIFEST /home/unitree/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/13-00:26:58.919 2227 Recovering log #1712
+2024/11/13-00:26:58.919 2227 Reusing old log /home/unitree/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/001712.log 
+2024/11/13-00:27:02.752 243e Compacting 1@0 + 0@1 files
+2024/11/13-00:27:02.863 243e Generated table #1715@0: 15283 keys, 244499 bytes
+2024/11/13-00:27:02.929 243e Generated table #1716@0: 4603 keys, 165180 bytes
+2024/11/13-00:27:02.929 243e Compacted 1@0 + 0@1 files => 409679 bytes
+2024/11/13-00:27:02.933 243e compacted to: files[ 0 2 19 0 0 0 0 ]
+2024/11/13-00:27:02.934 243e Delete type=2 #1713
+2024/11/13-00:27:04.231 243e Level-0 table #1718: started
+2024/11/13-00:27:04.239 243e Level-0 table #1718: 14748 bytes OK
+2024/11/13-00:27:04.246 243e Delete type=0 #1712
+2024/11/13-00:27:04.247 243e Manual compaction at level-0 from '\x00#\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at '\x00#\x00\x00\x05' @ 5276983 : 1
+2024/11/13-00:27:04.247 243e Compacting 1@0 + 2@1 files
+2024/11/13-00:27:04.347 243e Generated table #1719@0: 15609 keys, 246024 bytes
+2024/11/13-00:27:04.392 243e Generated table #1720@0: 4603 keys, 165180 bytes
+2024/11/13-00:27:04.392 243e Compacted 1@0 + 2@1 files => 411204 bytes
+2024/11/13-00:27:04.398 243e compacted to: files[ 0 2 19 0 0 0 0 ]
+2024/11/13-00:27:04.399 243e Delete type=2 #1718
+2024/11/13-00:27:04.400 243e Manual compaction at level-0 from '\x00#\x00\x00\x05' @ 5276983 : 1 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/13-00:27:04.845 243e Compacting 1@1 + 9@2 files
+2024/11/13-00:27:05.293 243e Generated table #1721@1: 28007 keys, 2263731 bytes
+2024/11/13-00:27:05.809 243e Generated table #1722@1: 28941 keys, 2257156 bytes
+2024/11/13-00:27:06.577 243e Generated table #1723@1: 30696 keys, 2194465 bytes
+2024/11/13-00:27:06.801 243e Generated table #1724@1: 13702 keys, 2138108 bytes
+2024/11/13-00:27:07.273 243e Generated table #1725@1: 48933 keys, 2182842 bytes
+2024/11/13-00:27:07.820 243e Generated table #1726@1: 101690 keys, 2251696 bytes
+2024/11/13-00:27:08.089 243e Generated table #1727@1: 98759 keys, 2249359 bytes
+2024/11/13-00:27:08.351 243e Generated table #1728@1: 98654 keys, 2247168 bytes
+2024/11/13-00:27:08.532 243e Generated table #1729@1: 59940 keys, 1368843 bytes
+2024/11/13-00:27:08.533 243e Compacted 1@1 + 9@2 files => 19153368 bytes
+2024/11/13-00:27:08.547 243e compacted to: files[ 0 1 19 0 0 0 0 ]
+2024/11/13-00:27:08.549 243e Delete type=2 #1715
+2024/11/13-00:27:08.550 243e Delete type=2 #1699
+2024/11/13-00:27:08.550 243e Delete type=2 #1700
+2024/11/13-00:27:08.550 243e Delete type=2 #1701
+2024/11/13-00:27:08.550 243e Delete type=2 #1716
+2024/11/13-00:27:08.550 243e Delete type=2 #1720
+2024/11/13-00:27:08.550 243e Delete type=2 #1698
+2024/11/13-00:27:08.550 243e Delete type=2 #1695
+2024/11/13-00:27:08.550 243e Delete type=2 #1696
+2024/11/13-00:27:08.550 243e Delete type=2 #1693
+2024/11/13-00:27:08.550 243e Delete type=2 #1694
+2024/11/13-00:27:08.550 243e Delete type=2 #1697
+2024/11/13-00:27:09.137 243e Compacting 1@1 + 10@2 files
+2024/11/13-00:27:09.457 243e Generated table #1730@1: 71873 keys, 2234844 bytes
+2024/11/13-00:27:09.727 243e Generated table #1731@1: 43097 keys, 2203626 bytes
+2024/11/13-00:27:10.027 243e Generated table #1732@1: 28967 keys, 2188445 bytes
+2024/11/13-00:27:10.195 243e Generated table #1733@1: 3805 keys, 2158277 bytes
+2024/11/13-00:27:10.341 243e Generated table #1734@1: 3392 keys, 2150617 bytes
+2024/11/13-00:27:10.505 243e Generated table #1735@1: 3555 keys, 2161768 bytes
+2024/11/13-00:27:10.656 243e Generated table #1736@1: 2946 keys, 2162629 bytes
+2024/11/13-00:27:10.795 243e Generated table #1737@1: 3591 keys, 2158876 bytes
+2024/11/13-00:27:10.950 243e Generated table #1738@1: 10601 keys, 2173025 bytes
+2024/11/13-00:27:11.216 243e Generated table #1739@1: 31867 keys, 2082210 bytes
+2024/11/13-00:27:11.216 243e Compacted 1@1 + 10@2 files => 21674317 bytes
+2024/11/13-00:27:11.222 243e compacted to: files[ 0 0 19 0 0 0 0 ]
+2024/11/13-00:27:11.223 243e Delete type=2 #1719
+2024/11/13-00:27:11.223 243e Delete type=2 #1709
+2024/11/13-00:27:11.223 243e Delete type=2 #1702
+2024/11/13-00:27:11.223 243e Delete type=2 #1704
+2024/11/13-00:27:11.223 243e Delete type=2 #1703
+2024/11/13-00:27:11.224 243e Delete type=2 #1708
+2024/11/13-00:27:11.224 243e Delete type=2 #1710
+2024/11/13-00:27:11.224 243e Delete type=2 #1705
+2024/11/13-00:27:11.224 243e Delete type=2 #1706
+2024/11/13-00:27:11.224 243e Delete type=2 #1711
+2024/11/13-00:27:11.224 243e Delete type=2 #1707

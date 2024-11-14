@@ -1,0 +1,3 @@
+/home/unitree/librealsense/common/calibration-model.cpp:126:2: warning: extra ‘;’ [-Wpedantic]
+ };
+  ^

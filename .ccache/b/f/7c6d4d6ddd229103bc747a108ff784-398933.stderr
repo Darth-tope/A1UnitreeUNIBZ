@@ -1,0 +1,55 @@
+In file included from /home/unitree/librealsense/third-party/glfw/src/internal.h:187:0,
+                 from /home/unitree/librealsense/third-party/glfw/src/glx_context.c:28:
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c: In function ‘getProcAddressGLX’:
+/home/unitree/librealsense/third-party/glfw/src/x11_platform.h:166:35: warning: ISO C forbids return between function pointer and ‘void *’ [-Wpedantic]
+ #define _glfw_dlsym(handle, name) dlsym(handle, name)
+                                   ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:226:16: note: in expansion of macro ‘_glfw_dlsym’
+         return _glfw_dlsym(_glfw.glx.handle, procname);
+                ^~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c: In function ‘_glfwInitGLX’:
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:285:28: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.GetFBConfigs =
+                            ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:287:33: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.GetFBConfigAttrib =
+                                 ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:289:31: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.GetClientString =
+                               ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:291:30: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.QueryExtension =
+                              ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:293:28: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.QueryVersion =
+                            ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:295:30: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.DestroyContext =
+                              ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:297:27: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.MakeCurrent =
+                           ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:299:27: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.SwapBuffers =
+                           ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:301:37: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.QueryExtensionsString =
+                                     ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:303:32: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.CreateNewContext =
+                                ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:305:28: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.CreateWindow =
+                            ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:307:29: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.DestroyWindow =
+                             ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:309:30: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.GetProcAddress =
+                              ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:311:33: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.GetProcAddressARB =
+                                 ^
+/home/unitree/librealsense/third-party/glfw/src/glx_context.c:313:37: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+     _glfw.glx.GetVisualFromFBConfig =
+                                     ^

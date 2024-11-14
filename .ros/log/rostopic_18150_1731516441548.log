@@ -1,0 +1,12 @@
+[rospy.client][INFO] 2024-11-14 00:47:21,684: init_node, name[/rostopic_18150_1731516441548], pid[18150]
+[xmlrpc][INFO] 2024-11-14 00:47:21,685: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-11-14 00:47:21,686: Started XML-RPC server [http://nx:44593/]
+[rospy.init][INFO] 2024-11-14 00:47:21,687: ROS Slave URI: [http://nx:44593/]
+[rospy.impl.masterslave][INFO] 2024-11-14 00:47:21,688: _ready: http://nx:44593/
+[rospy.registration][INFO] 2024-11-14 00:47:21,689: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2024-11-14 00:47:21,690: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-11-14 00:47:21,789: registered with master
+[rospy.internal][INFO] 2024-11-14 00:47:22,020: topic[/cmd_vel] adding connection to [/base_controller_node], count 0
+[rospy.core][INFO] 2024-11-14 00:47:24,815: signal_shutdown [atexit]
+[rospy.internal][INFO] 2024-11-14 00:47:24,824: topic[/cmd_vel] removing connection to /base_controller_node
+[rospy.impl.masterslave][INFO] 2024-11-14 00:47:24,825: atexit

@@ -1,0 +1,103 @@
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c: In function ‘initExtensions’:
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:467:44: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.vidmode.QueryExtension = (PFN_XF86VidModeQueryExtension)
+                                            ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:469:42: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.vidmode.GetGammaRamp = (PFN_XF86VidModeGetGammaRamp)
+                                          ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:471:42: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.vidmode.SetGammaRamp = (PFN_XF86VidModeSetGammaRamp)
+                                          ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:473:46: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.vidmode.GetGammaRampSize = (PFN_XF86VidModeGetGammaRampSize)
+                                              ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:489:37: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.xi.QueryVersion = (PFN_XIQueryVersion)
+                                     ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:491:37: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.xi.SelectEvents = (PFN_XISelectEvents)
+                                     ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:519:38: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.AllocGamma = (PFN_XRRAllocGamma)
+                                      ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:521:37: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.FreeGamma = (PFN_XRRFreeGamma)
+                                     ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:523:40: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.FreeCrtcInfo = (PFN_XRRFreeCrtcInfo)
+                                        ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:525:37: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.FreeGamma = (PFN_XRRFreeGamma)
+                                     ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:527:42: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.FreeOutputInfo = (PFN_XRRFreeOutputInfo)
+                                          ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:529:47: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.FreeScreenResources = (PFN_XRRFreeScreenResources)
+                                               ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:531:40: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.GetCrtcGamma = (PFN_XRRGetCrtcGamma)
+                                        ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:533:44: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.GetCrtcGammaSize = (PFN_XRRGetCrtcGammaSize)
+                                            ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:535:39: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.GetCrtcInfo = (PFN_XRRGetCrtcInfo)
+                                       ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:537:41: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.GetOutputInfo = (PFN_XRRGetOutputInfo)
+                                         ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:539:44: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.GetOutputPrimary = (PFN_XRRGetOutputPrimary)
+                                            ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:541:53: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.GetScreenResourcesCurrent = (PFN_XRRGetScreenResourcesCurrent)
+                                                     ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:543:42: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.QueryExtension = (PFN_XRRQueryExtension)
+                                          ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:545:40: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.QueryVersion = (PFN_XRRQueryVersion)
+                                        ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:547:39: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.SelectInput = (PFN_XRRSelectInput)
+                                       ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:549:41: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.SetCrtcConfig = (PFN_XRRSetCrtcConfig)
+                                         ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:551:40: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.SetCrtcGamma = (PFN_XRRSetCrtcGamma)
+                                        ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:553:47: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.randr.UpdateConfiguration = (PFN_XRRUpdateConfiguration)
+                                               ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:611:41: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.xcursor.ImageCreate = (PFN_XcursorImageCreate)
+                                         ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:613:42: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.xcursor.ImageDestroy = (PFN_XcursorImageDestroy)
+                                          ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:615:45: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.xcursor.ImageLoadCursor = (PFN_XcursorImageLoadCursor)
+                                             ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:626:39: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.xinerama.IsActive = (PFN_XineramaIsActive)
+                                       ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:628:45: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.xinerama.QueryExtension = (PFN_XineramaQueryExtension)
+                                             ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:630:43: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.xinerama.QueryScreens = (PFN_XineramaQueryScreens)
+                                           ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:670:45: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.x11xcb.GetXCBConnection = (PFN_XGetXCBConnection)
+                                             ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:681:44: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.xrender.QueryExtension = (PFN_XRenderQueryExtension)
+                                            ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:683:42: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.xrender.QueryVersion = (PFN_XRenderQueryVersion)
+                                          ^
+/home/unitree/librealsense/third-party/glfw/src/x11_init.c:685:46: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         _glfw.x11.xrender.FindVisualFormat = (PFN_XRenderFindVisualFormat)
+                                              ^

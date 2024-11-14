@@ -1,0 +1,88 @@
+[roslaunch][INFO] 2020-09-08 10:22:31,127: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2020-09-08 10:22:31,140: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2020-09-08 10:22:31,141: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2020-09-08 10:22:31,142: roslaunch env is {'LC_NUMERIC': 'zh_CN.UTF-8', 'ROS_DISTRO': 'melodic', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'QT4_IM_MODULE': 'xim', 'PKG_CONFIG_PATH': '/home/unitree/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'WINDOWPATH': '1', 'XDG_CURRENT_DESKTOP': 'Unity:Unity7:ubuntu', 'XDG_SESSION_TYPE': 'x11', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/unitree/catkin_ws/devel/share/common-lisp', 'QT_IM_MODULE': 'ibus', 'LOGNAME': 'unitree', 'USER': 'unitree', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_PAPER': 'zh_CN.UTF-8', 'HOME': '/home/unitree', 'CMAKE_PREFIX_PATH': '/home/unitree/catkin_ws/devel:/opt/ros/melodic', 'DISPLAY': ':0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'MANAGERPID': '6985', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': '/home/unitree/.ros/log/259327ae-f17a-11ea-9da3-48b02d077fc1/roslaunch-tx2-27469.log', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'JOURNAL_STREAM': '8:41493', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:4edcd8a1-17ff-4ef6-b772-43528f8e670b', 'QT_ACCESSIBILITY': '1', 'LD_LIBRARY_PATH': '/home/unitree/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'GTK_CSD': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'CLUTTER_IM_MODULE': 'xim', 'TEXTDOMAIN': 'im-config', 'TERM': 'xterm-256color', 'ROS_MASTER_URI': 'http://localhost:11311', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': '92a630cffd3c461f9ddb3e40f9eba115', 'USERNAME': 'unitree', 'XDG_SESSION_DESKTOP': 'unity', 'SHLVL': '2', 'ROS_VERSION': '1', 'GTK_IM_MODULE': 'ibus', 'LC_ADDRESS': 'zh_CN.UTF-8', 'PYTHONPATH': '/home/unitree/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'VTE_VERSION': '5202', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'GDMSESSION': 'unity', 'XMODIFIERS': '@im=ibus', 'TEXTDOMAINDIR': '/usr/share/locale/', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator20x1a6021154d881c', 'XDG_DATA_DIRS': '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-unity:/etc/xdg', 'ROS_PACKAGE_PATH': '/home/unitree/catkin_ws/src:/opt/ros/melodic/share', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/melodic/bin/roscore', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'DESKTOP_SESSION': 'unity', 'IM_CONFIG_PHASE': '2', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_MODULES': 'gail:atk-bridge', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LC_MONETARY': 'zh_CN.UTF-8', 'PWD': '/home/unitree', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'COLORTERM': 'truecolor', 'LC_NAME': 'zh_CN.UTF-8', 'LC_TIME': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}
+[roslaunch][INFO] 2020-09-08 10:22:31,143: starting in server mode
+[roslaunch.parent][INFO] 2020-09-08 10:22:31,144: starting roslaunch parent run
+[roslaunch][INFO] 2020-09-08 10:22:31,144: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2020-09-08 10:22:33,060: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2020-09-08 10:22:33,061: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2020-09-08 10:22:33,062: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2020-09-08 10:22:33,063: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2020-09-08 10:22:33,063: starting parent XML-RPC server
+[roslaunch.server][INFO] 2020-09-08 10:22:33,064: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2020-09-08 10:22:33,065: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2020-09-08 10:22:33,066: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-09-08 10:22:33,067: Started XML-RPC server [http://tx2:36177/]
+[xmlrpc][INFO] 2020-09-08 10:22:33,068: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2020-09-08 10:22:33,082: started roslaunch server http://tx2:36177/
+[roslaunch.parent][INFO] 2020-09-08 10:22:33,083: ... parent XML-RPC server started
+[roslaunch][INFO] 2020-09-08 10:22:33,084: master.is_running[http://tx2:11311/]
+[roslaunch][INFO] 2020-09-08 10:22:33,094: auto-starting new master
+[roslaunch][INFO] 2020-09-08 10:22:33,095: create_master_process: rosmaster, /opt/ros/melodic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2020-09-08 10:22:33,095: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2020-09-08 10:22:33,095: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2020-09-08 10:22:33,096: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2020-09-08 10:22:33,096: process[master]: starting os process
+[roslaunch][INFO] 2020-09-08 10:22:33,097: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/unitree/.ros/log/259327ae-f17a-11ea-9da3-48b02d077fc1/master.log']]
+[roslaunch][INFO] 2020-09-08 10:22:33,097: process[master]: cwd will be [/home/unitree/.ros]
+[roslaunch][INFO] 2020-09-08 10:22:33,113: process[master]: started with pid [27499]
+[roslaunch][INFO] 2020-09-08 10:22:33,114: master.is_running[http://tx2:11311/]
+[roslaunch][INFO] 2020-09-08 10:22:33,216: master.is_running[http://tx2:11311/]
+[roslaunch][INFO] 2020-09-08 10:22:33,318: master.is_running[http://tx2:11311/]
+[roslaunch][INFO] 2020-09-08 10:22:33,420: master.is_running[http://tx2:11311/]
+[roslaunch][INFO] 2020-09-08 10:22:33,522: master.is_running[http://tx2:11311/]
+[roslaunch][INFO] 2020-09-08 10:22:33,624: master.is_running[http://tx2:11311/]
+[roslaunch][INFO] 2020-09-08 10:22:33,726: master.is_running[http://tx2:11311/]
+[roslaunch][INFO] 2020-09-08 10:22:33,827: master.is_running[http://tx2:11311/]
+[roslaunch][INFO] 2020-09-08 10:22:33,833: master.is_running[http://tx2:11311/]
+[roslaunch][INFO] 2020-09-08 10:22:33,837: ROS_MASTER_URI=http://tx2:11311/
+[roslaunch][INFO] 2020-09-08 10:22:33,841: setting /run_id to 259327ae-f17a-11ea-9da3-48b02d077fc1
+[roslaunch][INFO] 2020-09-08 10:22:33,844: setting /roslaunch/uris/host_tx2__36177' to http://tx2:36177/
+[roslaunch][INFO] 2020-09-08 10:22:33,851: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2020-09-08 10:22:33,851: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://tx2:11311/]
+[roslaunch][INFO] 2020-09-08 10:22:33,852: process[rosout-1]: env[{'LC_NUMERIC': 'zh_CN.UTF-8', 'ROS_DISTRO': 'melodic', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator20x1a6021154d881c', 'QT4_IM_MODULE': 'xim', 'COLORTERM': 'truecolor', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'XDG_CURRENT_DESKTOP': 'Unity:Unity7:ubuntu', 'XDG_SESSION_TYPE': 'x11', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/unitree/catkin_ws/devel/share/common-lisp', 'QT_IM_MODULE': 'ibus', 'LOGNAME': 'unitree', 'USER': 'unitree', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_PAPER': 'zh_CN.UTF-8', 'HOME': '/home/unitree', 'CMAKE_PREFIX_PATH': '/home/unitree/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/unitree/.ros/log/259327ae-f17a-11ea-9da3-48b02d077fc1/roslaunch-tx2-27469.log', 'LANG': 'en_US.UTF-8', 'MANAGERPID': '6985', 'SHELL': '/bin/bash', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'JOURNAL_STREAM': '8:41493', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TERMINATOR_UUID': 'urn:uuid:4edcd8a1-17ff-4ef6-b772-43528f8e670b', 'CLUTTER_IM_MODULE': 'xim', 'DISPLAY': ':0', 'GTK_CSD': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'QT_ACCESSIBILITY': '1', 'WINDOWPATH': '1', 'XMODIFIERS': '@im=ibus', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': '92a630cffd3c461f9ddb3e40f9eba115', 'USERNAME': 'unitree', 'XDG_SESSION_DESKTOP': 'unity', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'LC_ADDRESS': 'zh_CN.UTF-8', 'PYTHONPATH': '/home/unitree/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'TERM': 'xterm-256color', 'VTE_VERSION': '5202', 'GDMSESSION': 'unity', 'IM_CONFIG_PHASE': '2', 'TEXTDOMAINDIR': '/usr/share/locale/', 'DESKTOP_SESSION': 'unity', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_DATA_DIRS': '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PKG_CONFIG_PATH': '/home/unitree/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/unitree/catkin_ws/src:/opt/ros/melodic/share', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/melodic/bin/roscore', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'GTK_IM_MODULE': 'ibus', 'LD_LIBRARY_PATH': '/home/unitree/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-unity:/etc/xdg', 'GTK_MODULES': 'gail:atk-bridge', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LC_MONETARY': 'zh_CN.UTF-8', 'SHLVL': '2', 'PWD': '/home/unitree', 'ROS_MASTER_URI': 'http://tx2:11311/', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'ROS_VERSION': '1', 'TEXTDOMAIN': 'im-config', 'LC_NAME': 'zh_CN.UTF-8', 'LC_TIME': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}]
+[roslaunch][INFO] 2020-09-08 10:22:33,985: process[rosout-1]: args[[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2020-09-08 10:22:33,985: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2020-09-08 10:22:33,986: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2020-09-08 10:22:33,986: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2020-09-08 10:22:33,987: ... registered process [rosout-1]
+[roslaunch][INFO] 2020-09-08 10:22:33,987: process[rosout-1]: starting os process
+[roslaunch][INFO] 2020-09-08 10:22:33,988: process[rosout-1]: start w/ args [[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/unitree/.ros/log/259327ae-f17a-11ea-9da3-48b02d077fc1/rosout-1.log']]
+[roslaunch][INFO] 2020-09-08 10:22:33,988: process[rosout-1]: cwd will be [/home/unitree/.ros]
+[roslaunch][INFO] 2020-09-08 10:22:34,005: process[rosout-1]: started with pid [27510]
+[roslaunch][INFO] 2020-09-08 10:22:34,007: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2020-09-08 10:22:34,008: load_parameters starting ...
+[roslaunch][INFO] 2020-09-08 10:22:34,020: ... load_parameters complete
+[roslaunch][INFO] 2020-09-08 10:22:34,021: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2020-09-08 10:22:34,021: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2020-09-08 10:22:34,022: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 547824468464)>
+[roslaunch.parent][INFO] 2020-09-08 10:22:34,022: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2020-09-08 10:22:34,023: spin
+[roslaunch.pmon][INFO] 2020-09-08 10:23:14,730: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 547824468464)>
+[roslaunch.pmon][INFO] 2020-09-08 10:23:14,757: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 547824468464)>
+[roslaunch.pmon][INFO] 2020-09-08 10:23:14,758: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 547824468464)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f8ce38cd0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f8ce57410>]
+[roslaunch.pmon][INFO] 2020-09-08 10:23:14,765: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2020-09-08 10:23:14,766: [rosout-1] killing on exit
+[roslaunch][INFO] 2020-09-08 10:23:14,766: process[rosout-1]: killing os process with pid[27510] pgid[27510]
+[roslaunch][INFO] 2020-09-08 10:23:14,767: [rosout-1] sending SIGINT to pgid [27510]
+[roslaunch][INFO] 2020-09-08 10:23:14,767: [rosout-1] sent SIGINT to pgid [27510]
+[roslaunch][INFO] 2020-09-08 10:23:14,968: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2020-09-08 10:23:14,969: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2020-09-08 10:23:14,969: [master] killing on exit
+[roslaunch][INFO] 2020-09-08 10:23:14,970: process[master]: killing os process with pid[27499] pgid[27499]
+[roslaunch][INFO] 2020-09-08 10:23:14,970: [master] sending SIGINT to pgid [27499]
+[roslaunch][INFO] 2020-09-08 10:23:14,970: [master] sent SIGINT to pgid [27499]
+[roslaunch][INFO] 2020-09-08 10:23:15,171: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2020-09-08 10:23:15,172: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2020-09-08 10:23:15,173: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2020-09-08 10:23:15,196: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2020-09-08 10:23:15,197: runner.stop()
+[roslaunch][INFO] 2020-09-08 10:23:15,197: shutting down processing monitor...
+[roslaunch][INFO] 2020-09-08 10:23:15,198: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 547824468464)>
+[roslaunch.pmon][INFO] 2020-09-08 10:23:15,198: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 547824468464)>
+[roslaunch][INFO] 2020-09-08 10:23:15,198: ... shutting down processing monitor complete
+[roslaunch][INFO] 2020-09-08 10:23:15,199: done
+[roslaunch.pmon][INFO] 2020-09-08 10:23:15,199: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 547824468464)>
+[rospy.core][INFO] 2020-09-08 10:23:15,200: signal_shutdown [atexit]

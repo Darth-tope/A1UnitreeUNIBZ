@@ -1,0 +1,38 @@
+[rospy.client][INFO] 2024-11-08 01:24:44,584: init_node, name[/rqt_gui_py_node_12477], pid[12477]
+[xmlrpc][INFO] 2024-11-08 01:24:44,585: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-11-08 01:24:44,587: Started XML-RPC server [http://nx:40185/]
+[rospy.init][INFO] 2024-11-08 01:24:44,588: ROS Slave URI: [http://nx:40185/]
+[rospy.impl.masterslave][INFO] 2024-11-08 01:24:44,588: _ready: http://nx:40185/
+[rospy.registration][INFO] 2024-11-08 01:24:44,590: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2024-11-08 01:24:44,590: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-11-08 01:24:44,689: registered with master
+[rospy.rosout][INFO] 2024-11-08 01:24:44,689: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-11-08 01:24:44,694: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-11-08 01:24:44,698: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2024-11-08 01:24:44,935: topic[/rosout] adding connection to [/rosout], count 0
+[rosgraph.graph][ERROR] 2024-11-08 01:24:45,225: cannot get stats info from node [/map_saver]: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/impl/graph.py", line 395, in _node_refresh_businfo
+    code, msg, bus_info = api.getBusInfo(_ROS_NAME)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 22] Invalid argument
+
+[rospy.internal][INFO] 2024-11-08 02:28:00,817: topic[/rosout] removing connection to /rosout

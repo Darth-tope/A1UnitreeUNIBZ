@@ -1,0 +1,11 @@
+
+
+1730195685.781422868  Node Startup
+1730195757.149401083 INFO /lcm_ros_bridge [/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/bridge/lcm_ros_bridge.cpp:44(run)] [topics: /rosout, /unitree_legged_msgs/HighState] LCM-ROS bridge running...
+1730195781.349548789 DEBUG /lcm_ros_bridge [/tmp/binarydeb/ros-melodic-roscpp-1.14.9/src/libros/transport/transport_tcp.cpp:645(TransportTCPPtr ros::TransportTCP::accept)] [topics: /rosout, /unitree_legged_msgs/HighState] Accepted connection on socket [7], new socket [22]
+1730195781.353283875 DEBUG /lcm_ros_bridge [/tmp/binarydeb/ros-melodic-roscpp-1.14.9/src/libros/transport/transport_tcp.cpp:142(TransportTCP::initializeSocket)] [topics: /rosout, /unitree_legged_msgs/HighState] Adding tcp socket [22] to pollset
+1730195781.353870437 DEBUG /lcm_ros_bridge [/tmp/binarydeb/ros-melodic-roscpp-1.14.9/src/libros/connection_manager.cpp:188(ConnectionManager::tcprosAcceptConnection)] [topics: /rosout, /unitree_legged_msgs/HighState] TCPROS received a connection from [192.168.123.10:33390]
+1730195781.355107465 DEBUG /lcm_ros_bridge [/tmp/binarydeb/ros-melodic-roscpp-1.14.9/src/libros/connection_manager.cpp:203(ConnectionManager::onConnectionHeaderReceived)] [topics: /rosout, /unitree_legged_msgs/HighState] Connection: Creating TransportSubscriberLink for topic [/rosout] connected to [callerid=[/rosout] address=[TCPROS connection on port 59187 to [192.168.123.10:33390 on socket 22]]]
+1730195873.762189075 DEBUG /lcm_ros_bridge [/tmp/binarydeb/ros-melodic-roscpp-1.14.9/src/libros/topic_manager.cpp:561(TopicManager::pubUpdate)] [topics: /rosout, /unitree_legged_msgs/HighState] Received update for topic [/unitree_legged_msgs/HighCmd] (1 publishers)
+1730195873.762638484 DEBUG /lcm_ros_bridge [/tmp/binarydeb/ros-melodic-roscpp-1.14.9/src/libros/subscription.cpp:244(Subscription::pubUpdate)] [topics: /rosout, /unitree_legged_msgs/HighState] Publisher update for [/unitree_legged_msgs/HighCmd]: http://nx:37695/,  already have these connections: 
+1730195874.093692153 DEBUG 

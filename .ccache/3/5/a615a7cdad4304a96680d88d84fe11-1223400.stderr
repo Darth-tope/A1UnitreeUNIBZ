@@ -1,0 +1,3 @@
+/home/unitree/librealsense/third-party/realsense-file/rosbag/rostime/src/time.cpp:99:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(NoHighPerformanceTimersException)
+     ^~~~~

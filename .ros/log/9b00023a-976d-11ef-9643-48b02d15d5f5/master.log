@@ -1,0 +1,24 @@
+[rosmaster.main][INFO] 2024-10-31 17:50:51,151: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-10-31 17:50:51,151: Starting ROS Master Node
+[xmlrpc][INFO] 2024-10-31 17:50:51,155: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-10-31 17:50:51,156: Started XML-RPC server [http://nx:11311/]
+[xmlrpc][INFO] 2024-10-31 17:50:51,157: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-10-31 17:50:51,158: Master initialized: port[11311], uri[http://nx:11311/]
+[rosmaster.master][INFO] 2024-10-31 17:50:51,194: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 17:50:51,198: +PARAM [/roslaunch/uris/host_nx__40075] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 17:50:51,391: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 17:50:51,391: +PARAM [/firmwork] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 17:50:51,392: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 17:50:51,392: +PARAM [/robot_name] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 17:50:51,393: +PARAM [/control_level] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 17:50:51,514: +SERVICE [/rosout/get_loggers] /rosout http://nx:45113/
+[rosmaster.master][INFO] 2024-10-31 17:50:51,516: +SERVICE [/rosout/set_logger_level] /rosout http://nx:45113/
+[rosmaster.master][INFO] 2024-10-31 17:50:51,519: +PUB [/rosout_agg] /rosout http://nx:45113/
+[rosmaster.master][INFO] 2024-10-31 17:50:51,526: +SUB [/rosout] /rosout http://nx:45113/
+[rosmaster.master][INFO] 2024-10-31 17:52:14,921: -PUB [/rosout_agg] /rosout http://nx:45113/
+[rosmaster.master][INFO] 2024-10-31 17:52:14,923: -SUB [/rosout] /rosout http://nx:45113/
+[rosmaster.master][INFO] 2024-10-31 17:52:14,925: -SERVICE [/rosout/get_loggers] /rosout rosrpc://nx:34383
+[rosmaster.master][INFO] 2024-10-31 17:52:14,927: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://nx:34383
+[rosmaster.main][INFO] 2024-10-31 17:52:14,936: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2024-10-31 17:52:14,936: stopping master...
+[rospy.core][INFO] 2024-10-31 17:52:14,937: signal_shutdown [atexit]

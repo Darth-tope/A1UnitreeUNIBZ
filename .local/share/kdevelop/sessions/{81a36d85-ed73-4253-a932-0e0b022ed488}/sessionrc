@@ -1,0 +1,141 @@
+SessionName=default
+SessionPrettyContents=default:  jetson_video_ende, v1.0.0, video
+
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x000\x00R\x00o\x00b\x00o\x00t\x00V\x00i\x00s\x00i\x00o\x00n\x00S\x00y\x00s\x00t\x00e\x00m\x00-\x00n\x00e\x00w\x00s\x00d\x00k\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00*\x00j\x00e\x00t\x00s\x00o\x00n\x00_\x00m\x00u\x00l\x00t\x00i\x00m\x00e\x00d\x00i\x00a\x00_\x00a\x00p\x00i\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00"\x00j\x00e\x00t\x00s\x00o\x00n\x00_\x00v\x00i\x00d\x00e\x00o\x00_\x00e\x00n\x00d\x00e\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x0c\x00v\x001\x00.\x000\x00.\x000\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00*\x00j\x00e\x00t\x00s\x00o\x00n\x00_\x00v\x00i\x00d\x00e\x00o\x00_\x00e\x00n\x00d\x00e\x00-\x00b\x00a\x00k\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\n\x00v\x00i\x00d\x00e\x00o)
+
+[Filesystem]
+LastLocation=file:///home/unitree
+
+[General Options]
+Open Projects=file:///home/unitree/jetson_video_ende/jetson_video_ende.kdev4,file:///home/unitree/v1.0.0/v1.0.0.kdev4,file:///home/unitree/video/video.kdev4
+
+[Plugins]
+KDevCMakeBuilderEnabled=true
+KDevCMakeDocumentationEnabled=true
+KDevCMakeManagerEnabled=true
+KDevCustomBuildSystemEnabled=true
+KDevCustomMakeManagerEnabled=true
+KDevDefinesAndIncludesManagerEnabled=true
+KDevGenericManagerEnabled=true
+KDevMakeBuilderEnabled=true
+KDevNinjaBuilderEnabled=false
+KDevOutlineViewEnabled=true
+KDevProjectFilterEnabled=true
+KDevProjectManagerViewEnabled=true
+KDevQMakeBuilderEnabled=true
+KDevQMakeManagerEnabled=true
+KDevStandardOutputViewEnabled=true
+KDevWelcomePageEnabled=true
+kdevandroidEnabled=true
+kdevappwizardEnabled=true
+kdevastyleEnabled=true
+kdevbazaarEnabled=false
+kdevclangsupportEnabled=true
+kdevclassbrowserEnabled=true
+kdevcodeutilsEnabled=true
+kdevcontextbrowserEnabled=true
+kdevcppcheckEnabled=true
+kdevcustomscriptEnabled=true
+kdevcvsEnabled=true
+kdevdockerEnabled=true
+kdevdocumentswitcherEnabled=true
+kdevdocumentviewEnabled=true
+kdevexecuteEnabled=true
+kdevexecuteplasmoidEnabled=true
+kdevexecutescriptEnabled=true
+kdevexternalscriptEnabled=true
+kdevfilemanagerEnabled=true
+kdevfiletemplatesEnabled=true
+kdevflatpakEnabled=true
+kdevgdbEnabled=true
+kdevghproviderEnabled=true
+kdevgitEnabled=true
+kdevgrepviewEnabled=true
+kdevheaptrackEnabled=true
+kdevkdeproviderEnabled=true
+kdevkonsoleviewEnabled=false
+kdevlldbEnabled=true
+kdevoktetaEnabled=true
+kdevopenwithEnabled=true
+kdevpatchreviewEnabled=true
+kdevperforceEnabled=false
+kdevproblemreporterEnabled=true
+kdevqmljsEnabled=true
+kdevqthelpEnabled=true
+kdevquickopenEnabled=true
+kdevsourceformatterEnabled=true
+kdevsubversionEnabled=true
+kdevswitchtobuddyEnabled=true
+kdevtestviewEnabled=true
+kdevvcschangesviewpluginEnabled=true
+
+[ProjectManagerView]
+splitterState=\x00\x00\x00ÿ\x00\x00\x00\x01\x00\x00\x00\x02\x00\x008@\x00\x00\x15•\x01ÿÿÿÿ\x01\x00\x00\x00\x02\x00
+
+[ProjectTreeViewRobotVisionSystem-newsdk]
+Current=RobotVisionSystem-newsdk
+Expansion=RobotVisionSystem-newsdk,RobotVisionSystem-newsdk/Src,RobotVisionSystem-newsdk/Src/SystemInputPlugin,RobotVisionSystem-newsdk/Src/SystemInputPlugin/Include,RobotVisionSystem-newsdk/Src/SystemInputPlugin/Include/RobotController,RobotVisionSystem-newsdk/Src/SystemInputPlugin/Include/RobotController/unitree_legged_sdk,RobotVisionSystem-newsdk/Src/SystemInputPlugin/Src,RobotVisionSystem-newsdk/Src/SystemInputPlugin/Src/RobotController
+HorizontalScroll=0
+Selection=RobotVisionSystem-newsdk
+VerticalScroll=0
+
+[ProjectTreeViewjetson_multimedia_api]
+Current=jetson_multimedia_api
+Expansion=jetson_multimedia_api
+HorizontalScroll=0
+Selection=jetson_multimedia_api
+VerticalScroll=0
+
+[ProjectTreeViewjetson_video_ende]
+Current=jetson_video_ende
+Expansion=jetson_video_ende,jetson_video_ende/bin,jetson_video_ende/build,jetson_video_ende/src,jetson_video_ende/src/03_video_cuda_enc,,,,,,
+HorizontalScroll=0
+Selection=jetson_video_ende
+VerticalScroll=27
+
+[ProjectTreeViewjetson_video_ende-bak]
+Current=jetson_video_ende-bak
+Expansion=,,,jetson_video_ende-bak,jetson_video_ende-bak/src,jetson_video_ende-bak/src/03_video_cuda_enc,,,
+HorizontalScroll=0
+Selection=jetson_video_ende-bak
+VerticalScroll=0
+
+[ProjectTreeViewv1.0.0]
+Current=
+Expansion=,,,,,v1.0.0,v1.0.0/build,v1.0.0/include,v1.0.0/include/SSE,v1.0.0/src,
+HorizontalScroll=0
+Selection=\\0
+VerticalScroll=27
+
+[ProjectTreeViewvideo]
+Current=
+Expansion=,,,,,,,,,,video
+HorizontalScroll=0
+Selection=\\0
+VerticalScroll=27
+
+[Working File Sets][code_2967364|Code]
+Active View=file:///home/unitree/RobotVisionSystem-newsdk/Src/SystemInputPlugin/vision.cpp
+View 0=file:///home/unitree/RobotVisionSystem-newsdk/Src/SystemInputPlugin/vision.cpp
+View 0 State=Cursor=0,0
+View 1=file:///home/unitree/RobotVisionSystem-newsdk/Src/SystemInputPlugin/Include/RobotController/HighLevelController.hpp
+View 1 State=Cursor=0,0
+View Count=2
+
+[Working File Sets][code_4411720]
+View 0=file:///home/unitree/jetson_video_ende/src/03_video_cuda_enc/video_cuda_enc_main.cpp
+View 1=file:///home/unitree/jetson_video_ende/src/02_video_dec_cuda/videodec_main.cpp
+View 2=file:///home/unitree/v1.0.0/src/vision.cpp
+View Count=3
+persistent=false
+
+[Working File Sets][code_4411720|Code]
+Active View=file:///home/unitree/jetson_video_ende/src/03_video_cuda_enc/video_cuda_enc_main.cpp
+View 0=file:///home/unitree/jetson_video_ende/src/03_video_cuda_enc/video_cuda_enc_main.cpp
+View 0 State=Cursor=164,19
+View 1=file:///home/unitree/jetson_video_ende/src/02_video_dec_cuda/videodec_main.cpp
+View 1 State=Selection=0,0,0,0
+View 2=file:///home/unitree/v1.0.0/src/vision.cpp
+View 2 State=Cursor=522,17
+View Count=3

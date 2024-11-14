@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/unitree/RobotSLAMSystem/slam_planner/slam_planner.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Robot-SLAM-System
+Name=Robot-SLAM-System
+Comment[en_US]=start slam application.
+Comment=start slam application.

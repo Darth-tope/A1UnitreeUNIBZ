@@ -1,0 +1,17 @@
+[rospy.client][INFO] 2024-11-15 00:08:33,098: init_node, name[/square_move_15588_1731600513011], pid[15588]
+[xmlrpc][INFO] 2024-11-15 00:08:33,099: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-11-15 00:08:33,101: Started XML-RPC server [http://nx:43783/]
+[rospy.init][INFO] 2024-11-15 00:08:33,101: ROS Slave URI: [http://nx:43783/]
+[rospy.impl.masterslave][INFO] 2024-11-15 00:08:33,102: _ready: http://nx:43783/
+[xmlrpc][INFO] 2024-11-15 00:08:33,104: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2024-11-15 00:08:33,106: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2024-11-15 00:08:33,203: registered with master
+[rospy.rosout][INFO] 2024-11-15 00:08:33,203: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-11-15 00:08:33,211: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-11-15 00:08:33,214: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2024-11-15 00:08:33,389: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2024-11-15 00:08:33,490: topic[/cmd_vel] adding connection to [/base_controller_node], count 0
+[rospy.core][INFO] 2024-11-15 00:09:08,645: signal_shutdown [atexit]
+[rospy.internal][INFO] 2024-11-15 00:09:08,655: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2024-11-15 00:09:08,656: topic[/cmd_vel] removing connection to /base_controller_node
+[rospy.impl.masterslave][INFO] 2024-11-15 00:09:08,657: atexit

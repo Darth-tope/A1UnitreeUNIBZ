@@ -1,0 +1,28 @@
+[rosmaster.main][INFO] 2024-10-30 22:03:55,518: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-10-30 22:03:55,519: Starting ROS Master Node
+[xmlrpc][INFO] 2024-10-30 22:03:55,522: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-10-30 22:03:55,523: Started XML-RPC server [http://nx:11311/]
+[rosmaster.master][INFO] 2024-10-30 22:03:55,524: Master initialized: port[11311], uri[http://nx:11311/]
+[xmlrpc][INFO] 2024-10-30 22:03:55,524: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-10-30 22:03:55,682: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-10-30 22:03:55,690: +PARAM [/roslaunch/uris/host_nx__44975] by /roslaunch
+[rosmaster.master][INFO] 2024-10-30 22:03:55,922: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-10-30 22:03:55,923: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-10-30 22:03:55,932: +SERVICE [/rosout/get_loggers] /rosout http://nx:45707/
+[rosmaster.master][INFO] 2024-10-30 22:03:55,936: +SERVICE [/rosout/set_logger_level] /rosout http://nx:45707/
+[rosmaster.master][INFO] 2024-10-30 22:03:55,947: +PUB [/rosout_agg] /rosout http://nx:45707/
+[rosmaster.master][INFO] 2024-10-30 22:03:55,958: +SUB [/rosout] /rosout http://nx:45707/
+[rosmaster.master][INFO] 2024-10-30 22:04:02,851: +PUB [/rosout] /lcm_ros_bridge http://nx:43435/
+[rosmaster.master][INFO] 2024-10-30 22:04:02,853: +SERVICE [/lcm_ros_bridge/get_loggers] /lcm_ros_bridge http://nx:43435/
+[rosmaster.master][INFO] 2024-10-30 22:04:02,855: publisherUpdate[/rosout] -> http://nx:45707/ ['http://nx:43435/']
+[rosmaster.master][INFO] 2024-10-30 22:04:02,859: +SERVICE [/lcm_ros_bridge/set_logger_level] /lcm_ros_bridge http://nx:43435/
+[rosmaster.master][INFO] 2024-10-30 22:04:02,868: +PUB [/unitree_legged_msgs/HighState] /lcm_ros_bridge http://nx:43435/
+[rosmaster.master][INFO] 2024-10-30 22:04:02,875: +SUB [/unitree_legged_msgs/HighCmd] /lcm_ros_bridge http://nx:43435/
+[rosmaster.master][INFO] 2024-10-30 22:04:02,895: publisherUpdate[/rosout] -> http://nx:45707/ ['http://nx:43435/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-30 22:13:11,400: -PUB [/rosout_agg] /rosout http://nx:45707/
+[rosmaster.master][INFO] 2024-10-30 22:13:11,402: -SUB [/rosout] /rosout http://nx:45707/
+[rosmaster.master][INFO] 2024-10-30 22:13:11,405: -SERVICE [/rosout/get_loggers] /rosout rosrpc://nx:60575
+[rosmaster.master][INFO] 2024-10-30 22:13:11,406: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://nx:60575
+[rosmaster.main][INFO] 2024-10-30 22:13:11,480: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2024-10-30 22:13:11,480: stopping master...
+[rospy.core][INFO] 2024-10-30 22:13:11,481: signal_shutdown [atexit]

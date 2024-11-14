@@ -1,0 +1,3 @@
+logging to /home/unitree/.ros/log/ca2151b4-9de3-11ef-a931-48b02d15d5f5/rosout.log
+re-publishing aggregated messages to /rosout_agg
+subscribed to /rosout

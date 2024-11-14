@@ -1,0 +1,2 @@
+LCM Initialized. WARNING: Control level is set to HIGH-level.
+Subscribe channel: LCM_High_State, Publish channel: LCM_High_Cmd

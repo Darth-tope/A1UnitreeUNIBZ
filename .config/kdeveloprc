@@ -1,0 +1,327 @@
+[CMakeBuildDirChooser]
+LastExtraArguments=
+
+[External Scripts]
+firstUse=false
+
+[External Scripts][script 0]
+command=g++ -o %b %f && ./%b
+errorMode=0
+filterMode=0
+inputMode=0
+name=Quick Compile
+outputMode=0
+saveMode=0
+shortcuts=
+showOutput=true
+
+[External Scripts][script 1]
+command=xdg-open "https://www.google.com/search?q=%s"
+errorMode=0
+filterMode=0
+inputMode=0
+name=Google Selection
+outputMode=0
+saveMode=0
+shortcuts=
+showOutput=false
+
+[External Scripts][script 2]
+command=sort
+errorMode=0
+filterMode=0
+inputMode=2
+name=Sort Selection
+outputMode=3
+saveMode=0
+shortcuts=
+showOutput=false
+
+[KatePart Settings]
+documents=/home/unitree/v1.0.0/include/SSE/SSE2NEON.hpp,/home/unitree/v1.0.0/src/x265_encoder.hpp,/home/unitree/v1.0.0/src/x265_encoder.cpp,/home/unitree/v1.0.0/src/PersonDetect/utils.cpp,/home/unitree/v1.0.0/src/PersonDetect/nms.cpp,/usr/local/opencv-4.4.1/include/opencv4/opencv2/stitching.hpp,/home/unitree/jetson_video_ende/build/Makefile,/home/unitree/jetson_video_ende-bak/src/03_video_cuda_enc/video_cuda_enc_main.cpp,/home/unitree/jetson_video_ende/src/common/algorithm/cuda/NvCudaProc.h,/home/unitree/jetson_video_ende/include/NvUtils.h,/home/unitree/v1.0.0/src/CMakeLists.txt,/home/unitree/v1.0.0/src/main.cxx,/home/unitree/jetson_video_ende/CMakeLists.txt,/home/unitree/v1.0.0/CMakeLists.txt,/home/unitree/video/video.cpp,/home/unitree/jetson_video_ende/include/nvbuf_utils.h,/home/unitree/jetson_video_ende/src/03_video_cuda_enc/video_cuda_enc.h,/home/unitree/v1.0.0/src/vision.cpp,/home/unitree/jetson_video_ende/src/03_video_cuda_enc/video_cuda_enc_main.cpp
+
+[KatePart Settings][/home/unitree/jetson_video_ende-bak/src/03_video_cuda_enc/video_cuda_enc_main.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/jetson_video_ende-bak/src/03_video_cuda_enc/video_cuda_enc_main.cpp
+
+[KatePart Settings][/home/unitree/jetson_video_ende/CMakeLists.txt]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=CMake
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=CMake
+Mode Set By User=false
+URL=file:///home/unitree/jetson_video_ende/CMakeLists.txt
+
+[KatePart Settings][/home/unitree/jetson_video_ende/build/Makefile]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Makefile
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Makefile
+Mode Set By User=false
+URL=file:///home/unitree/jetson_video_ende/build/Makefile
+
+[KatePart Settings][/home/unitree/jetson_video_ende/include/NvUtils.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/jetson_video_ende/include/NvUtils.h
+
+[KatePart Settings][/home/unitree/jetson_video_ende/include/nvbuf_utils.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/jetson_video_ende/include/nvbuf_utils.h
+
+[KatePart Settings][/home/unitree/jetson_video_ende/src/03_video_cuda_enc/video_cuda_enc.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/jetson_video_ende/src/03_video_cuda_enc/video_cuda_enc.h
+
+[KatePart Settings][/home/unitree/jetson_video_ende/src/03_video_cuda_enc/video_cuda_enc_main.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/jetson_video_ende/src/03_video_cuda_enc/video_cuda_enc_main.cpp
+
+[KatePart Settings][/home/unitree/jetson_video_ende/src/common/algorithm/cuda/NvCudaProc.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/jetson_video_ende/src/common/algorithm/cuda/NvCudaProc.h
+
+[KatePart Settings][/home/unitree/v1.0.0/CMakeLists.txt]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=CMake
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=CMake
+Mode Set By User=false
+URL=file:///home/unitree/v1.0.0/CMakeLists.txt
+
+[KatePart Settings][/home/unitree/v1.0.0/include/SSE/SSE2NEON.hpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/v1.0.0/include/SSE/SSE2NEON.hpp
+
+[KatePart Settings][/home/unitree/v1.0.0/src/CMakeLists.txt]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=CMake
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=CMake
+Mode Set By User=false
+URL=file:///home/unitree/v1.0.0/src/CMakeLists.txt
+
+[KatePart Settings][/home/unitree/v1.0.0/src/PersonDetect/nms.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/v1.0.0/src/PersonDetect/nms.cpp
+
+[KatePart Settings][/home/unitree/v1.0.0/src/PersonDetect/utils.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/v1.0.0/src/PersonDetect/utils.cpp
+
+[KatePart Settings][/home/unitree/v1.0.0/src/main.cxx]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/v1.0.0/src/main.cxx
+
+[KatePart Settings][/home/unitree/v1.0.0/src/vision.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/v1.0.0/src/vision.cpp
+
+[KatePart Settings][/home/unitree/v1.0.0/src/x265_encoder.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/v1.0.0/src/x265_encoder.cpp
+
+[KatePart Settings][/home/unitree/v1.0.0/src/x265_encoder.hpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/v1.0.0/src/x265_encoder.hpp
+
+[KatePart Settings][/home/unitree/video/video.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/unitree/video/video.cpp
+
+[KatePart Settings][/usr/local/opencv-4.4.1/include/opencv4/opencv2/stitching.hpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///usr/local/opencv-4.4.1/include/opencv4/opencv2/stitching.hpp
+
+[Main Window]
+Desktop 1920 1080=65,24,1855,1056
+
+[MainWindow]
+Height 1080=1028
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAGAAAAD3vwCAAAAAvsAAAAcAEQAbwBjAHUAbQBlAG4AdABzAF8AYwBvAGQAZQAAAAAlAAAD3gAAAFkA////+wAAABoAUAByAG8AagBlAGMAdABzAF8AYwBvAGQAZQEAAAAlAAAD3gAAAQAA////AAAAAwAABYkAAADT/AEAAAAB+wAAABQAQgB1AGkAbABkAF8AYwBvAGQAZQEAAAGeAAAFiQAAAAAAAAAAAAAFiQAAA94AAAAEAAAABAAAAAEAAAAC/AAAAAQAAAAAAAAAAQAAAB4ATABlAGYAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAEAAAABAAAAIABSAGkAZwBoAHQAIABCAHUAdAB0AG8AbgAgAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAACAAAABAAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAgAHEAdQBpAGMAawBPAHAAZQBuAFQAbwBvAGwAQgBhAHIBAAAEFv////8AAAAAAAAAAAAAACwASwBEAGUAdgBDAG8AZABlAGIAcgBvAHcAcwBlAHIAVABvAG8AbABCAGEAcgEAAATz/////wAAAAAAAAAAAAAAAwAAAAEAAAAiAEIAbwB0AHQAbwBtACAAQgB1AHQAdABvAG4AIABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=928
+Window-Maximized 0x0=true
+Window-Maximized 1080x1920=true
+
+[MainWindow_code]
+(1) Tool Views Order=org.kdevelop.ProjectsView,org.kdevelop.ClassBrowserView,org.kdevelop.FileManagerView,org.kdevelop.DocumentsView
+(2) Tool Views Order=org.kdevelop.ExternalScriptView
+(8) Tool Views Order=org.kdevelop.OutputView.0,org.kdevelop.ContextBrowser,org.kdevelop.ProblemReporterView
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAGAAAAD3vwCAAAAAvsAAAAcAEQAbwBjAHUAbQBlAG4AdABzAF8AYwBvAGQAZQAAAAAlAAAD3gAAAFkA////+wAAABoAUAByAG8AagBlAGMAdABzAF8AYwBvAGQAZQEAAAAlAAAD3gAAAQAA////AAAAAwAABYkAAADT/AEAAAAB+wAAABQAQgB1AGkAbABkAF8AYwBvAGQAZQEAAAGeAAAFiQAAAKYA////AAAFiQAAAwUAAAAEAAAABAAAAAEAAAAC/AAAAAQAAAAAAAAAAQAAAB4ATABlAGYAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAEAAAABAAAAIABSAGkAZwBoAHQAIABCAHUAdAB0AG8AbgAgAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAACAAAABAAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAgAHEAdQBpAGMAawBPAHAAZQBuAFQAbwBvAGwAQgBhAHIBAAAEFv////8AAAAAAAAAAAAAACwASwBEAGUAdgBDAG8AZABlAGIAcgBvAHcAcwBlAHIAVABvAG8AbABCAGEAcgEAAATz/////wAAAAAAAAAAAAAAAwAAAAEAAAAiAEIAbwB0AHQAbwBtACAAQgB1AHQAdABvAG4AIABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Window-Maximized 1080x1920=true
+debugToolBarVisibility=false
+
+[Open File]
+Last Open File Directory=file:///home/unitree/jetson_video_ende/src/02_video_dec_cuda/
+
+[Recent Files]
+File1[$e]=$HOME/jetson_video_ende-bak/src/03_video_cuda_enc/video_cuda_enc_main.cpp
+File10[$e]=$HOME/jetson_video_ende/src/03_video_cuda_enc/video_cuda_enc.h
+File2[$e]=$HOME/v1.0.0/CMakeLists.txt
+File3[$e]=$HOME/jetson_video_ende/CMakeLists.txt
+File4[$e]=$HOME/v1.0.0/src/main.cxx
+File5[$e]=$HOME/v1.0.0/src/CMakeLists.txt
+File6[$e]=$HOME/video/video.cpp
+File7[$e]=$HOME/jetson_video_ende/src/common/algorithm/cuda/NvCudaProc.h
+File8[$e]=$HOME/jetson_video_ende/include/NvUtils.h
+File9[$e]=$HOME/jetson_video_ende/include/nvbuf_utils.h
+Name1[$e]=video_cuda_enc_main.cpp
+Name10[$e]=video_cuda_enc.h
+Name2[$e]=CMakeLists.txt
+Name3[$e]=CMakeLists.txt
+Name4[$e]=main.cxx
+Name5[$e]=CMakeLists.txt
+Name6[$e]=video.cpp
+Name7[$e]=NvCudaProc.h
+Name8[$e]=NvUtils.h
+Name9[$e]=nvbuf_utils.h
+
+[RecentProjects]
+File1[$e]=$HOME/jetson_video_ende-bak/jetson_video_ende-bak.kdev4
+File2[$e]=$HOME/video/video.kdev4
+File3[$e]=$HOME/v1.0.0/v1.0.0.kdev4
+File4[$e]=$HOME/jetson_video_ende/jetson_video_ende.kdev4
+Name1[$e]=jetson_video_ende-bak.kdev4
+Name2[$e]=video.kdev4
+Name3[$e]=v1.0.0.kdev4
+Name4[$e]=jetson_video_ende.kdev4
+
+[Sessions]
+Active Session ID={81a36d85-ed73-4253-a932-0e0b022ed488}
+
+[UiSettings]
+ShowTextEditorStatusBar=false
+
+[UiSettings/Docks/ToolbarEnabled]
+Build_code=true
+Projects_code=true
+
+[User Interface]
+Main Windows Count=1
+
+[User Interface][Main Window 0][Area code]
+desired views=org.kdevelop.ClassBrowserView:1,org.kdevelop.ContextBrowser:8,org.kdevelop.DocumentsView:1,org.kdevelop.ExternalScriptView:2,org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView:8,org.kdevelop.OutputView.0:8,org.kdevelop.ProblemReporterView:8,org.kdevelop.ProjectsView:1,org.kdevelop.SnippetView:2
+id=code
+view on bottom=org.kdevelop.OutputView.0
+view on left=org.kdevelop.ProjectsView
+view on right=
+view on top=
+working set=code_4411720
+
+[User Interface][Main Window 0][Area debug]
+desired views=org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView.0:8,org.kdevelop.debugger.BreakpointsView:8,org.kdevelop.debugger.ConsoleView:8,org.kdevelop.debugger.StackView:8,org.kdevelop.debugger.VariablesView:1
+id=debug
+view on bottom=
+view on left=
+view on right=
+view on top=
+working set=
+
+[User Interface][Main Window 0][Area review]
+desired views=org.kdevelop.FileManagerView:1,org.kdevelop.OutputView.0:8,org.kdevelop.PatchReview:8,org.kdevelop.ProjectsView:1
+id=review
+view on bottom=
+view on left=
+view on right=
+view on top=
+working set=

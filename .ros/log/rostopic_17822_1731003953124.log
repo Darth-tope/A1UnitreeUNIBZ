@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2024-11-08 02:25:53,244: init_node, name[/rostopic_17822_1731003953124], pid[17822]
+[xmlrpc][INFO] 2024-11-08 02:25:53,246: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-11-08 02:25:53,247: Started XML-RPC server [http://nx:35375/]
+[rospy.init][INFO] 2024-11-08 02:25:53,247: ROS Slave URI: [http://nx:35375/]
+[rospy.impl.masterslave][INFO] 2024-11-08 02:25:53,248: _ready: http://nx:35375/
+[rospy.registration][INFO] 2024-11-08 02:25:53,252: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2024-11-08 02:25:53,253: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-11-08 02:25:53,349: registered with master
+[rospy.rosout][INFO] 2024-11-08 02:25:53,349: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-11-08 02:25:53,356: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-11-08 02:25:53,360: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2024-11-08 02:25:53,659: topic[/tf] adding connection to [http://nx:43235/], count 0
+[rospy.internal][INFO] 2024-11-08 02:25:53,661: topic[/tf] adding connection to [http://nx:33247/], count 0
+[rospy.internal][INFO] 2024-11-08 02:25:53,661: topic[/tf] adding connection to [http://nx:43531/], count 0
+[rospy.internal][INFO] 2024-11-08 02:25:53,662: topic[/tf] adding connection to [http://nx:33469/], count 0
+[rospy.internal][INFO] 2024-11-08 02:25:53,702: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2024-11-08 02:25:54,464: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2024-11-08 02:25:54,476: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2024-11-08 02:25:54,477: topic[/tf] removing connection to http://nx:43235/
+[rospy.internal][INFO] 2024-11-08 02:25:54,480: topic[/tf] removing connection to http://nx:33247/
+[rospy.internal][INFO] 2024-11-08 02:25:54,482: topic[/tf] removing connection to http://nx:43531/
+[rospy.internal][INFO] 2024-11-08 02:25:54,483: topic[/tf] removing connection to http://nx:33469/
+[rospy.impl.masterslave][INFO] 2024-11-08 02:25:54,483: signal-2
+[rospy.internal][WARNING] 2024-11-08 02:25:54,486: Unknown error initiating TCP/IP socket to nx:57521 (http://nx:33247/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2024-11-08 02:25:55,101: signal_shutdown [atexit]

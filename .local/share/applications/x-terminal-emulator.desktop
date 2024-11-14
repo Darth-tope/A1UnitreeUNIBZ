@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=unitree@nx: ~
+Icon=x-terminal-emulator.png
+Exec=/usr/bin/python /usr/bin/x-terminal-emulator
+StartupNotify=false
+StartupWMClass=X-terminal-emulator
+OnlyShowIn=Unity;
+X-BAMFGenerated=true

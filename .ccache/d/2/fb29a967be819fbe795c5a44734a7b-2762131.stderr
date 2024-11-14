@@ -1,0 +1,5 @@
+In file included from /usr/include/c++/7/backward/strstream:50:0,
+                 from /home/unitree/librealsense/src/gl/align-gl.cpp:21:
+/usr/include/c++/7/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^~~~~~~

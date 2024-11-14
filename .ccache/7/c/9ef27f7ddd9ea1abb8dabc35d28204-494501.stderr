@@ -1,0 +1,14 @@
+In file included from /home/unitree/librealsense/third-party/glfw/src/init.c:28:0:
+/home/unitree/librealsense/third-party/glfw/src/init.c: In function ‘glfwSetErrorCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/init.c:311:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(_glfwErrorCallback, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/init.c:311:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(_glfwErrorCallback, cbfun);
+     ^~~~~~~~~~~~~~~~~~~

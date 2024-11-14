@@ -1,0 +1,36 @@
+{
+  "Version": "18.04",
+  "CPU": {
+    "OpMode": "",
+    "CPUs": "6",
+    "Threads": "1",
+    "Cores": "2",
+    "Sockets": "1",
+    "Vendor": "Nvidia",
+    "Family": "",
+    "Model": "0",
+    "Stepping": "0x0",
+    "Name": "ARMv8 Processor rev 0 (v8l)"
+  },
+  "Arch": "arm64",
+  "RAM": 7.9,
+  "Partitions": [
+    61
+  ],
+  "Screens": [
+    {
+      "Size": "600mmx340mm",
+      "Resolution": "1920x1080",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": true,
+  "LivePatch": false,
+  "Session": {
+    "DE": "Unity:Unity7:ubuntu",
+    "Name": "unity",
+    "Type": "x11"
+  },
+  "Language": "en_US",
+  "Timezone": "Asia/Shanghai"
+}

@@ -1,0 +1,22 @@
+/home/unitree/librealsense/third-party/glfw/src/osmesa_context.c: In function ‘_glfwInitOSMesa’:
+/home/unitree/librealsense/third-party/glfw/src/osmesa_context.c:148:37: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.osmesa.CreateContextExt = (PFN_OSMesaCreateContextExt)
+                                     ^
+/home/unitree/librealsense/third-party/glfw/src/osmesa_context.c:150:41: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.osmesa.CreateContextAttribs = (PFN_OSMesaCreateContextAttribs)
+                                         ^
+/home/unitree/librealsense/third-party/glfw/src/osmesa_context.c:152:35: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.osmesa.DestroyContext = (PFN_OSMesaDestroyContext)
+                                   ^
+/home/unitree/librealsense/third-party/glfw/src/osmesa_context.c:154:32: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.osmesa.MakeCurrent = (PFN_OSMesaMakeCurrent)
+                                ^
+/home/unitree/librealsense/third-party/glfw/src/osmesa_context.c:156:35: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.osmesa.GetColorBuffer = (PFN_OSMesaGetColorBuffer)
+                                   ^
+/home/unitree/librealsense/third-party/glfw/src/osmesa_context.c:158:35: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.osmesa.GetDepthBuffer = (PFN_OSMesaGetDepthBuffer)
+                                   ^
+/home/unitree/librealsense/third-party/glfw/src/osmesa_context.c:160:35: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.osmesa.GetProcAddress = (PFN_OSMesaGetProcAddress)
+                                   ^

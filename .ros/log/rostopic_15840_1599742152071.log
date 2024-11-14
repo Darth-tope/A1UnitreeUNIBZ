@@ -1,0 +1,10 @@
+[rospy.client][INFO] 2020-09-10 20:49:12,161: init_node, name[/rostopic_15840_1599742152071], pid[15840]
+[xmlrpc][INFO] 2020-09-10 20:49:12,163: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-09-10 20:49:12,164: Started XML-RPC server [http://nx:42683/]
+[rospy.init][INFO] 2020-09-10 20:49:12,165: ROS Slave URI: [http://nx:42683/]
+[rospy.impl.masterslave][INFO] 2020-09-10 20:49:12,165: _ready: http://nx:42683/
+[xmlrpc][INFO] 2020-09-10 20:49:12,167: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-09-10 20:49:12,167: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-09-10 20:49:12,266: registered with master
+[rospy.internal][INFO] 2020-09-10 20:49:12,498: topic[/move_base_simple/goal] adding connection to [/slam_planner_node], count 0
+[rospy.internal][INFO] 2020-09-10 20:50:38,784: topic[/move_base_simple/goal] removing connection to /slam_planner_node

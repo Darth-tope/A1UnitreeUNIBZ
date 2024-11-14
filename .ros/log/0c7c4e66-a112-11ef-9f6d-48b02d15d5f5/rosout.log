@@ -1,0 +1,748 @@
+
+
+1731428439.968351690  Node Startup
+1731428440.466848499 INFO /slamware_ros_sdk_server_node [/home/unitree/catkin_ws/src/slamrplidar/slamware_ros_sdk/src/server/slamware_ros_sdk_server.cpp:365(SlamwareRosSdkServer::workThreadFun_)] [topics: /rosout, /tf, /slamware_ros_sdk_server_node/robot_device_info, /odom, /map, /slamware_ros_sdk_server_node/map_metadata, /scan, /slamware_ros_sdk_server_node/basic_sensors_info, /slamware_ros_sdk_server_node/basic_sensors_values, /slamware_ros_sdk_server_node/global_plan_path, /slamware_ros_sdk_server_node/robot_basic_state] SlamwareRosSdkServer, work thread begin.
+1731428440.470890190 INFO /slamware_ros_sdk_server_node [/home/unitree/catkin_ws/src/slamrplidar/slamware_ros_sdk/src/server/slamware_ros_sdk_server.cpp:426(SlamwareRosSdkServer::loopTryConnectToSlamwarePlatform_)] [topics: /rosout, /tf, /slamware_ros_sdk_server_node/robot_device_info, /odom, /map, /slamware_ros_sdk_server_node/map_metadata, /scan, /slamware_ros_sdk_server_node/basic_sensors_info, /slamware_ros_sdk_server_node/basic_sensors_values, /slamware_ros_sdk_server_node/global_plan_path, /slamware_ros_sdk_server_node/robot_basic_state] try to connect to 192.168.11.1:1445, tryCnt: 1.
+1731428440.475670865 INFO /slamware_ros_sdk_server_node [/home/unitree/catkin_ws/src/slamrplidar/slamware_ros_sdk/src/server/slamware_ros_sdk_server.cpp:430(SlamwareRosSdkServer::loopTryConnectToSlamwarePlatform_)] [topics: /rosout, /tf, /slamware_ros_sdk_server_node/robot_device_info, /odom, /map, /slamware_ros_sdk_server_node/map_metadata, /scan, /slamware_ros_sdk_server_node/basic_sensors_info, /slamware_ros_sdk_server_node/basic_sensors_values, /slamware_ros_sdk_server_node/global_plan_path, /slamware_ros_sdk_server_node/robot_basic_state] connect to 192.168.11.1:1445, OK, tryCnt: 1.
+1731428440.475910302 INFO /slamware_ros_sdk_server_node [/home/unitree/catkin_ws/src/slamrplidar/slamware_ros_sdk/src/server/slamware_ros_sdk_server.cpp:449(SlamwareRosSdkServer::reinitWorkLoop_)] [topics: /rosout, /tf, /slamware_ros_sdk_server_node/robot_device_info, /odom, /map, /slamware_ros_sdk_server_node/map_metadata, /scan, /slamware_ros_sdk_server_node/basic_sensors_info, /slamware_ros_sdk_server_node/basic_sensors_values, /slamware_ros_sdk_server_node/global_plan_path, /slamware_ros_sdk_server_node/robot_basic_state] reset all 11 workers on work loop begin.
+1731428440.480949743 INFO /slamware_ros_sdk_server_node [/home/unitree/catkin_ws/src/slamrplidar/slamware_ros_sdk/src/server/server_workers.cpp:54(ServerRobotDeviceInfoWorker::reinitWorkLoop)] [topics: /rosout, /tf, /slamware_ros_sdk_server_node/robot_device_info, /odom, /map, /slamware_ros_sdk_server_node/map_metadata, /scan, /slamware_ros_sdk_server_node/basic_sensors_info, /slamware_ros_sdk_server_node/basic_sensors_values, /slamware_ros_sdk_server_node/global_plan_path, /slamware_ros_sdk_server_node/robot_basic_state] device_id: DF9A6A2FF5E8F190D6E9F39B24435030, hardware_version: 1, software_version: 2.6.0_798_dev-sdp_vre-20190317, sdp_version: 2.7.0_rtm (Mar  9 2020), sdk_version: 2.6.9_rtm.
+1731428440.489550753 INFO /slamware_ros_sdk_server_node [/home/unitree/catkin_ws/src/slamrplidar/slamware_ros_sdk/src/server/slamware_ros_sdk_server.cpp:533(SlamwareRosSdkServer::loopWork_)] [topics: /rosout, /tf, /slamware_ros_sdk_server_node/robot_device_info, /odom, /map, /slamware_ros_sdk_server_node/map_metadata, /scan, /slamware_ros_sdk_server_node/basic_sensors_info, /slamware_ros_sdk_server_node/basic_sensors_values, /slamware_ros_sdk_server_node/global_plan_path, /slamware_ros_sdk_server_node/robot_basic_state, /slamware_ros_sdk_server_node/virtual_walls, /slamware_ros_sdk_server_node/virtual_tracks] successed to reinit all workers on work loop begin.
+1731428440.491558766 INFO /slamware_ros_sdk_server_node [/home/unitree/catkin_ws/src/slamrplidar/slamware_ros_sdk/src/server/server_workers.cpp:201(ServerExploreMapUpdateWorker::checkToReinitMap_)] [topics: /rosout, /tf, /slamware_ros_sdk_server_node/robot_device_info, /odom, /map, /slamware_ros_sdk_server_node/map_metadata, /scan, /slamware_ros_sdk_server_node/basic_sensors_info, /slamware_ros_sdk_server_node/basic_sensors_values, /slamware_ros_sdk_server_node/global_plan_path, /slamware_ros_sdk_server_node/robot_basic_state, /slamware_ros_sdk_server_node/virtual_walls, /slamware_ros_sdk_server_node/virtual_tracks] try to reinit explore map.
+1731428440.494095351 INFO /slamware_ros_sdk_server_node [/home/unitree/catkin_ws/src/slamrplidar/slamware_ros_sdk/src/server/server_workers.cpp:219(ServerExploreMapUpdateWorker::checkToReinitMap_)] [topics: /rosout, /tf, /slamware_ros_sdk_server_node/robot_device_info, /odom, /map, /slamware_ros_sdk_server_node/map_metadata, /scan, /slamware_ros_sdk_server_node/basic_sensors_info, /slamware_ros_sdk_server_node/basic_sensors_values, /slamware_ros_sdk_server_node/global_plan_path, /slamware_ros_sdk_server_node/robot_basic_state, /slamware_ros_sdk_server_node/virtual_walls, /slamware_ros_sdk_server_node/virtual_tracks] explore map initialized, resolution: 0.050000, moreCellCntToExtend: 32.
+1731428440.494226398 INFO /slamware_ros_sdk_server_node [/home/unitree/catkin_ws/src/slamrplidar/slamware_ros_sdk/src/server/server_workers.cpp:162(ServerExploreMapUpdateWorker::doPerform)] [topics: /rosout, /tf, /slamware_ros_sdk_server_node/robot_device_info, /odom, /map, /slamware_ros_sdk_server_node/map_metadata, /scan, /slamware_ros_sdk_server_node/basic_sensors_info, /slamware_ros_sdk_server_node/basic_sensors_values, /slamware_ros_sdk_server_node/global_plan_path, /slamware_ros_sdk_server_node/robot_basic_state, /slamware_ros_sdk_server_node/virtual_walls, /slamware_ros_sdk_server_node/virtual_tracks] try to sync whold explore map.
+1731428440.499273168 INFO /slamware_ros_sdk_server_node [/home/unitree/catkin_ws/src/slamrplidar/slamware_ros_sdk/src/server/server_workers.cpp:269(ServerExploreMapUpdateWorker::syncWholeMap_)] [topics: /rosout, /tf, /slamware_ros_sdk_server_node/robot_device_info, /odom, /map, /slamware_ros_sdk_server_node/map_metadata, /scan, /slamware_ros_sdk_server_node/basic_sensors_info, /slamware_ros_sdk_server_node/basic_sensors_values, /slamware_ros_sdk_server_node/global_plan_path, /slamware_ros_sdk_server_node/robot_basic_state, /slamware_ros_sdk_server_node/virtual_walls, /slamware_ros_sdk_server_node/virtual_tracks] known area: ((-3.400000, -3.400000), (9.150000, 5.200000)), cell rect: ((-68, -68), (183, 104)), iOnceMaxCellCntWH: 2000.
+1731428440.545971858 INFO /slamware_ros_sdk_server_node [/home/unitree/catkin_ws/src/slamrplidar/slamware_ros_sdk/src/server/server_workers.cpp:166(ServerExploreMapUpdateWorker::doPerform)] [topics: /rosout, /tf, /slamware_ros_sdk_server_node/robot_device_info, /odom, /map, /slamware_ros_sdk_server_node/map_metadata, /scan, /slamware_ros_sdk_server_node/basic_sensors_info, /slamware_ros_sdk_server_node/basic_sensors_values, /slamware_ros_sdk_server_node/global_plan_path, /slamware_ros_sdk_server_node/robot_basic_state, /slamware_ros_sdk_server_node/virtual_walls, /slamware_ros_sdk_server_node/virtual_tracks] whold explore map synchronized.
+1731428440.839749506 WARN /slam_planner_node [/tmp/binarydeb/ros-melodic-costmap-2d-1.16.6/src/costmap_2d_ros.cpp:202(Costmap2DROS::loadOldParameters)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal] global_costmap: Parameter "plugins" not provided, loading pre-Hydro parameters
+1731428440.887766476 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-costmap-2d-1.16.6/src/costmap_2d_ros.cpp:132(Costmap2DROS::Costmap2DROS)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal] global_costmap: Using plugin "static_layer"
+1731428440.934176991 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-costmap-2d-1.16.6/plugins/static_layer.cpp:89(StaticLayer::onInitialize)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal] Requesting the map...
+1731428441.143386513 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-costmap-2d-1.16.6/plugins/static_layer.cpp:182(StaticLayer::incomingMap)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal] Resizing costmap to 183 X 104 at 0.050000 m/pix
+1731428441.243077594 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-costmap-2d-1.16.6/plugins/static_layer.cpp:101(StaticLayer::onInitialize)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal] Received a 183 X 104 map at 0.050000 m/pix
+1731428441.258748854 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-costmap-2d-1.16.6/src/costmap_2d_ros.cpp:132(Costmap2DROS::Costmap2DROS)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates] global_costmap: Using plugin "obstacle_layer"
+1731428441.269201193 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-costmap-2d-1.16.6/plugins/obstacle_layer.cpp:79(ObstacleLayer::onInitialize)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates]     Subscribed to Topics: scan
+1731428441.325856231 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-costmap-2d-1.16.6/src/costmap_2d_ros.cpp:132(Costmap2DROS::Costmap2DROS)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates, /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/global_costmap/obstacle_layer/parameter_updates] global_costmap: Using plugin "inflation_layer"
+1731428441.455329817 WARN /slam_planner_node [/tmp/binarydeb/ros-melodic-costmap-2d-1.16.6/src/costmap_2d_ros.cpp:202(Costmap2DROS::loadOldParameters)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates, /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/global_costmap/obstacle_layer/parameter_updates, /slam_planner_node/global_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/global_costmap/inflation_layer/parameter_updates, /slam_planner_node/global_costmap/footprint, /slam_planner_node/global_costmap/costmap, /slam_planner_node/global_costmap/costmap_updates, /slam_planner_node/global_costmap/parameter_descriptions, /slam_planner_node/global_costmap/parameter_updates, /slam_planner_node/NavfnROS/plan] local_costmap: Parameter "plugins" not provided, loading pre-Hydro parameters
+1731428441.497244970 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-costmap-2d-1.16.6/src/costmap_2d_ros.cpp:132(Costmap2DROS::Costmap2DROS)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates, /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/global_costmap/obstacle_layer/parameter_updates, /slam_planner_node/global_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/global_costmap/inflation_layer/parameter_updates, /slam_planner_node/global_costmap/footprint, /slam_planner_node/global_costmap/costmap, /slam_planner_node/global_costmap/costmap_updates, /slam_planner_node/global_costmap/parameter_descriptions, /slam_planner_node/global_costmap/parameter_updates, /slam_planner_node/NavfnROS/plan] local_costmap: Using plugin "obstacle_layer"
+1731428441.506860659 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-costmap-2d-1.16.6/plugins/obstacle_layer.cpp:79(ObstacleLayer::onInitialize)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates, /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/global_costmap/obstacle_layer/parameter_updates, /slam_planner_node/global_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/global_costmap/inflation_layer/parameter_updates, /slam_planner_node/global_costmap/footprint, /slam_planner_node/global_costmap/costmap, /slam_planner_node/global_costmap/costmap_updates, /slam_planner_node/global_costmap/parameter_descriptions, /slam_planner_node/global_costmap/parameter_updates, /slam_planner_node/NavfnROS/plan]     Subscribed to Topics: scan
+1731428441.552500418 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-costmap-2d-1.16.6/src/costmap_2d_ros.cpp:132(Costmap2DROS::Costmap2DROS)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates, /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/global_costmap/obstacle_layer/parameter_updates, /slam_planner_node/global_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/global_costmap/inflation_layer/parameter_updates, /slam_planner_node/global_costmap/footprint, /slam_planner_node/global_costmap/costmap, /slam_planner_node/global_costmap/costmap_updates, /slam_planner_node/global_costmap/parameter_descriptions, /slam_planner_node/global_costmap/parameter_updates, /slam_planner_node/NavfnROS/plan, /slam_planner_node/local_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/local_costmap/obstacle_layer/parameter_updates] local_costmap: Using plugin "inflation_layer"
+1731428441.678353883 INFO /slam_planner_node [/home/unitree/catkin_ws/src/slamrplidar/slam_planner/src/slam_planner_base.cpp:134(MoveBase::MoveBase)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates, /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/global_costmap/obstacle_layer/parameter_updates, /slam_planner_node/global_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/global_costmap/inflation_layer/parameter_updates, /slam_planner_node/global_costmap/footprint, /slam_planner_node/global_costmap/costmap, /slam_planner_node/global_costmap/costmap_updates, /slam_planner_node/global_costmap/parameter_descriptions, /slam_planner_node/global_costmap/parameter_updates, /slam_planner_node/NavfnROS/plan, /slam_planner_node/local_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/local_costmap/obstacle_layer/parameter_updates, /slam_planner_node/local_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/local_costmap/inflation_layer/parameter_updates, /slam_planner_node/local_costmap/footprint, /slam_planner_node/local_costmap/costmap, /slam_planner_node/local_costmap/costmap_updates, /slam_planner_node/local_costmap/parameter_descriptions, /slam_planner_node/local_costmap/parameter_updates] Created local_planner base_local_planner/TrajectoryPlannerROS
+1731428441.703940047 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-base-local-planner-1.16.6/src/trajectory_planner_ros.cpp:161(TrajectoryPlannerROS::initialize)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates, /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/global_costmap/obstacle_layer/parameter_updates, /slam_planner_node/global_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/global_costmap/inflation_layer/parameter_updates, /slam_planner_node/global_costmap/footprint, /slam_planner_node/global_costmap/costmap, /slam_planner_node/global_costmap/costmap_updates, /slam_planner_node/global_costmap/parameter_descriptions, /slam_planner_node/global_costmap/parameter_updates, /slam_planner_node/NavfnROS/plan, /slam_planner_node/local_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/local_costmap/obstacle_layer/parameter_updates, /slam_planner_node/local_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/local_costmap/inflation_layer/parameter_updates, /slam_planner_node/local_costmap/footprint, /slam_planner_node/local_costmap/costmap, /slam_planner_node/local_costmap/costmap_updates, /slam_planner_node/local_costmap/parameter_descriptions, /slam_planner_node/local_costmap/parameter_updates, /slam_planner_node/TrajectoryPlannerROS/global_plan, /slam_planner_node/TrajectoryPlannerROS/local_plan] Sim period is set to 0.33
+1731428441.716902786 WARN /slam_planner_node [/opt/ros/melodic/include/nav_core/parameter_magic.h:64(loadParameterWithDeprecation)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates, /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/global_costmap/obstacle_layer/parameter_updates, /slam_planner_node/global_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/global_costmap/inflation_layer/parameter_updates, /slam_planner_node/global_costmap/footprint, /slam_planner_node/global_costmap/costmap, /slam_planner_node/global_costmap/costmap_updates, /slam_planner_node/global_costmap/parameter_descriptions, /slam_planner_node/global_costmap/parameter_updates, /slam_planner_node/NavfnROS/plan, /slam_planner_node/local_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/local_costmap/obstacle_layer/parameter_updates, /slam_planner_node/local_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/local_costmap/inflation_layer/parameter_updates, /slam_planner_node/local_costmap/footprint, /slam_planner_node/local_costmap/costmap, /slam_planner_node/local_costmap/costmap_updates, /slam_planner_node/local_costmap/parameter_descriptions, /slam_planner_node/local_costmap/parameter_updates, /slam_planner_node/TrajectoryPlannerROS/global_plan, /slam_planner_node/TrajectoryPlannerROS/local_plan] Parameter pdist_scale is deprecated. Please use the name path_distance_bias instead.
+1731428441.719992159 WARN /slam_planner_node [/opt/ros/melodic/include/nav_core/parameter_magic.h:64(loadParameterWithDeprecation)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates, /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/global_costmap/obstacle_layer/parameter_updates, /slam_planner_node/global_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/global_costmap/inflation_layer/parameter_updates, /slam_planner_node/global_costmap/footprint, /slam_planner_node/global_costmap/costmap, /slam_planner_node/global_costmap/costmap_updates, /slam_planner_node/global_costmap/parameter_descriptions, /slam_planner_node/global_costmap/parameter_updates, /slam_planner_node/NavfnROS/plan, /slam_planner_node/local_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/local_costmap/obstacle_layer/parameter_updates, /slam_planner_node/local_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/local_costmap/inflation_layer/parameter_updates, /slam_planner_node/local_costmap/footprint, /slam_planner_node/local_costmap/costmap, /slam_planner_node/local_costmap/costmap_updates, /slam_planner_node/local_costmap/parameter_descriptions, /slam_planner_node/local_costmap/parameter_updates, /slam_planner_node/TrajectoryPlannerROS/global_plan, /slam_planner_node/TrajectoryPlannerROS/local_plan] Parameter gdist_scale is deprecated. Please use the name goal_distance_bias instead.
+1731428442.364690358 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-clear-costmap-recovery-1.16.6/src/clear_costmap_recovery.cpp:76(ClearCostmapRecovery::initialize)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates, /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/global_costmap/obstacle_layer/parameter_updates, /slam_planner_node/global_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/global_costmap/inflation_layer/parameter_updates, /slam_planner_node/global_costmap/footprint, /slam_planner_node/global_costmap/costmap, /slam_planner_node/global_costmap/costmap_updates, /slam_planner_node/global_costmap/parameter_descriptions, /slam_planner_node/global_costmap/parameter_updates, /slam_planner_node/NavfnROS/plan, /slam_planner_node/local_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/local_costmap/obstacle_layer/parameter_updates, /slam_planner_node/local_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/local_costmap/inflation_layer/parameter_updates, /slam_planner_node/local_costmap/footprint, /slam_planner_node/local_costmap/costmap, /slam_planner_node/local_costmap/costmap_updates, /slam_planner_node/local_costmap/parameter_descriptions, /slam_planner_node/local_costmap/parameter_updates, /slam_planner_node/TrajectoryPlannerROS/global_plan, /slam_planner_node/TrajectoryPlannerROS/local_plan, /slam_planner_node/TrajectoryPlannerROS/cost_cloud, /slam_planner_node/TrajectoryPlannerROS/parameter_descriptions, /slam_planner_node/TrajectoryPlannerROS/parameter_updates] Recovery behavior will clear layer 'obstacles'
+1731428442.377390035 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-clear-costmap-recovery-1.16.6/src/clear_costmap_recovery.cpp:76(ClearCostmapRecovery::initialize)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates, /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/global_costmap/obstacle_layer/parameter_updates, /slam_planner_node/global_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/global_costmap/inflation_layer/parameter_updates, /slam_planner_node/global_costmap/footprint, /slam_planner_node/global_costmap/costmap, /slam_planner_node/global_costmap/costmap_updates, /slam_planner_node/global_costmap/parameter_descriptions, /slam_planner_node/global_costmap/parameter_updates, /slam_planner_node/NavfnROS/plan, /slam_planner_node/local_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/local_costmap/obstacle_layer/parameter_updates, /slam_planner_node/local_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/local_costmap/inflation_layer/parameter_updates, /slam_planner_node/local_costmap/footprint, /slam_planner_node/local_costmap/costmap, /slam_planner_node/local_costmap/costmap_updates, /slam_planner_node/local_costmap/parameter_descriptions, /slam_planner_node/local_costmap/parameter_updates, /slam_planner_node/TrajectoryPlannerROS/global_plan, /slam_planner_node/TrajectoryPlannerROS/local_plan, /slam_planner_node/TrajectoryPlannerROS/cost_cloud, /slam_planner_node/TrajectoryPlannerROS/parameter_descriptions, /slam_planner_node/TrajectoryPlannerROS/parameter_updates] Recovery behavior will clear layer 'obstacles'
+1731428442.495658740 INFO /slam_planner_node [/tmp/binarydeb/ros-melodic-base-local-planner-1.16.6/src/odometry_helper_ros.cpp:49(OdometryHelperRos::odomCallback)] [topics: /rosout, /cmd_vel, /slam_planner_node/current_goal, /move_base/goal, /slam_planner_node/global_costmap/static_layer/parameter_descriptions, /slam_planner_node/global_costmap/static_layer/parameter_updates, /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/global_costmap/obstacle_layer/parameter_updates, /slam_planner_node/global_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/global_costmap/inflation_layer/parameter_updates, /slam_planner_node/global_costmap/footprint, /slam_planner_node/global_costmap/costmap, /slam_planner_node/global_costmap/costmap_updates, /slam_planner_node/global_costmap/parameter_descriptions, /slam_planner_node/global_costmap/parameter_updates, /slam_planner_node/NavfnROS/plan, /slam_planner_node/local_costmap/obstacle_layer/parameter_descriptions, /slam_planner_node/local_costmap/obstacle_layer/parameter_updates, /slam_planner_node/local_costmap/inflation_layer/parameter_descriptions, /slam_planner_node/local_costmap/inflation_layer/parameter_updates, /slam_planner_node/local_costmap/footprint, /slam_planner_node/local_costmap/costmap, /slam_planner_node/local_costmap/costmap_updates, /slam_planner_node/local_costmap/parameter_descriptions, /slam_planner_node/local_costmap/parameter_updates, /slam_planner_node/TrajectoryPlannerROS/global_plan, /slam_planner_node/TrajectoryPlannerROS/local_plan, /slam_planner_node/TrajectoryPlannerROS/cost_cloud, /slam_planner_node/TrajectoryPlannerROS/parameter_descriptions, /slam_planner_node/TrajectoryPlannerROS/parameter_updates, /move_base/result, /move_base/feedback, /move_base/status, /slam_planner_node/parameter_descriptions, /slam_planner_node/parameter_updates] odom received!
+1731428442.420122182 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428442.616101308 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428442.616221666 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map0.pgm
+1731428442.624710038 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map0.yaml
+1731428442.625129162 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428443.388125669 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428443.617359008 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428443.617441540 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map1.pgm
+1731428443.621337682 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map1.yaml
+1731428443.621594845 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428444.353484055 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428444.622471186 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428444.622563286 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map2.pgm
+1731428444.629099496 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map2.yaml
+1731428444.629449270 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428445.428642158 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428445.639136883 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428445.639245559 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map3.pgm
+1731428445.646384815 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map3.yaml
+1731428445.646704764 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428446.389653675 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428446.638021117 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428446.638109088 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map4.pgm
+1731428446.644377159 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map4.yaml
+1731428446.644675666 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428447.405843063 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428447.644921005 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428447.645046897 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map5.pgm
+1731428447.653621913 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map5.yaml
+1731428447.653974373 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428448.390465241 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428448.658772733 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428448.658872768 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map6.pgm
+1731428448.666772000 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map6.yaml
+1731428448.667127659 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428449.461187735 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428449.667470661 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428449.667624457 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map7.pgm
+1731428449.675030474 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map7.yaml
+1731428449.675340979 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428450.471042650 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428450.679438556 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428450.679529343 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map8.pgm
+1731428450.686145307 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map8.yaml
+1731428450.686523749 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428451.480868615 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428451.684195472 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428451.684288754 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map9.pgm
+1731428451.690154798 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map9.yaml
+1731428451.690522808 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428452.460674504 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428452.692388036 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428452.692483462 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map10.pgm
+1731428452.698906279 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map10.yaml
+1731428452.699263824 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428453.458877831 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428453.699529194 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428453.699619308 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map11.pgm
+1731428453.703016028 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map11.yaml
+1731428453.703334051 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428454.450846677 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428454.709321663 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428454.709717224 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map12.pgm
+1731428454.711872919 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map12.yaml
+1731428454.712161534 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428455.453665548 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428455.718704315 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428455.718787485 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map13.pgm
+1731428455.727550673 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map13.yaml
+1731428455.728562374 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428456.594982165 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428456.833696306 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428456.833909142 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map14.pgm
+1731428456.841695277 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map14.yaml
+1731428456.842304760 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428457.587065722 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428457.854537120 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428457.854656899 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map15.pgm
+1731428457.856773993 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map15.yaml
+1731428457.857146320 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428458.626336904 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428458.842406648 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428458.842542714 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map16.pgm
+1731428458.844420602 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map16.yaml
+1731428458.844689311 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428459.755374612 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428459.976947959 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428459.977209947 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map17.pgm
+1731428459.979801573 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map17.yaml
+1731428459.980168651 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428460.719252167 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428460.952277465 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428460.952377658 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map18.pgm
+1731428460.954759998 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map18.yaml
+1731428460.955088579 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428461.690062063 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428461.960277039 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428461.960459057 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map19.pgm
+1731428461.962849363 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map19.yaml
+1731428461.963201688 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428462.691750947 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428462.969320214 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428462.969437720 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map20.pgm
+1731428462.971430034 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map20.yaml
+1731428462.971761334 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428463.691009971 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428463.903221281 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428463.903360771 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map21.pgm
+1731428463.905415772 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map21.yaml
+1731428463.905684608 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428464.664091814 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428464.890141776 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428464.890257873 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map22.pgm
+1731428464.891922628 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map22.yaml
+1731428464.892157159 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428465.617501867 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428465.907881225 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428465.908018186 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map23.pgm
+1731428465.910201538 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map23.yaml
+1731428465.910505093 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428466.777605738 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428466.999850418 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428467.000001428 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map24.pgm
+1731428467.002089129 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map24.yaml
+1731428467.002377676 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428467.787455491 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428468.006642784 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428468.006784161 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map25.pgm
+1731428468.008937844 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map25.yaml
+1731428468.009235446 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428468.776000185 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428469.019673318 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428469.019768679 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map26.pgm
+1731428469.023571527 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map26.yaml
+1731428469.023877353 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428469.824722430 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428470.054554591 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428470.054708352 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map27.pgm
+1731428470.056692495 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map27.yaml
+1731428470.056976882 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428470.848653693 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428471.074622911 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428471.074720128 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map28.pgm
+1731428471.076539053 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map28.yaml
+1731428471.076776175 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428471.844571209 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428472.081089451 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428472.081220684 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map29.pgm
+1731428472.083443036 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map29.yaml
+1731428472.832328756 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428473.100472669 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428473.100630878 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map30.pgm
+1731428473.102713291 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map30.yaml
+1731428473.103023885 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428473.838039307 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428474.105312093 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428474.105471453 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map31.pgm
+1731428474.107521610 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map31.yaml
+1731428474.107813036 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428474.916595616 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428475.145106702 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428475.145259503 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map32.pgm
+1731428475.147243610 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map32.yaml
+1731428475.147519420 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428475.877624799 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428476.122720192 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428476.122842945 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map33.pgm
+1731428476.124970636 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map33.yaml
+1731428476.125307982 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428476.848149544 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428477.127068007 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428477.127224040 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map34.pgm
+1731428477.129334963 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map34.yaml
+1731428477.129650228 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428477.847556998 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428478.060670297 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428478.060794841 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map35.pgm
+1731428478.063013828 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map35.yaml
+1731428478.063251557 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428478.797305060 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428479.041300491 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428479.041392204 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map36.pgm
+1731428479.043038547 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map36.yaml
+1731428479.043291188 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428479.767918450 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428479.975600798 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428479.975748830 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map37.pgm
+1731428479.981340119 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map37.yaml
+1731428479.981628888 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428480.708308991 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428480.957575933 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428480.957707069 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map38.pgm
+1731428480.959843398 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map38.yaml
+1731428480.960117799 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428481.720006521 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428481.969505367 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428481.969628727 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map39.pgm
+1731428481.971770976 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map39.yaml
+1731428481.972046369 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428482.674481259 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428482.891202936 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428482.891347192 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map40.pgm
+1731428482.893446368 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map40.yaml
+1731428482.893794049 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428483.614717179 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428483.882262498 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428483.882389731 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map41.pgm
+1731428483.884492746 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map41.yaml
+1731428483.884738795 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428484.703703365 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428484.996288451 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428484.996413956 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map42.pgm
+1731428485.003248858 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map42.yaml
+1731428485.003573019 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428485.737359037 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428486.004946200 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428486.005141080 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map43.pgm
+1731428486.007153438 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map43.yaml
+1731428486.007448383 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428486.772314415 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428487.013701997 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428487.013866414 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map44.pgm
+1731428487.015907955 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map44.yaml
+1731428487.016160756 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428487.758929957 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428488.019154505 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428488.019250921 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map45.pgm
+1731428488.021175854 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map45.yaml
+1731428488.021417230 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428488.750422852 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428489.026371779 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428489.026502307 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map46.pgm
+1731428489.028912776 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map46.yaml
+1731428489.029241193 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428489.748524057 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428490.031240317 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428490.031359037 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map47.pgm
+1731428490.039870351 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map47.yaml
+1731428490.040223760 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428491.040037712 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428491.904221406 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428492.146323667 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428492.146449972 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map49.pgm
+1731428492.148617240 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map49.yaml
+1731428492.148867448 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428492.868307271 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428493.155035827 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428493.155193523 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map50.pgm
+1731428493.157308663 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map50.yaml
+1731428493.157696695 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428493.881384344 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428494.163003705 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428494.163150393 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map51.pgm
+1731428494.165231132 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map51.yaml
+1731428494.165511901 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428494.896007896 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428495.183515490 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428495.183636131 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map52.pgm
+1731428495.185741030 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map52.yaml
+1731428495.186024710 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428495.891493777 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428496.174004728 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428496.174094552 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map53.pgm
+1731428496.175788506 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map53.yaml
+1731428496.176064539 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428496.890142763 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428497.206364837 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428497.206479782 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map54.pgm
+1731428497.208529928 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map54.yaml
+1731428497.208846409 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428497.930560420 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428498.189477110 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428498.189602710 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map55.pgm
+1731428498.191700569 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map55.yaml
+1731428498.191994169 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428498.943653756 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428499.195735855 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428499.195849392 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map56.pgm
+1731428499.198026354 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map56.yaml
+1731428499.198303059 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428499.924649338 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428500.204730331 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428500.204852351 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map57.pgm
+1731428500.212859773 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map57.yaml
+1731428500.919117137 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428501.206830593 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428501.206944677 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map58.pgm
+1731428501.209049358 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map58.yaml
+1731428501.209363929 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428502.048840946 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428502.319727364 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428502.319879050 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map59.pgm
+1731428502.321957360 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map59.yaml
+1731428502.322242169 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428503.128559367 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428503.422056291 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428503.422220937 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map60.pgm
+1731428503.424177001 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map60.yaml
+1731428504.158920612 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428504.426860296 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428504.427013421 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map61.pgm
+1731428504.429308950 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map61.yaml
+1731428504.429668162 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428505.189400654 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428505.441617568 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428505.441746020 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map62.pgm
+1731428505.444131118 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map62.yaml
+1731428505.444441432 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428506.150224778 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428506.444086384 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428506.444207380 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map63.pgm
+1731428506.446476888 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map63.yaml
+1731428506.446723168 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428507.170882746 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428507.448668696 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428507.448818748 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map64.pgm
+1731428507.450936570 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map64.yaml
+1731428508.358963562 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428509.172542838 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428509.463518255 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428509.463605650 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map66.pgm
+1731428509.465623914 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map66.yaml
+1731428509.466005460 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428510.168804876 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428510.377610174 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428510.377696448 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map67.pgm
+1731428510.383674850 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map67.yaml
+1731428510.383956297 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428511.087897331 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428511.374571921 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428511.374700916 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map68.pgm
+1731428511.376940047 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map68.yaml
+1731428511.377365594 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428512.086726684 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428512.295658600 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428512.295811340 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map69.pgm
+1731428512.297818975 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map69.yaml
+1731428512.298096934 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428513.028675296 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428513.284659477 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428513.284775480 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map70.pgm
+1731428513.287101874 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map70.yaml
+1731428513.287371640 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428514.005383865 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428514.215221380 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428514.215322439 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map71.pgm
+1731428514.217114770 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map71.yaml
+1731428514.217432826 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428514.993261409 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428515.228715948 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428515.228850927 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map72.pgm
+1731428515.231312841 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map72.yaml
+1731428515.231640721 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428516.005325431 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428516.239482796 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428516.239637231 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map73.pgm
+1731428516.241660478 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map73.yaml
+1731428516.241979237 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428517.051050019 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428517.301702912 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428517.301795522 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map74.pgm
+1731428517.303568842 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map74.yaml
+1731428517.303948114 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428518.077559811 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428518.309954015 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428518.310107619 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map75.pgm
+1731428518.312070222 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map75.yaml
+1731428519.200922517 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428519.417298778 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428519.417410717 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map76.pgm
+1731428519.419776655 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map76.yaml
+1731428519.420121719 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428520.253682041 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428520.465955123 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428520.466080213 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map77.pgm
+1731428520.468231298 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map77.yaml
+1731428520.468552521 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428521.219794030 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428521.441134000 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428521.441290195 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map78.pgm
+1731428521.443179801 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map78.yaml
+1731428521.443494208 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428522.176338975 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428522.445788678 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428522.445933065 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map79.pgm
+1731428522.447964945 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map79.yaml
+1731428522.448213302 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428523.183381292 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428523.457883376 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428523.458049139 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map80.pgm
+1731428523.459948792 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map80.yaml
+1731428524.173463629 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428524.397360088 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428524.397473882 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map81.pgm
+1731428524.399420287 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map81.yaml
+1731428524.399713124 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428525.127548746 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428525.361656425 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428525.361974478 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map82.pgm
+1731428525.364235928 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map82.yaml
+1731428525.364521917 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428526.081388832 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428526.308111729 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428526.308266324 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map83.pgm
+1731428526.310560765 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map83.yaml
+1731428526.310900707 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428527.067145929 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428527.272452963 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428527.272601286 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map84.pgm
+1731428527.274611977 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map84.yaml
+1731428527.274913838 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428527.997558495 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428528.222281360 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428528.222421426 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map85.pgm
+1731428528.224635224 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map85.yaml
+1731428528.224912125 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428528.934239579 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428529.188210703 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428529.188353713 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map86.pgm
+1731428529.190395283 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map86.yaml
+1731428529.190704472 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428529.902768642 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428530.136677975 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428530.136830842 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map87.pgm
+1731428530.138892667 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map87.yaml
+1731428530.139189920 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428530.846563588 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428531.092785400 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428531.092887385 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map88.pgm
+1731428531.095305311 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map88.yaml
+1731428531.095592932 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428531.801233920 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428532.048950302 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428532.049157954 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map89.pgm
+1731428532.051188577 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map89.yaml
+1731428532.051492294 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428532.840564836 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428533.058843197 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428533.058968542 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map90.pgm
+1731428533.066088010 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map90.yaml
+1731428533.066422223 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428533.777204373 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428534.003136359 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428534.003265929 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map91.pgm
+1731428534.005367016 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map91.yaml
+1731428534.005683053 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428534.721576104 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428534.975679435 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428534.975790957 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map92.pgm
+1731428534.978082798 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map92.yaml
+1731428534.978355826 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428535.694036833 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428535.913231127 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428535.913323352 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map93.pgm
+1731428535.915340405 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map93.yaml
+1731428535.915618297 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428536.626710899 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428536.888474649 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428536.888610427 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map94.pgm
+1731428536.891127038 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map94.yaml
+1731428536.891457667 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428537.623525731 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428537.829450166 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428537.829561783 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map95.pgm
+1731428537.831595667 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map95.yaml
+1731428537.831895191 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428538.589893507 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428538.811692300 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428538.811844014 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map96.pgm
+1731428538.813939850 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map96.yaml
+1731428538.814199310 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428539.534267626 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428539.745536103 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428539.745655016 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map97.pgm
+1731428539.747728484 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map97.yaml
+1731428539.748067560 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428540.454679963 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428540.725239318 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428540.725322007 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map98.pgm
+1731428540.727166479 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map98.yaml
+1731428540.727443186 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428541.437668560 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428541.661509460 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428541.661591861 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map99.pgm
+1731428541.663336299 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map99.yaml
+1731428541.663637807 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428542.379554402 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428542.636590115 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428542.636739909 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map100.pgm
+1731428542.638709181 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map100.yaml
+1731428542.638993664 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428543.392465985 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428543.647006175 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428543.647125153 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map91.pgm
+1731428543.649445149 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map91.yaml
+1731428543.649896546 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428544.353882741 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428544.581040623 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428544.581191889 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map92.pgm
+1731428544.583408715 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map92.yaml
+1731428544.583679278 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428545.393098470 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428545.657380407 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428545.657508088 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map93.pgm
+1731428545.659826547 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map93.yaml
+1731428545.660372954 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428546.366669485 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428546.598463375 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428546.598590224 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map94.pgm
+1731428546.600905931 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map94.yaml
+1731428546.601272751 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428547.503265894 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428547.713241344 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428547.713330817 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map95.pgm
+1731428547.716455588 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map95.yaml
+1731428547.716821736 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428548.541052555 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428548.773279592 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428548.773367497 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map96.pgm
+1731428548.776201928 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map96.yaml
+1731428548.776559500 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428549.625237074 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428549.882429831 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428549.882511528 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map97.pgm
+1731428549.885213061 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map97.yaml
+1731428549.886891383 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428550.773894020 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428550.989986198 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428550.990079287 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map98.pgm
+1731428550.993967904 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map98.yaml
+1731428550.995614033 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428551.832676885 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428552.047917322 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428552.048008139 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map99.pgm
+1731428552.050817992 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map99.yaml
+1731428552.051135883 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428552.828774195 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428553.065336561 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428553.065430065 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map100.pgm
+1731428553.068144972 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map100.yaml
+1731428553.068665105 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428553.879128137 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428554.107322400 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428554.107436033 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map91.pgm
+1731428554.110679841 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map91.yaml
+1731428554.111060132 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428554.961732458 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428555.187852342 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428555.187944438 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map92.pgm
+1731428555.191304566 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map92.yaml
+1731428555.191945820 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428556.037862970 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428556.301319027 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428556.301422772 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map93.pgm
+1731428556.304003052 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map93.yaml
+1731428556.304449136 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428557.203109002 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428557.416826895 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428557.416914480 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map94.pgm
+1731428557.418828673 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map94.yaml
+1731428557.419160101 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428558.334023849 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428558.543338500 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428558.543471909 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map95.pgm
+1731428558.545673593 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map95.yaml
+1731428558.546015164 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428559.365149963 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428559.630797111 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428559.630881943 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map96.pgm
+1731428559.633180684 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map96.yaml
+1731428559.634778042 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428560.414218082 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428560.646038208 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428560.646126944 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map97.pgm
+1731428560.649060634 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map97.yaml
+1731428560.649791808 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428561.556807508 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428561.767711357 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428561.767795741 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map98.pgm
+1731428561.769890799 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map98.yaml
+1731428561.770243698 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428562.603760232 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428562.861472251 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428562.861566332 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map99.pgm
+1731428562.863650637 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map99.yaml
+1731428562.864000560 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428563.824347835 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428564.077666620 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428564.077754365 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map100.pgm
+1731428564.080207985 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map100.yaml
+1731428564.080543699 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428564.916355063 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:51(MapGenerator)] [topics: /rosout] Waiting for the map
+1731428565.190363376 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:60(mapCallback)] [topics: /rosout] Received a 183 X 104 map @ 0.050 m/pix
+1731428565.190619186 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:64(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map91.pgm
+1731428565.192621218 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:91(mapCallback)] [topics: /rosout] Writing map occupancy data to /home/unitree/RobotSLAMSystem/slam_planner/Files/map91.yaml
+1731428565.192972517 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+1731428566.196501055 INFO /map_saver [/tmp/binarydeb/ros-melodic-map-server-1.16.6/src/map_saver.cpp:120(mapCallback)] [topics: /rosout] Done
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

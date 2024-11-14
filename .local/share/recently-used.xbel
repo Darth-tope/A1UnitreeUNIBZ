@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/walk_mode.cpp" added="2024-10-31T13:59:39Z" modified="2024-11-07T15:28:17Z" visited="2024-10-31T13:59:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-07T15:28:17Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/.bashrc" added="2024-10-31T16:09:06Z" modified="2024-11-08T15:49:23Z" visited="2024-10-31T16:09:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-08T15:49:23Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/launch/real.launch" added="2024-10-31T16:10:32Z" modified="2024-10-31T16:11:03Z" visited="2024-10-31T16:10:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-31T16:11:03Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/unitree_legged_sdk/include/unitree_legged_sdk/udp.h" added="2024-11-07T15:25:02Z" modified="2024-11-07T15:25:02Z" visited="2024-11-07T15:25:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-07T15:25:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/unitree_legged_sdk/include/unitree_legged_sdk/lcm_server.h" added="2024-11-07T15:40:33Z" modified="2024-11-07T15:40:33Z" visited="2024-11-07T15:40:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-07T15:40:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/HighState.lcm" added="2024-11-07T18:45:47Z" modified="2024-11-07T18:50:15Z" visited="2024-11-07T18:45:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-07T18:50:15Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/Cartesian.lcm" added="2024-11-07T18:46:15Z" modified="2024-11-07T18:50:15Z" visited="2024-11-07T18:46:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-07T18:50:15Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/IMU.lcm" added="2024-11-07T18:47:42Z" modified="2024-11-07T18:50:16Z" visited="2024-11-07T18:47:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-07T18:50:16Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/Pictures/rqt_tf_tree.png" added="2024-11-08T12:08:49Z" modified="2024-11-08T12:08:49Z" visited="2024-11-08T12:08:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2024-11-08T12:08:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/lcm_monitor.py" added="2024-11-08T13:12:44Z" modified="2024-11-12T16:21:57Z" visited="2024-11-08T13:12:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-12T16:21:57Z" count="42"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/catkin_ws/src/slamrplidar/slamplanner/src/slam_base_controller.cpp" added="2024-11-08T14:41:56Z" modified="2024-11-13T16:03:49Z" visited="2024-11-08T14:41:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-13T16:03:49Z" count="5"/>
+          <bookmark:application name="chromium-browser" exec="&apos;chromium-browser %u&apos;" modified="2024-11-12T15:23:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/.bash_history" added="2024-11-08T15:48:39Z" modified="2024-11-08T15:48:39Z" visited="2024-11-08T15:48:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-08T15:48:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/catkin_ws/src/slamrplidar/slamplanner/launch/slam_planner_online.launch" added="2024-11-12T13:55:07Z" modified="2024-11-13T15:31:07Z" visited="2024-11-12T13:55:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-13T15:31:07Z" count="2"/>
+          <bookmark:application name="chromium-browser" exec="&apos;chromium-browser %u&apos;" modified="2024-11-12T15:24:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/catkin_ws/src/slamrplidar/slamplanner/launch/slam_rplidar_start.launch" added="2024-11-12T13:56:10Z" modified="2024-11-13T15:34:12Z" visited="2024-11-12T13:56:11Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-13T15:34:12Z" count="2"/>
+          <bookmark:application name="chromium-browser" exec="&apos;chromium-browser %u&apos;" modified="2024-11-12T15:24:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/lcm_log_20241112_223131.txt" added="2024-11-12T14:38:05Z" modified="2024-11-12T14:38:05Z" visited="2024-11-12T14:38:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium-browser" exec="&apos;chromium-browser %u&apos;" modified="2024-11-12T14:38:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/unitree_legged_sdk/build/lcm_server" added="2024-11-12T15:00:37Z" modified="2024-11-12T15:00:37Z" visited="2024-11-12T15:00:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-12T15:00:37Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/unitree_legged_sdk/examples/lcm_server.cpp" added="2024-11-12T15:01:30Z" modified="2024-11-12T15:22:07Z" visited="2024-11-12T15:01:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-12T15:01:30Z" count="1"/>
+          <bookmark:application name="chromium-browser" exec="&apos;chromium-browser %u&apos;" modified="2024-11-12T15:22:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/unitree_legged_sdk/examples/lcm_server_high.cpp" added="2024-11-12T15:02:10Z" modified="2024-11-13T14:46:14Z" visited="2024-11-12T15:02:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-13T14:46:14Z" count="4"/>
+          <bookmark:application name="chromium-browser" exec="&apos;chromium-browser %u&apos;" modified="2024-11-12T15:22:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/unitree_legged_sdk/examples/example_walk.cpp" added="2024-11-12T15:40:45Z" modified="2024-11-12T15:40:45Z" visited="2024-11-12T15:40:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-12T15:40:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/Desktop/comando" added="2024-11-12T16:11:48Z" modified="2024-11-13T16:17:10Z" visited="2024-11-12T16:11:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-13T16:17:10Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/lcm_death_log_20241113_002226.txt" added="2024-11-12T16:27:56Z" modified="2024-11-12T16:27:56Z" visited="2024-11-12T16:27:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium-browser" exec="&apos;chromium-browser %u&apos;" modified="2024-11-12T16:27:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/catkin_ws/src/slamrplidar/slam_planner_sdk/include/unitree_legged_sdk/lcm.h" added="2024-11-13T15:29:07Z" modified="2024-11-13T15:29:07Z" visited="2024-11-13T15:29:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-13T15:29:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/catkin_ws/src/slamrplidar/slamware_ros_sdk/src/server/msg_convert.cpp" added="2024-11-13T15:29:59Z" modified="2024-11-13T15:29:59Z" visited="2024-11-13T15:29:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-13T15:29:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/catkin_ws/src/slamrplidar/slamplanner/include/slam_planner/slam_planner.h" added="2024-11-13T15:30:25Z" modified="2024-11-13T15:30:25Z" visited="2024-11-13T15:30:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-13T15:30:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/catkin_ws/src/slamrplidar/slamplanner/include/slam_planner/convert.h" added="2024-11-13T15:30:44Z" modified="2024-11-13T15:30:44Z" visited="2024-11-13T15:30:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-13T15:30:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/unitree/catkin_ws/src/slamrplidar/slamplanner/testScript/square_move.py" added="2024-11-14T15:58:51Z" modified="2024-11-14T16:06:24Z" visited="2024-11-14T15:58:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-11-14T16:06:24Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

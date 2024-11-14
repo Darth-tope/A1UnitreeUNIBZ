@@ -1,0 +1,5 @@
+2024/10/23-01:41:32.343 55db Recovering log #10
+2024/10/23-01:41:32.347 55db Level-0 table #12: started
+2024/10/23-01:41:32.355 55db Level-0 table #12: 6540 bytes OK
+2024/10/23-01:41:32.386 55db Delete type=0 #10
+2024/10/23-01:41:32.386 55db Delete type=3 #8

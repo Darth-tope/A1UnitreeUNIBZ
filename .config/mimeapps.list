@@ -1,0 +1,11 @@
+[Default Applications]
+text/html=chromium-browser.desktop
+x-scheme-handler/http=chromium-browser.desktop
+x-scheme-handler/https=chromium-browser.desktop
+x-scheme-handler/about=chromium-browser.desktop
+x-scheme-handler/unknown=chromium-browser.desktop
+
+[Added Associations]
+application/x-shellscript=org.gnome.gedit.desktop;
+application/octet-stream=gedit.desktop;
+text/x-c++src=org.gnome.gedit.desktop;

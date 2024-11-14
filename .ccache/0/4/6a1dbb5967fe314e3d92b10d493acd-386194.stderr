@@ -1,0 +1,8 @@
+/home/unitree/librealsense/third-party/glfw/src/vulkan.c: In function ‘_glfwInitVulkan’:
+/home/unitree/librealsense/third-party/glfw/src/vulkan.c:69:36: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.vk.GetInstanceProcAddr = (PFN_vkGetInstanceProcAddr)
+                                    ^
+/home/unitree/librealsense/third-party/glfw/src/vulkan.c: In function ‘glfwGetInstanceProcAddress’:
+/home/unitree/librealsense/third-party/glfw/src/vulkan.c:263:16: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         proc = (GLFWvkproc) _glfw_dlsym(_glfw.vk.handle, procname);
+                ^

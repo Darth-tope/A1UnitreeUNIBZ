@@ -1,0 +1,4 @@
+
+
+1730121413.444282832  Node Startup
+1730121457.670689058 INFO /lcm_ros_bridge [/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/bridge/lcm_ros_bridge.cpp:36(run)] [topics: /rosout, /unitree_legged_msgs/HighState] LCM-ROS bridge running...

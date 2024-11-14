@@ -1,0 +1,11 @@
+In file included from /home/unitree/opencv-4.1.1/modules/core/src/precomp.hpp:56:0,
+                 from /home/unitree/opencv-4.1.1/modules/core/src/trace.cpp:5:
+/home/unitree/opencv-4.1.1/modules/core/include/opencv2/core/private.cuda.hpp:75:0: warning: "NPP_VERSION" redefined
+ #  define NPP_VERSION (NPP_VERSION_MAJOR * 1000 + NPP_VERSION_MINOR * 100 + NPP_VERSION_BUILD)
+ 
+In file included from /home/unitree/opencv-4.1.1/modules/core/include/opencv2/core/private.cuda.hpp:71:0,
+                 from /home/unitree/opencv-4.1.1/modules/core/src/precomp.hpp:56,
+                 from /home/unitree/opencv-4.1.1/modules/core/src/trace.cpp:5:
+/usr/local/cuda/include/npp.h:62:0: note: this is the location of the previous definition
+ #define NPP_VERSION (NPP_VER_MAJOR * 1000 +     \
+ 

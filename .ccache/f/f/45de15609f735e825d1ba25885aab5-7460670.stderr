@@ -1,0 +1,25 @@
+In file included from /home/unitree/opencv-4.1.1/modules/core/src/precomp.hpp:56:0,
+                 from /home/unitree/opencv-4.1.1/modules/core/src/opengl.cpp:43:
+/home/unitree/opencv-4.1.1/modules/core/include/opencv2/core/private.cuda.hpp:75:0: warning: "NPP_VERSION" redefined
+ #  define NPP_VERSION (NPP_VERSION_MAJOR * 1000 + NPP_VERSION_MINOR * 100 + NPP_VERSION_BUILD)
+ 
+In file included from /home/unitree/opencv-4.1.1/modules/core/include/opencv2/core/private.cuda.hpp:71:0,
+                 from /home/unitree/opencv-4.1.1/modules/core/src/precomp.hpp:56,
+                 from /home/unitree/opencv-4.1.1/modules/core/src/opengl.cpp:43:
+/usr/local/cuda/include/npp.h:62:0: note: this is the location of the previous definition
+ #define NPP_VERSION (NPP_VER_MAJOR * 1000 +     \
+ 
+In file included from /home/unitree/opencv-4.1.1/modules/core/include/opencv2/core/private.cuda.hpp:73:0,
+                 from /home/unitree/opencv-4.1.1/modules/core/src/precomp.hpp:56,
+                 from /home/unitree/opencv-4.1.1/modules/core/src/opengl.cpp:43:
+/home/unitree/opencv-4.1.1/modules/core/src/opengl.cpp: In function ‘void cv::cuda::setGlDevice(int)’:
+/home/unitree/opencv-4.1.1/modules/core/src/opengl.cpp:118:47: warning: ‘cudaError_t cudaGLSetGLDevice(int)’ is deprecated [-Wdeprecated-declarations]
+         cudaSafeCall( cudaGLSetGLDevice(device) );
+                                               ^
+/home/unitree/opencv-4.1.1/modules/core/include/opencv2/core/cuda/common.hpp:74:58: note: in definition of macro ‘cudaSafeCall’
+     #define cudaSafeCall(expr)  cv::cuda::checkCudaError(expr, __FILE__, __LINE__, CV_Func)
+                                                          ^~~~
+In file included from /home/unitree/opencv-4.1.1/modules/core/src/opengl.cpp:48:0:
+/usr/local/cuda/include/cuda_gl_interop.h:305:57: note: declared here
+ extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaGLSetGLDevice(int device);
+                                                         ^~~~~~~~~~~~~~~~~

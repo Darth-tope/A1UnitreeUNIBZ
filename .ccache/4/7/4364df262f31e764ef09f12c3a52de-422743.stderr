@@ -1,0 +1,118 @@
+In file included from /home/unitree/librealsense/third-party/glfw/src/window.c:29:0:
+/home/unitree/librealsense/third-party/glfw/src/window.c: In function ‘glfwSetWindowPosCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:980:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.pos, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:980:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.pos, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/window.c: In function ‘glfwSetWindowSizeCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:991:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.size, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:991:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.size, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/window.c: In function ‘glfwSetWindowCloseCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1002:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.close, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1002:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.close, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/window.c: In function ‘glfwSetWindowRefreshCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1013:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.refresh, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1013:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.refresh, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/window.c: In function ‘glfwSetWindowFocusCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1024:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.focus, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1024:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.focus, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/window.c: In function ‘glfwSetWindowIconifyCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1035:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.iconify, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1035:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.iconify, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/window.c: In function ‘glfwSetWindowMaximizeCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1046:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.maximize, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1046:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.maximize, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/window.c: In function ‘glfwSetFramebufferSizeCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1057:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.fbsize, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1057:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.fbsize, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/window.c: In function ‘glfwSetWindowContentScaleCallback’:
+/home/unitree/librealsense/third-party/glfw/src/internal.h:221:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         t = x;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1068:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.scale, cbfun);
+     ^~~~~~~~~~~~~~~~~~~
+/home/unitree/librealsense/third-party/glfw/src/internal.h:223:11: warning: ISO C forbids assignment between function pointer and ‘void *’ [-Wpedantic]
+         y = t;                    \
+           ^
+/home/unitree/librealsense/third-party/glfw/src/window.c:1068:5: note: in expansion of macro ‘_GLFW_SWAP_POINTERS’
+     _GLFW_SWAP_POINTERS(window->callbacks.scale, cbfun);
+     ^~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2024-11-08 02:24:13,579: init_node, name[/rqt_gui_py_node_15827], pid[15827]
+[xmlrpc][INFO] 2024-11-08 02:24:13,581: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-11-08 02:24:13,582: Started XML-RPC server [http://nx:42831/]
+[rospy.init][INFO] 2024-11-08 02:24:13,583: ROS Slave URI: [http://nx:42831/]
+[rospy.impl.masterslave][INFO] 2024-11-08 02:24:13,583: _ready: http://nx:42831/
+[rospy.registration][INFO] 2024-11-08 02:24:13,586: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2024-11-08 02:24:13,586: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-11-08 02:24:13,684: registered with master
+[rospy.rosout][INFO] 2024-11-08 02:24:13,685: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-11-08 02:24:13,690: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-11-08 02:24:13,693: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2024-11-08 02:24:13,946: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2024-11-08 02:24:14,941: topic[/tf] adding connection to [http://nx:33247/], count 0
+[rospy.internal][INFO] 2024-11-08 02:24:14,945: topic[/tf] adding connection to [http://nx:43531/], count 0
+[rospy.internal][INFO] 2024-11-08 02:24:14,947: topic[/tf] adding connection to [http://nx:43235/], count 0
+[rospy.internal][INFO] 2024-11-08 02:24:14,950: topic[/tf] adding connection to [http://nx:33469/], count 1
+[rospy.core][INFO] 2024-11-08 02:27:38,374: signal_shutdown [atexit]
+[rospy.internal][INFO] 2024-11-08 02:27:38,387: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2024-11-08 02:27:38,388: topic[/tf] removing connection to http://nx:33247/
+[rospy.internal][INFO] 2024-11-08 02:27:38,390: topic[/tf] removing connection to http://nx:43531/
+[rospy.internal][INFO] 2024-11-08 02:27:38,391: topic[/tf] removing connection to http://nx:43235/
+[rospy.internal][INFO] 2024-11-08 02:27:38,392: topic[/tf] removing connection to http://nx:33469/
+[rospy.impl.masterslave][INFO] 2024-11-08 02:27:38,394: atexit

@@ -1,0 +1,6 @@
+
+
+1598775492.485111818  Node Startup
+1598775502.265806946 INFO /rviz_1598775502250930667 [/tmp/binarydeb/ros-melodic-rviz-1.13.13/src/rviz/ogre_helpers/render_system.cpp:85(RenderSystem::forceGlVersion)] [topics: /rosout] Forcing OpenGl version 0.
+1598775503.111218921 INFO /rviz_1598775502250930667 [/tmp/binarydeb/ros-melodic-rviz-1.13.13/src/rviz/ogre_helpers/render_system.cpp:449(RenderWindow* rviz::RenderSystem::makeRenderWindow)] [topics: /rosout] Stereo is NOT SUPPORTED
+1598775503.111483843 INFO /rviz_1598775502250930667 [/tmp/binarydeb/ros-melodic-rviz-1.13.13/src/rviz/ogre_helpers/render_system.cpp:217(RenderSystem::detectGlVersion)] [topics: /rosout] OpenGl version: 4.6 (GLSL 4.6).

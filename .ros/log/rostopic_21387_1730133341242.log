@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2024-10-29 00:35:41,338: init_node, name[/rostopic_21387_1730133341242], pid[21387]
+[xmlrpc][INFO] 2024-10-29 00:35:41,345: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-10-29 00:35:41,350: Started XML-RPC server [http://nx:45037/]
+[rospy.init][INFO] 2024-10-29 00:35:41,352: ROS Slave URI: [http://nx:45037/]
+[rospy.impl.masterslave][INFO] 2024-10-29 00:35:41,354: _ready: http://nx:45037/
+[rospy.registration][INFO] 2024-10-29 00:35:41,359: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2024-10-29 00:35:41,361: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-10-29 00:35:41,457: registered with master
+[rospy.rosout][INFO] 2024-10-29 00:35:41,460: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-10-29 00:35:41,475: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-10-29 00:35:41,478: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2024-10-29 00:35:49,594: topic[/unitree_legged_msgs/HighState] adding connection to [http://nx:38463/], count 0
+[rospy.internal][WARNING] 2024-10-29 00:36:11,708: Unknown error initiating TCP/IP socket to nx:48739 (http://nx:38463/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2024-10-29 00:36:11,709: topic[/unitree_legged_msgs/HighState] removing connection to http://nx:38463/
+[rospy.internal][INFO] 2024-10-29 00:36:18,337: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2024-10-29 00:36:28,312: topic[/unitree_legged_msgs/HighState] adding connection to [http://nx:45987/], count 0

@@ -1,0 +1,255 @@
+[rosmaster.main][INFO] 2024-10-24 19:33:27,783: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-10-24 19:33:27,783: Starting ROS Master Node
+[xmlrpc][INFO] 2024-10-24 19:33:27,786: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2024-10-24 19:33:27,788: Master initialized: port[11311], uri[http://nx:11311/]
+[xmlrpc][INFO] 2024-10-24 19:33:27,788: Started XML-RPC server [http://nx:11311/]
+[xmlrpc][INFO] 2024-10-24 19:33:27,789: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-10-24 19:33:27,834: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:27,837: +PARAM [/roslaunch/uris/host_nx__37271] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,039: +PARAM [/slam_planner_node/local_costmap/width] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,039: +PARAM [/slam_planner_node/global_costmap/resolution] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,040: +PARAM [/slam_planner_node/global_costmap/scan/data_type] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,040: +PARAM [/slamware_ros_sdk_server_node/angle_compensate] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,040: +PARAM [/slam_planner_node/global_costmap/scan/marking] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,041: +PARAM [/slamware_ros_sdk_server_node/map] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,041: +PARAM [/slam_planner_node/global_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,041: +PARAM [/slam_planner_node/TrajectoryPlannerROS/heading_scoring] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,042: +PARAM [/slam_planner_node/clearing_rotation_allowed] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,042: +PARAM [/slam_planner_node/global_costmap/min_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,042: +PARAM [/slam_planner_node/local_costmap/height] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,043: +PARAM [/slam_planner_node/global_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,043: +PARAM [/slam_planner_node/local_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,043: +PARAM [/slamware_ros_sdk_server_node/fixed_odom_map_tf] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,044: +PARAM [/slam_planner_node/local_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,044: +PARAM [/slamware_ros_sdk_server_node/laser_frame] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,044: +PARAM [/slamware_ros_sdk_server_node/odom] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,045: +PARAM [/slam_planner_node/TrajectoryPlannerROS/publish_cost_grid_pc] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,045: +PARAM [/slam_planner_node/global_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,045: +PARAM [/slamware_ros_sdk_server_node/map_pub_period] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,046: +PARAM [/slam_planner_node/global_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,046: +PARAM [/slamware_ros_sdk_server_node/robot_frame] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,046: +PARAM [/slam_planner_node/TrajectoryPlannerROS/sim_granularity] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,046: +PARAM [/slam_planner_node/TrajectoryPlannerROS/acc_lim_x] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,047: +PARAM [/slam_planner_node/TrajectoryPlannerROS/max_vel_theta] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,047: +PARAM [/slamware_ros_sdk_server_node/cmd_vel] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,047: +PARAM [/slam_planner_node/global_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,048: +PARAM [/slamware_ros_sdk_server_node/robot_pose_pub_period] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,048: +PARAM [/slam_planner_node/local_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,048: +PARAM [/slamware_ros_sdk_server_node/map_metadata] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,049: +PARAM [/slam_planner_node/global_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,049: +PARAM [/slam_planner_node/local_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,049: +PARAM [/slam_planner_node/TrajectoryPlannerROS/prune_plan] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,050: +PARAM [/slam_planner_node/TrajectoryPlannerROS/meter_scoring] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,050: +PARAM [/slam_planner_node/TrajectoryPlannerROS/heading_lookahead] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,050: +PARAM [/slam_planner_node/global_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,051: +PARAM [/slam_planner_node/TrajectoryPlannerROS/pdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,051: +PARAM [/slam_planner_node/global_costmap/max_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,051: +PARAM [/slam_planner_node/TrajectoryPlannerROS/angular_sim_granularity] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,052: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,052: +PARAM [/slam_planner_node/local_costmap/scan/data_type] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,052: +PARAM [/slam_planner_node/local_costmap/scan/expected_update_rate] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,052: +PARAM [/slam_planner_node/TrajectoryPlannerROS/vtheta_samples] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,053: +PARAM [/slam_planner_node/local_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,053: +PARAM [/slam_planner_node/TrajectoryPlannerROS/sim_time] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,053: +PARAM [/slam_planner_node/local_costmap/scan/marking] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,054: +PARAM [/slam_planner_node/TrajectoryPlannerROS/escape_vel] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,054: +PARAM [/slam_planner_node/global_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,054: +PARAM [/slam_planner_node/global_costmap/scan/topic] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,055: +PARAM [/slam_planner_node/TrajectoryPlannerROS/acc_lim_y] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,055: +PARAM [/slam_planner_node/global_costmap/scan/expected_update_rate] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,055: +PARAM [/slam_planner_node/global_costmap/scan/clearing] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,055: +PARAM [/slam_planner_node/global_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,056: +PARAM [/slam_planner_node/TrajectoryPlannerROS/occdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,056: +PARAM [/slam_planner_node/local_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,056: +PARAM [/slam_planner_node/controller_frequency] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,057: +PARAM [/slam_planner_node/local_costmap/scan/topic] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,057: +PARAM [/slam_planner_node/global_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,058: +PARAM [/slam_planner_node/TrajectoryPlannerROS/vx_samples] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,058: +PARAM [/slam_planner_node/TrajectoryPlannerROS/max_vel_y] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,058: +PARAM [/slam_planner_node/local_costmap/max_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,059: +PARAM [/slamware_ros_sdk_server_node/global_plan_path] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,059: +PARAM [/slam_planner_node/local_costmap/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,059: +PARAM [/slam_planner_node/TrajectoryPlannerROS/min_vel_y] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,060: +PARAM [/slam_planner_node/TrajectoryPlannerROS/min_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,060: +PARAM [/slam_planner_node/TrajectoryPlannerROS/heading_scoring_timestep] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,061: +PARAM [/slam_planner_node/global_costmap/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,061: +PARAM [/slam_planner_node/local_costmap/robot_radius] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,061: +PARAM [/slam_planner_node/TrajectoryPlannerROS/xy_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,062: +PARAM [/slamware_ros_sdk_server_node/map_frame] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,062: +PARAM [/slam_planner_node/local_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,063: +PARAM [/slam_planner_node/TrajectoryPlannerROS/oscillation_reset_dist] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,064: +PARAM [/slam_planner_node/TrajectoryPlannerROS/gdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,064: +PARAM [/slamware_ros_sdk_server_node/scan] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,065: +PARAM [/slam_planner_node/global_costmap/robot_radius] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,065: +PARAM [/slamware_ros_sdk_server_node/odom_frame] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,066: +PARAM [/slam_planner_node/TrajectoryPlannerROS/acc_lim_theta] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,066: +PARAM [/slamware_ros_sdk_server_node/ip_address] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,067: +PARAM [/slam_planner_node/TrajectoryPlannerROS/dwa] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,067: +PARAM [/slam_planner_node/local_costmap/resolution] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,067: +PARAM [/slamware_ros_sdk_server_node/path_pub_period] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,068: +PARAM [/slam_planner_node/local_costmap/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,068: +PARAM [/slam_planner_node/TrajectoryPlannerROS/max_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,068: +PARAM [/slam_planner_node/TrajectoryPlannerROS/latch_xy_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,069: +PARAM [/slam_planner_node/global_costmap/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,069: +PARAM [/slam_planner_node/TrajectoryPlannerROS/min_vel_theta] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,069: +PARAM [/slam_planner_node/TrajectoryPlannerROS/simple_attractor] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,070: +PARAM [/slam_planner_node/recovery_behavior_enabled] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,070: +PARAM [/slam_planner_node/local_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,070: +PARAM [/slamware_ros_sdk_server_node/move_base_simple/goal] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,071: +PARAM [/slam_planner_node/TrajectoryPlannerROS/holonomic_robot] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,071: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,071: +PARAM [/slam_planner_node/TrajectoryPlannerROS/yaw_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,072: +PARAM [/slam_planner_node/TrajectoryPlannerROS/min_in_place_vel_theta] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,072: +PARAM [/slam_planner_node/TrajectoryPlannerROS/vy_samples] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,072: +PARAM [/slamware_ros_sdk_server_node/scan_pub_period] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,073: +PARAM [/slam_planner_node/local_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,073: +PARAM [/slam_planner_node/local_costmap/min_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,074: +PARAM [/slam_planner_node/local_costmap/scan/clearing] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:33:28,118: +SERVICE [/rosout/get_loggers] /rosout http://nx:42919/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,121: +SERVICE [/rosout/set_logger_level] /rosout http://nx:42919/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,125: +PUB [/rosout_agg] /rosout http://nx:42919/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,133: +SUB [/rosout] /rosout http://nx:42919/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,227: +PUB [/rosout] /map2odom http://nx:36795/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,231: +SERVICE [/map2odom/get_loggers] /map2odom http://nx:36795/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,233: +SERVICE [/map2odom/set_logger_level] /map2odom http://nx:36795/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,236: +PUB [/rosout] /base2laser http://nx:43179/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,238: +SERVICE [/base2laser/get_loggers] /base2laser http://nx:43179/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,243: +PUB [/tf] /map2odom http://nx:36795/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,245: +SERVICE [/base2laser/set_logger_level] /base2laser http://nx:43179/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,249: +PUB [/tf] /base2laser http://nx:43179/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,257: +PUB [/rosout] /laser2foot http://nx:35479/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,259: +SERVICE [/laser2foot/get_loggers] /laser2foot http://nx:35479/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,261: +SERVICE [/laser2foot/set_logger_level] /laser2foot http://nx:35479/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,264: +PUB [/tf] /laser2foot http://nx:35479/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,286: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/']
+[rosmaster.master][INFO] 2024-10-24 19:33:28,298: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 19:33:28,298: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/']
+[rosmaster.master][INFO] 2024-10-24 19:33:28,302: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 19:33:28,302: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/']
+[rosmaster.master][INFO] 2024-10-24 19:33:28,305: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 19:33:28,345: +PUB [/rosout] /base_controller_node http://nx:42889/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,349: +SERVICE [/base_controller_node/get_loggers] /base_controller_node http://nx:42889/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,351: +SERVICE [/base_controller_node/set_logger_level] /base_controller_node http://nx:42889/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,359: +SUB [/cmd_vel] /base_controller_node http://nx:42889/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,387: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/']
+[rosmaster.master][INFO] 2024-10-24 19:33:28,394: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 19:33:28,444: +PUB [/rosout] /slam_planner_node http://nx:43927/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,445: +SERVICE [/slam_planner_node/get_loggers] /slam_planner_node http://nx:43927/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,448: +SERVICE [/slam_planner_node/set_logger_level] /slam_planner_node http://nx:43927/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,456: +SUB [/tf] /slam_planner_node http://nx:43927/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,468: +SUB [/tf_static] /slam_planner_node http://nx:43927/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,488: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/']
+[rosmaster.master][INFO] 2024-10-24 19:33:28,500: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 19:33:28,559: +PUB [/cmd_vel] /slam_planner_node http://nx:43927/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,561: +PUB [/slam_planner_node/current_goal] /slam_planner_node http://nx:43927/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,563: +PUB [/move_base/goal] /slam_planner_node http://nx:43927/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,570: +SUB [/move_base_simple/goal] /slam_planner_node http://nx:43927/
+[rosmaster.master][INFO] 2024-10-24 19:33:28,595: publisherUpdate[/cmd_vel] -> http://nx:42889/ ['http://nx:43927/']
+[rosmaster.master][INFO] 2024-10-24 19:33:28,604: publisherUpdate[/cmd_vel] -> http://nx:42889/ ['http://nx:43927/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 19:33:30,439: +PUB [/rosout] /map_saver http://nx:46593/
+[rosmaster.master][INFO] 2024-10-24 19:33:30,441: +SERVICE [/map_saver/get_loggers] /map_saver http://nx:46593/
+[rosmaster.master][INFO] 2024-10-24 19:33:30,443: +SERVICE [/map_saver/set_logger_level] /map_saver http://nx:46593/
+[rosmaster.master][INFO] 2024-10-24 19:33:30,453: +SUB [/map] /map_saver http://nx:46593/
+[rosmaster.master][INFO] 2024-10-24 19:33:30,506: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/']
+[rosmaster.master][INFO] 2024-10-24 19:33:30,511: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 19:33:31,039: +PUB [/rosout] /rostopic_8873_1729769610842 http://nx:35735/
+[rosmaster.master][INFO] 2024-10-24 19:33:31,046: +SERVICE [/rostopic_8873_1729769610842/get_loggers] /rostopic_8873_1729769610842 http://nx:35735/
+[rosmaster.master][INFO] 2024-10-24 19:33:31,049: +SERVICE [/rostopic_8873_1729769610842/set_logger_level] /rostopic_8873_1729769610842 http://nx:35735/
+[rosmaster.master][INFO] 2024-10-24 19:33:31,110: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']
+[rosmaster.master][INFO] 2024-10-24 19:33:31,114: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 19:47:38,069: +PARAM [/roslaunch/uris/host_nx__39455] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:47:38,078: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:47:38,078: +PARAM [/firmwork] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:47:38,079: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:47:38,079: +PARAM [/robot_name] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:47:38,079: +PARAM [/control_level] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:48:20,083: +PUB [/rosout] /walk_ros_mode http://nx:38905/
+[rosmaster.master][INFO] 2024-10-24 19:48:20,085: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:38905/
+[rosmaster.master][INFO] 2024-10-24 19:48:20,086: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:38905/
+[rosmaster.master][INFO] 2024-10-24 19:48:20,097: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/', 'http://nx:38905/']
+[rosmaster.master][INFO] 2024-10-24 19:48:20,100: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/', 'http://nx:38905/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 19:48:57,772: -PUB [/rosout] /walk_ros_mode http://nx:38905/
+[rosmaster.master][INFO] 2024-10-24 19:48:57,780: -SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode rosrpc://nx:44091
+[rosmaster.master][INFO] 2024-10-24 19:48:57,780: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']
+[rosmaster.master][INFO] 2024-10-24 19:48:57,783: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 19:48:57,784: -SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode rosrpc://nx:44091
+[rosmaster.master][INFO] 2024-10-24 19:49:24,226: +PARAM [/roslaunch/uris/host_nx__39281] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:49:24,234: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:49:24,234: +PARAM [/firmwork] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:49:24,235: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:49:24,235: +PARAM [/robot_name] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:49:24,235: +PARAM [/control_level] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 19:49:29,391: +PUB [/rosout] /walk_ros_mode http://nx:42095/
+[rosmaster.master][INFO] 2024-10-24 19:49:29,393: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:42095/
+[rosmaster.master][INFO] 2024-10-24 19:49:29,395: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:42095/
+[rosmaster.master][INFO] 2024-10-24 19:49:29,447: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/', 'http://nx:42095/']
+[rosmaster.master][INFO] 2024-10-24 19:49:29,451: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/', 'http://nx:42095/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 19:49:53,096: -PUB [/rosout] /walk_ros_mode http://nx:42095/
+[rosmaster.master][INFO] 2024-10-24 19:49:53,100: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']
+[rosmaster.master][INFO] 2024-10-24 19:49:53,106: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 19:49:53,106: -SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode rosrpc://nx:53295
+[rosmaster.master][INFO] 2024-10-24 19:49:53,108: -SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode rosrpc://nx:53295
+[rosmaster.master][INFO] 2024-10-24 20:06:12,039: +PARAM [/roslaunch/uris/host_nx__39545] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:06:12,048: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:06:12,048: +PARAM [/firmwork] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:06:12,049: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:06:12,049: +PARAM [/robot_name] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:06:12,049: +PARAM [/control_level] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:06:32,179: +PUB [/rosout] /walk_ros_mode http://nx:40389/
+[rosmaster.master][INFO] 2024-10-24 20:06:32,181: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:40389/
+[rosmaster.master][INFO] 2024-10-24 20:06:32,183: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:40389/
+[rosmaster.master][INFO] 2024-10-24 20:06:32,184: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/', 'http://nx:40389/']
+[rosmaster.master][INFO] 2024-10-24 20:06:32,190: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/', 'http://nx:40389/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 20:06:55,945: -PUB [/rosout] /walk_ros_mode http://nx:40389/
+[rosmaster.master][INFO] 2024-10-24 20:06:55,946: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']
+[rosmaster.master][INFO] 2024-10-24 20:06:55,951: -SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode rosrpc://nx:55529
+[rosmaster.master][INFO] 2024-10-24 20:06:55,952: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 20:06:55,953: -SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode rosrpc://nx:55529
+[rosmaster.master][INFO] 2024-10-24 20:08:25,134: +PARAM [/roslaunch/uris/host_nx__43545] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:08:25,142: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:08:25,143: +PARAM [/firmwork] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:08:25,143: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:08:25,144: +PARAM [/robot_name] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:08:25,144: +PARAM [/control_level] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:08:45,953: +PUB [/rosout] /walk_ros_mode http://nx:45347/
+[rosmaster.master][INFO] 2024-10-24 20:08:45,954: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:45347/
+[rosmaster.master][INFO] 2024-10-24 20:08:45,956: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:45347/
+[rosmaster.master][INFO] 2024-10-24 20:08:45,968: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/', 'http://nx:45347/']
+[rosmaster.master][INFO] 2024-10-24 20:08:45,972: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/', 'http://nx:45347/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 20:08:53,489: -PUB [/rosout] /walk_ros_mode http://nx:45347/
+[rosmaster.master][INFO] 2024-10-24 20:08:53,490: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']
+[rosmaster.master][INFO] 2024-10-24 20:08:53,492: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 20:08:53,493: -SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode rosrpc://nx:40559
+[rosmaster.master][INFO] 2024-10-24 20:08:53,495: -SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode rosrpc://nx:40559
+[rosmaster.master][INFO] 2024-10-24 20:09:49,671: +PARAM [/roslaunch/uris/host_nx__40073] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:09:49,679: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:09:49,680: +PARAM [/firmwork] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:09:49,680: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:09:49,680: +PARAM [/robot_name] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:09:49,681: +PARAM [/control_level] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:10:12,482: +PUB [/rosout] /walk_ros_mode http://nx:33403/
+[rosmaster.master][INFO] 2024-10-24 20:10:12,483: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:33403/
+[rosmaster.master][INFO] 2024-10-24 20:10:12,485: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:33403/
+[rosmaster.master][INFO] 2024-10-24 20:10:12,576: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/', 'http://nx:33403/']
+[rosmaster.master][INFO] 2024-10-24 20:10:12,584: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/', 'http://nx:33403/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 20:10:26,108: -PUB [/rosout] /walk_ros_mode http://nx:33403/
+[rosmaster.master][INFO] 2024-10-24 20:10:26,110: -SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode rosrpc://nx:46753
+[rosmaster.master][INFO] 2024-10-24 20:10:26,111: -SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode rosrpc://nx:46753
+[rosmaster.master][INFO] 2024-10-24 20:10:26,120: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']
+[rosmaster.master][INFO] 2024-10-24 20:10:26,123: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 20:12:25,952: +PARAM [/roslaunch/uris/host_nx__38325] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:12:25,961: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:12:25,961: +PARAM [/firmwork] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:12:25,962: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:12:25,962: +PARAM [/robot_name] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:12:25,963: +PARAM [/control_level] by /roslaunch
+[rosmaster.master][INFO] 2024-10-24 20:13:03,890: +PUB [/rosout] /walk_ros_mode http://nx:35465/
+[rosmaster.master][INFO] 2024-10-24 20:13:03,892: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:35465/
+[rosmaster.master][INFO] 2024-10-24 20:13:03,894: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:35465/
+[rosmaster.master][INFO] 2024-10-24 20:13:03,942: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/', 'http://nx:35465/']
+[rosmaster.master][INFO] 2024-10-24 20:13:03,946: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/', 'http://nx:35465/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 20:13:15,467: -PUB [/rosout] /walk_ros_mode http://nx:35465/
+[rosmaster.master][INFO] 2024-10-24 20:13:15,468: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']
+[rosmaster.master][INFO] 2024-10-24 20:13:15,471: publisherUpdate[/rosout] -> http://nx:42919/ ['http://nx:36795/', 'http://nx:43179/', 'http://nx:35479/', 'http://nx:42889/', 'http://nx:43927/', 'http://nx:46593/', 'http://nx:35735/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-24 20:13:15,471: -SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode rosrpc://nx:41165
+[rosmaster.master][INFO] 2024-10-24 20:13:15,473: -SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode rosrpc://nx:41165

@@ -1,0 +1,20 @@
+In file included from /home/unitree/librealsense/src/gl/camera-shader.cpp:17:0:
+/home/unitree/librealsense/src/gl/../../common/res/sr300.h: In function ‘void uncompress_sr305_obj(std::vector<rs2::float3>&, std::vector<rs2::float3>&, std::vector<short3>&)’:
+/home/unitree/librealsense/src/gl/../../common/res/sr300.h:11:77: warning: ‘int LZ4_uncompress(const char*, char*, int)’ is deprecated: use LZ4_decompress_fast() instead [-Wdeprecated-declarations]
+     LZ4_uncompress((const char*)sr305_obj_data, uncompressed.data(), 0x43c5c);
+                                                                             ^
+In file included from /home/unitree/librealsense/src/gl/../../common/res/d435.h:6:0,
+                 from /home/unitree/librealsense/src/gl/camera-shader.cpp:15:
+/home/unitree/librealsense/third-party/realsense-file/lz4/lz4.h:446:68: note: declared here
+ LZ4LIB_API LZ4_DEPRECATED("use LZ4_decompress_fast() instead") int LZ4_uncompress (const char* source, char* dest, int outputSize);
+                                                                    ^~~~~~~~~~~~~~
+In file included from /home/unitree/librealsense/src/gl/camera-shader.cpp:19:0:
+/home/unitree/librealsense/src/gl/../../common/res/l500.h: In function ‘void uncompress_L515_obj(std::vector<rs2::float3>&, std::vector<rs2::float3>&, std::vector<short3>&)’:
+/home/unitree/librealsense/src/gl/../../common/res/l500.h:11:76: warning: ‘int LZ4_uncompress(const char*, char*, int)’ is deprecated: use LZ4_decompress_fast() instead [-Wdeprecated-declarations]
+     LZ4_uncompress((const char*)L515_obj_data, uncompressed.data(), 0x49e1e);
+                                                                            ^
+In file included from /home/unitree/librealsense/src/gl/../../common/res/d435.h:6:0,
+                 from /home/unitree/librealsense/src/gl/camera-shader.cpp:15:
+/home/unitree/librealsense/third-party/realsense-file/lz4/lz4.h:446:68: note: declared here
+ LZ4LIB_API LZ4_DEPRECATED("use LZ4_decompress_fast() instead") int LZ4_uncompress (const char* source, char* dest, int outputSize);
+                                                                    ^~~~~~~~~~~~~~

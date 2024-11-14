@@ -1,0 +1,36 @@
+[rosmaster.main][INFO] 2024-10-31 21:55:09,226: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-10-31 21:55:09,226: Starting ROS Master Node
+[xmlrpc][INFO] 2024-10-31 21:55:09,234: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-10-31 21:55:09,236: Started XML-RPC server [http://nx:11311/]
+[rosmaster.master][INFO] 2024-10-31 21:55:09,237: Master initialized: port[11311], uri[http://nx:11311/]
+[xmlrpc][INFO] 2024-10-31 21:55:09,238: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-10-31 21:55:09,277: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 21:55:09,285: +PARAM [/roslaunch/uris/host_nx__38571] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 21:55:09,457: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 21:55:09,458: +PARAM [/firmwork] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 21:55:09,458: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 21:55:09,458: +PARAM [/robot_name] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 21:55:09,459: +PARAM [/control_level] by /roslaunch
+[rosmaster.master][INFO] 2024-10-31 21:55:09,486: +SERVICE [/rosout/get_loggers] /rosout http://nx:43401/
+[rosmaster.master][INFO] 2024-10-31 21:55:09,487: +SERVICE [/rosout/set_logger_level] /rosout http://nx:43401/
+[rosmaster.master][INFO] 2024-10-31 21:55:09,491: +PUB [/rosout_agg] /rosout http://nx:43401/
+[rosmaster.master][INFO] 2024-10-31 21:55:09,497: +SUB [/rosout] /rosout http://nx:43401/
+[rosmaster.master][INFO] 2024-10-31 21:55:12,482: +PUB [/rosout] /walk_ros_mode http://nx:42125/
+[rosmaster.master][INFO] 2024-10-31 21:55:12,484: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:42125/
+[rosmaster.master][INFO] 2024-10-31 21:55:12,485: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:42125/
+[rosmaster.master][INFO] 2024-10-31 21:55:12,488: +PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:42125/
+[rosmaster.master][INFO] 2024-10-31 21:55:12,541: publisherUpdate[/rosout] -> http://nx:43401/ ['http://nx:42125/']
+[rosmaster.master][INFO] 2024-10-31 21:55:12,579: publisherUpdate[/rosout] -> http://nx:43401/ ['http://nx:42125/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-31 21:55:25,738: -PUB [/rosout] /walk_ros_mode http://nx:42125/
+[rosmaster.master][INFO] 2024-10-31 21:55:25,740: -PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:42125/
+[rosmaster.master][INFO] 2024-10-31 21:55:25,743: -SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode rosrpc://nx:45347
+[rosmaster.master][INFO] 2024-10-31 21:55:25,746: -SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode rosrpc://nx:45347
+[rosmaster.master][INFO] 2024-10-31 21:55:25,799: publisherUpdate[/rosout] -> http://nx:43401/ []
+[rosmaster.master][INFO] 2024-10-31 21:55:25,820: publisherUpdate[/rosout] -> http://nx:43401/ []: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-31 21:55:26,720: -PUB [/rosout_agg] /rosout http://nx:43401/
+[rosmaster.master][INFO] 2024-10-31 21:55:26,723: -SUB [/rosout] /rosout http://nx:43401/
+[rosmaster.master][INFO] 2024-10-31 21:55:26,725: -SERVICE [/rosout/get_loggers] /rosout rosrpc://nx:55885
+[rosmaster.master][INFO] 2024-10-31 21:55:26,727: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://nx:55885
+[rosmaster.main][INFO] 2024-10-31 21:55:26,736: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2024-10-31 21:55:26,737: stopping master...
+[rospy.core][INFO] 2024-10-31 21:55:26,738: signal_shutdown [atexit]

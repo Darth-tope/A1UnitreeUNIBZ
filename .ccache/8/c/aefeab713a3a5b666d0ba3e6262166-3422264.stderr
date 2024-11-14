@@ -1,0 +1,11 @@
+/home/unitree/opencv-4.1.1/modules/dnn/src/vkcom/src/op_permute.cpp: In member function ‘void cv::dnn::vkcom::OpPermute::prepareStrides(const Shape&, const Shape&)’:
+/home/unitree/opencv-4.1.1/modules/dnn/src/vkcom/src/op_permute.cpp:96:84: warning: enum constant in boolean context [-Wint-in-bool-context]
+     tensor_old_stride_.reshape((const char*)old_stride_.data(), shape, kFormatInt32);
+                                                                                    ^
+/home/unitree/opencv-4.1.1/modules/dnn/src/vkcom/src/op_permute.cpp:97:84: warning: enum constant in boolean context [-Wint-in-bool-context]
+     tensor_new_stride_.reshape((const char*)new_stride_.data(), shape, kFormatInt32);
+                                                                                    ^
+/home/unitree/opencv-4.1.1/modules/dnn/src/vkcom/src/op_permute.cpp: In member function ‘bool cv::dnn::vkcom::OpPermute::forward(std::vector<cv::dnn::vkcom::Tensor>&, std::vector<cv::dnn::vkcom::Tensor>&)’:
+/home/unitree/opencv-4.1.1/modules/dnn/src/vkcom/src/op_permute.cpp:131:74: warning: enum constant in boolean context [-Wint-in-bool-context]
+     tensor_order_.reshape((const char*)order_.data(), shape, kFormatInt32);
+                                                                          ^

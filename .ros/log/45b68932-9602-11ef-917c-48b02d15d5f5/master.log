@@ -1,0 +1,35 @@
+[rosmaster.main][INFO] 2024-10-29 22:30:00,096: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-10-29 22:30:00,096: Starting ROS Master Node
+[xmlrpc][INFO] 2024-10-29 22:30:00,099: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-10-29 22:30:00,100: Started XML-RPC server [http://nx:11311/]
+[rosmaster.master][INFO] 2024-10-29 22:30:00,101: Master initialized: port[11311], uri[http://nx:11311/]
+[xmlrpc][INFO] 2024-10-29 22:30:00,101: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-10-29 22:30:00,163: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-10-29 22:30:00,169: +PARAM [/roslaunch/uris/host_nx__41279] by /roslaunch
+[rosmaster.master][INFO] 2024-10-29 22:30:00,420: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-10-29 22:30:00,421: +SERVICE [/rosout/get_loggers] /rosout http://nx:43363/
+[rosmaster.master][INFO] 2024-10-29 22:30:00,422: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-10-29 22:30:00,424: +SERVICE [/rosout/set_logger_level] /rosout http://nx:43363/
+[rosmaster.master][INFO] 2024-10-29 22:30:00,428: +PUB [/rosout_agg] /rosout http://nx:43363/
+[rosmaster.master][INFO] 2024-10-29 22:30:00,434: +SUB [/rosout] /rosout http://nx:43363/
+[rosmaster.master][INFO] 2024-10-29 22:30:10,892: +PUB [/rosout] /lcm_ros_bridge http://nx:38553/
+[rosmaster.master][INFO] 2024-10-29 22:30:10,895: +SERVICE [/lcm_ros_bridge/get_loggers] /lcm_ros_bridge http://nx:38553/
+[rosmaster.master][INFO] 2024-10-29 22:30:10,898: +SERVICE [/lcm_ros_bridge/set_logger_level] /lcm_ros_bridge http://nx:38553/
+[rosmaster.master][INFO] 2024-10-29 22:30:10,903: +PUB [/unitree_legged_msgs/HighState] /lcm_ros_bridge http://nx:38553/
+[rosmaster.master][INFO] 2024-10-29 22:30:10,914: +SUB [/unitree_legged_msgs/HighCmd] /lcm_ros_bridge http://nx:38553/
+[rosmaster.master][INFO] 2024-10-29 22:30:10,922: publisherUpdate[/rosout] -> http://nx:43363/ ['http://nx:38553/']
+[rosmaster.master][INFO] 2024-10-29 22:30:10,969: publisherUpdate[/rosout] -> http://nx:43363/ ['http://nx:38553/']: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 22:30:20,309: -PUB [/rosout] /lcm_ros_bridge http://nx:38553/
+[rosmaster.master][INFO] 2024-10-29 22:30:20,317: -PUB [/unitree_legged_msgs/HighState] /lcm_ros_bridge http://nx:38553/
+[rosmaster.master][INFO] 2024-10-29 22:30:20,319: -SUB [/unitree_legged_msgs/HighCmd] /lcm_ros_bridge http://nx:38553/
+[rosmaster.master][INFO] 2024-10-29 22:30:20,321: -SERVICE [/lcm_ros_bridge/get_loggers] /lcm_ros_bridge rosrpc://nx:44389
+[rosmaster.master][INFO] 2024-10-29 22:30:20,323: -SERVICE [/lcm_ros_bridge/set_logger_level] /lcm_ros_bridge rosrpc://nx:44389
+[rosmaster.master][INFO] 2024-10-29 22:30:20,347: publisherUpdate[/rosout] -> http://nx:43363/ []
+[rosmaster.master][INFO] 2024-10-29 22:30:20,367: publisherUpdate[/rosout] -> http://nx:43363/ []: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 22:37:44,133: +PUB [/rosout] /lcm_ros_bridge http://nx:35431/
+[rosmaster.master][INFO] 2024-10-29 22:37:44,137: +SERVICE [/lcm_ros_bridge/get_loggers] /lcm_ros_bridge http://nx:35431/
+[rosmaster.master][INFO] 2024-10-29 22:37:44,141: +SERVICE [/lcm_ros_bridge/set_logger_level] /lcm_ros_bridge http://nx:35431/
+[rosmaster.master][INFO] 2024-10-29 22:37:44,146: +PUB [/unitree_legged_msgs/HighState] /lcm_ros_bridge http://nx:35431/
+[rosmaster.master][INFO] 2024-10-29 22:37:44,156: +SUB [/unitree_legged_msgs/HighCmd] /lcm_ros_bridge http://nx:35431/
+[rosmaster.master][INFO] 2024-10-29 22:37:44,158: publisherUpdate[/rosout] -> http://nx:43363/ ['http://nx:35431/']
+[rosmaster.master][INFO] 2024-10-29 22:37:44,178: publisherUpdate[/rosout] -> http://nx:43363/ ['http://nx:35431/']: sec=0.02, result=[1, '', 0]

@@ -1,0 +1,19 @@
+2024/11/14-00:07:05.852 34b9 Reusing MANIFEST /home/unitree/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/11/14-00:07:05.855 34b9 Recovering log #36
+2024/11/14-00:07:05.867 34b9 (ignoring error) /home/unitree/.config/chromium/Default/Local Storage/leveldb/000036.log: dropping 5390 bytes; Corruption: missing start of fragmented record(2)
+2024/11/14-00:07:05.868 34b9 Reusing old log /home/unitree/.config/chromium/Default/Local Storage/leveldb/000036.log 
+2024/11/14-00:09:05.465 3ef0 Level-0 table #40: started
+2024/11/14-00:09:05.482 3ef0 Level-0 table #40: 42952 bytes OK
+2024/11/14-00:09:05.489 3ef0 Delete type=0 #36
+2024/11/14-00:10:45.808 3ef0 Level-0 table #42: started
+2024/11/14-00:10:45.822 3ef0 Level-0 table #42: 51214 bytes OK
+2024/11/14-00:10:45.827 3ef0 Delete type=0 #39
+2024/11/14-00:10:45.828 3ef0 Compacting 4@0 + 1@1 files
+2024/11/14-00:10:45.838 3ef0 Generated table #43@0: 139 keys, 40472 bytes
+2024/11/14-00:10:45.838 3ef0 Compacted 4@0 + 1@1 files => 40472 bytes
+2024/11/14-00:10:45.843 3ef0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/11/14-00:10:45.843 3ef0 Delete type=2 #42
+2024/11/14-00:10:45.843 3ef0 Delete type=2 #40
+2024/11/14-00:10:45.843 3ef0 Delete type=2 #37
+2024/11/14-00:10:45.843 3ef0 Delete type=2 #34
+2024/11/14-00:10:45.843 3ef0 Delete type=2 #32

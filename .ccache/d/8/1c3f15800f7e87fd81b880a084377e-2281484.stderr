@@ -1,0 +1,14 @@
+In file included from /home/unitree/librealsense/src/libusb/endpoint-libusb.h:8:0,
+                 from /home/unitree/librealsense/src/libusb/interface-libusb.h:6,
+                 from /home/unitree/librealsense/src/libusb/messenger-libusb.h:7,
+                 from /home/unitree/librealsense/src/libusb/device-libusb.h:6,
+                 from /home/unitree/librealsense/src/libusb/enumerator-libusb.cpp:5:
+/usr/include/libusb-1.0/libusb.h:736:4: warning: ISO C++ forbids zero-size array ‘dev_capability_data’ [-Wpedantic]
+  [0] /* non-standard, but usually working code */
+    ^
+/usr/include/libusb-1.0/libusb.h:767:4: warning: ISO C++ forbids zero-size array ‘dev_capability’ [-Wpedantic]
+  [0] /* non-standard, but usually working code */
+    ^
+/usr/include/libusb-1.0/libusb.h:1263:4: warning: ISO C++ forbids zero-size array ‘iso_packet_desc’ [-Wpedantic]
+  [0] /* non-standard, but usually working code */
+    ^

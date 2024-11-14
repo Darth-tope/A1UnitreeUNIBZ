@@ -1,0 +1,7 @@
+[Normal]
+Font=Courier 10 Pitch,12,-1,5,50,0,0,0,0,0,Regular
+dummy=prevent-empty-group
+
+[Solarized (dark)]
+Font=Courier 10 Pitch,12,-1,5,50,0,0,0,0,0,Regular
+dummy=prevent-empty-group

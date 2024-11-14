@@ -1,0 +1,53 @@
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c: In function ‘getProcAddressEGL’:
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:256:27: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+         GLFWglproc proc = (GLFWglproc) _glfw_dlsym(window->context.egl.client,
+                           ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c: In function ‘_glfwInitEGL’:
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:338:33: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.GetConfigAttrib = (PFN_eglGetConfigAttrib)
+                                 ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:340:28: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.GetConfigs = (PFN_eglGetConfigs)
+                            ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:342:28: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.GetDisplay = (PFN_eglGetDisplay)
+                            ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:344:26: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.GetError = (PFN_eglGetError)
+                          ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:346:28: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.Initialize = (PFN_eglInitialize)
+                            ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:348:27: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.Terminate = (PFN_eglTerminate)
+                           ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:350:25: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.BindAPI = (PFN_eglBindAPI)
+                         ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:352:31: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.CreateContext = (PFN_eglCreateContext)
+                               ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:354:32: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.DestroySurface = (PFN_eglDestroySurface)
+                                ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:356:32: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.DestroyContext = (PFN_eglDestroyContext)
+                                ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:358:37: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.CreateWindowSurface = (PFN_eglCreateWindowSurface)
+                                     ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:360:29: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.MakeCurrent = (PFN_eglMakeCurrent)
+                             ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:362:29: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.SwapBuffers = (PFN_eglSwapBuffers)
+                             ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:364:30: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.SwapInterval = (PFN_eglSwapInterval)
+                              ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:366:29: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.QueryString = (PFN_eglQueryString)
+                             ^
+/home/unitree/librealsense/third-party/glfw/src/egl_context.c:368:32: warning: ISO C forbids conversion of object pointer to function pointer type [-Wpedantic]
+     _glfw.egl.GetProcAddress = (PFN_eglGetProcAddress)
+                                ^

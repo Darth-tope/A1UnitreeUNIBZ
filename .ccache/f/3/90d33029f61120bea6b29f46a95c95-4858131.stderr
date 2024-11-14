@@ -1,0 +1,18 @@
+In file included from /home/unitree/opencv-4.1.1/build/custom_hal.hpp:5:0,
+                 from /home/unitree/opencv-4.1.1/modules/imgproc/src/hal_replacement.hpp:783,
+                 from /home/unitree/opencv-4.1.1/modules/imgproc/src/precomp.hpp:54,
+                 from /home/unitree/opencv-4.1.1/modules/imgproc/src/filter.dispatch.cpp:43:
+/home/unitree/opencv-4.1.1/build/carotene/tegra_hal.hpp: In function ‘int TEGRA_FILTERINIT(cvhalFilter2D**, uchar*, size_t, int, int, int, int, int, int, int, int, double, int, int, bool, bool)’:
+/home/unitree/opencv-4.1.1/build/carotene/tegra_hal.hpp:1129:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         }
+         ^
+/home/unitree/opencv-4.1.1/build/carotene/tegra_hal.hpp:1130:5: note: here
+     default:
+     ^~~~~~~
+/home/unitree/opencv-4.1.1/build/carotene/tegra_hal.hpp: In function ‘int TEGRA_SEPFILTERINIT(cvhalFilter2D**, int, int, int, uchar*, int, uchar*, int, int, int, double, int)’:
+/home/unitree/opencv-4.1.1/build/carotene/tegra_hal.hpp:1245:29: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         ctx->kernely_data[2]=((int16_t*)kernely_data)[2];
+         ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/unitree/opencv-4.1.1/build/carotene/tegra_hal.hpp:1246:5: note: here
+     default:
+     ^~~~~~~

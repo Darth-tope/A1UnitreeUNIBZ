@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2020-08-31 18:23:19,491: init_node, name[/rostopic_10489_1598869399395], pid[10489]
+[xmlrpc][INFO] 2020-08-31 18:23:19,493: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-08-31 18:23:19,494: Started XML-RPC server [http://nx:35453/]
+[rospy.init][INFO] 2020-08-31 18:23:19,495: ROS Slave URI: [http://nx:35453/]
+[rospy.impl.masterslave][INFO] 2020-08-31 18:23:19,495: _ready: http://nx:35453/
+[xmlrpc][INFO] 2020-08-31 18:23:19,497: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-08-31 18:23:19,497: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-08-31 18:23:19,596: registered with master
+[rospy.rosout][INFO] 2020-08-31 18:23:19,597: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-08-31 18:23:19,603: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-08-31 18:23:19,607: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-08-31 18:23:19,921: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-08-31 18:23:19,938: topic[/odom] adding connection to [http://nx:36375/], count 0
+[rospy.internal][WARNING] 2020-08-31 18:23:26,035: Unknown error initiating TCP/IP socket to nx:58573 (http://nx:36375/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-08-31 18:23:26,036: topic[/odom] removing connection to http://nx:36375/
+[rospy.internal][INFO] 2020-08-31 18:23:26,940: topic[/rosout] removing connection to /rosout

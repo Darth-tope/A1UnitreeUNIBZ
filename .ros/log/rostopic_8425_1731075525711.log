@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2024-11-08 22:18:45,806: init_node, name[/rostopic_8425_1731075525711], pid[8425]
+[xmlrpc][INFO] 2024-11-08 22:18:45,808: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-11-08 22:18:45,810: Started XML-RPC server [http://nx:45373/]
+[rospy.init][INFO] 2024-11-08 22:18:45,810: ROS Slave URI: [http://nx:45373/]
+[rospy.impl.masterslave][INFO] 2024-11-08 22:18:45,811: _ready: http://nx:45373/
+[rospy.registration][INFO] 2024-11-08 22:18:45,813: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2024-11-08 22:18:45,814: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-11-08 22:18:45,912: registered with master
+[rospy.rosout][INFO] 2024-11-08 22:18:45,913: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-11-08 22:18:45,919: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-11-08 22:18:45,922: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2024-11-08 22:18:46,278: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2024-11-08 22:18:46,315: topic[/odom] adding connection to [http://nx:36139/], count 0
+[rospy.internal][WARNING] 2024-11-08 22:44:37,944: Unknown error initiating TCP/IP socket to nx:40617 (http://nx:36139/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2024-11-08 22:44:37,945: topic[/odom] removing connection to http://nx:36139/
+[rospy.internal][INFO] 2024-11-08 22:44:38,726: topic[/rosout] removing connection to /rosout

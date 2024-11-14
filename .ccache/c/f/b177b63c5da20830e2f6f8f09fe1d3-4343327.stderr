@@ -1,0 +1,21 @@
+In file included from /home/unitree/opencv_contrib-4.1.1/modules/cudalegacy/include/opencv2/cudalegacy.hpp:50:0,
+                 from /home/unitree/opencv_contrib-4.1.1/modules/cudalegacy/perf/perf_precomp.hpp:48,
+                 from /home/unitree/opencv_contrib-4.1.1/modules/cudalegacy/perf/perf_main.cpp:43:
+/home/unitree/opencv_contrib-4.1.1/modules/cudalegacy/include/opencv2/cudalegacy/NCVHaarObjectDetection.hpp: In member function ‘NCVStatus HaarFeature64::setRect(Ncv32u, Ncv32u, Ncv32u, Ncv32u, Ncv32u, Ncv32u)’:
+/home/unitree/opencv_contrib-4.1.1/modules/cudalegacy/include/opencv2/cudalegacy/NCVHaarObjectDetection.hpp:87:38: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         ((NcvRect8u*)&(this->_ui2.x))->x = (Ncv8u)rectX;
+                                      ^~
+/home/unitree/opencv_contrib-4.1.1/modules/cudalegacy/include/opencv2/cudalegacy/NCVHaarObjectDetection.hpp:88:38: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         ((NcvRect8u*)&(this->_ui2.x))->y = (Ncv8u)rectY;
+                                      ^~
+/home/unitree/opencv_contrib-4.1.1/modules/cudalegacy/include/opencv2/cudalegacy/NCVHaarObjectDetection.hpp:89:38: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         ((NcvRect8u*)&(this->_ui2.x))->width = (Ncv8u)rectWidth;
+                                      ^~
+/home/unitree/opencv_contrib-4.1.1/modules/cudalegacy/include/opencv2/cudalegacy/NCVHaarObjectDetection.hpp:90:38: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         ((NcvRect8u*)&(this->_ui2.x))->height = (Ncv8u)rectHeight;
+                                      ^~
+/home/unitree/opencv_contrib-4.1.1/modules/cudalegacy/include/opencv2/cudalegacy/NCVHaarObjectDetection.hpp: In member function ‘void HaarFeature64::getRect(Ncv32u*, Ncv32u*, Ncv32u*, Ncv32u*)’:
+/home/unitree/opencv_contrib-4.1.1/modules/cudalegacy/include/opencv2/cudalegacy/NCVHaarObjectDetection.hpp:102:56: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         NcvRect8u tmpRect = *(NcvRect8u*)(&this->_ui2.x);
+                                                        ^
+/home/unitree/opencv_contrib-4.1.1/modules/cudalegacy/include/opencv2/cudalegacy/NCVHaarObjectDetection.hpp:102:56: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]

@@ -1,0 +1,534 @@
+[rosmaster.main][INFO] 2024-10-28 23:54:49,890: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-10-28 23:54:49,891: Starting ROS Master Node
+[xmlrpc][INFO] 2024-10-28 23:54:49,894: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-10-28 23:54:49,899: Started XML-RPC server [http://nx:11311/]
+[rosmaster.master][INFO] 2024-10-28 23:54:49,900: Master initialized: port[11311], uri[http://nx:11311/]
+[xmlrpc][INFO] 2024-10-28 23:54:49,901: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-10-28 23:55:13,338: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-10-28 23:55:13,345: +PARAM [/roslaunch/uris/host_nx__45951] by /roslaunch
+[rosmaster.master][INFO] 2024-10-28 23:55:29,607: +SERVICE [/rosout/get_loggers] /rosout http://nx:38907/
+[rosmaster.master][INFO] 2024-10-28 23:55:29,609: +SERVICE [/rosout/set_logger_level] /rosout http://nx:38907/
+[rosmaster.master][INFO] 2024-10-28 23:55:29,612: +PUB [/rosout_agg] /rosout http://nx:38907/
+[rosmaster.master][INFO] 2024-10-28 23:55:29,624: +SUB [/rosout] /rosout http://nx:38907/
+[rosmaster.master][INFO] 2024-10-28 23:55:37,595: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-10-28 23:55:37,595: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-10-28 23:56:29,275: +PUB [/rosout] /lcm_ros_bridge http://nx:35721/
+[rosmaster.master][INFO] 2024-10-28 23:56:29,278: +SERVICE [/lcm_ros_bridge/get_loggers] /lcm_ros_bridge http://nx:35721/
+[rosmaster.master][INFO] 2024-10-28 23:56:29,281: +SERVICE [/lcm_ros_bridge/set_logger_level] /lcm_ros_bridge http://nx:35721/
+[rosmaster.master][INFO] 2024-10-28 23:56:29,286: +PUB [/unitree_legged_msgs/HighState] /lcm_ros_bridge http://nx:35721/
+[rosmaster.master][INFO] 2024-10-28 23:56:29,295: +SUB [/unitree_legged_msgs/HighCmd] /lcm_ros_bridge http://nx:35721/
+[rosmaster.master][INFO] 2024-10-28 23:56:29,321: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/']
+[rosmaster.master][INFO] 2024-10-28 23:56:45,360: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/']: sec=16.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-28 23:56:59,590: +PUB [/rosout] /rostopic_11345_1730131019343 http://nx:36369/
+[rosmaster.master][INFO] 2024-10-28 23:56:59,599: +SERVICE [/rostopic_11345_1730131019343/get_loggers] /rostopic_11345_1730131019343 http://nx:36369/
+[rosmaster.master][INFO] 2024-10-28 23:56:59,601: +SERVICE [/rostopic_11345_1730131019343/set_logger_level] /rostopic_11345_1730131019343 http://nx:36369/
+[rosmaster.master][INFO] 2024-10-28 23:56:59,608: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/', 'http://nx:36369/']
+[rosmaster.master][INFO] 2024-10-28 23:56:59,639: +SUB [/unitree_legged_msgs/HighCmd] /rostopic_11345_1730131019343 http://nx:36369/
+[rosmaster.master][INFO] 2024-10-28 23:57:07,619: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/', 'http://nx:36369/']: sec=8.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-28 23:57:17,447: +PUB [/rosout] /rostopic_11377_1730131037234 http://nx:41589/
+[rosmaster.master][INFO] 2024-10-28 23:57:17,453: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/', 'http://nx:36369/', 'http://nx:41589/']
+[rosmaster.master][INFO] 2024-10-28 23:57:17,456: +SERVICE [/rostopic_11377_1730131037234/get_loggers] /rostopic_11377_1730131037234 http://nx:41589/
+[rosmaster.master][INFO] 2024-10-28 23:57:17,459: +SERVICE [/rostopic_11377_1730131037234/set_logger_level] /rostopic_11377_1730131037234 http://nx:41589/
+[rosmaster.master][INFO] 2024-10-28 23:57:17,482: +SUB [/unitree_legged_msgs/HighState] /rostopic_11377_1730131037234 http://nx:41589/
+[rosmaster.master][INFO] 2024-10-28 23:57:25,467: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/', 'http://nx:36369/', 'http://nx:41589/']: sec=8.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-28 23:58:26,633: +PUB [/rosout] /walk_ros_mode http://nx:40937/
+[rosmaster.master][INFO] 2024-10-28 23:58:26,636: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:40937/
+[rosmaster.master][INFO] 2024-10-28 23:58:26,638: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:40937/
+[rosmaster.master][INFO] 2024-10-28 23:58:26,641: +PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:40937/
+[rosmaster.master][INFO] 2024-10-28 23:58:26,646: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/', 'http://nx:36369/', 'http://nx:41589/', 'http://nx:40937/']
+[rosmaster.master][INFO] 2024-10-28 23:58:26,653: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:35721/ ['http://nx:40937/']
+[rosmaster.master][INFO] 2024-10-28 23:58:26,657: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:36369/ ['http://nx:40937/']
+[rosmaster.master][INFO] 2024-10-28 23:58:34,672: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:36369/ ['http://nx:40937/']: sec=8.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-28 23:58:38,567: -PUB [/rosout] /walk_ros_mode http://nx:40937/
+[rosmaster.master][INFO] 2024-10-28 23:58:38,569: -PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:40937/
+[rosmaster.master][INFO] 2024-10-28 23:58:38,571: -SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode rosrpc://nx:38683
+[rosmaster.master][INFO] 2024-10-28 23:58:38,573: -SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode rosrpc://nx:38683
+[rosmaster.master][INFO] 2024-10-28 23:58:38,584: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:36369/ []
+[rosmaster.master][INFO] 2024-10-28 23:58:38,587: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:36369/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-28 23:58:41,743: -SUB [/unitree_legged_msgs/HighState] /rostopic_11377_1730131037234 http://nx:41589/
+[rosmaster.master][INFO] 2024-10-28 23:58:41,743: -PUB [/rosout] /rostopic_11377_1730131037234 http://nx:41589/
+[rosmaster.master][INFO] 2024-10-28 23:58:41,744: -SERVICE [/rostopic_11377_1730131037234/set_logger_level] /rostopic_11377_1730131037234 rosrpc://nx:33609
+[rosmaster.master][INFO] 2024-10-28 23:58:41,744: -SERVICE [/rostopic_11377_1730131037234/get_loggers] /rostopic_11377_1730131037234 rosrpc://nx:33609
+[rosmaster.master][INFO] 2024-10-28 23:58:42,676: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/', 'http://nx:36369/', 'http://nx:41589/', 'http://nx:40937/']: sec=16.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-28 23:58:42,677: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/', 'http://nx:36369/', 'http://nx:41589/']
+[rosmaster.master][INFO] 2024-10-28 23:58:42,681: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/', 'http://nx:36369/', 'http://nx:41589/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-28 23:58:42,682: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/', 'http://nx:36369/']
+[rosmaster.master][INFO] 2024-10-28 23:58:42,684: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/', 'http://nx:36369/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-28 23:58:43,711: -SUB [/unitree_legged_msgs/HighCmd] /rostopic_11345_1730131019343 http://nx:36369/
+[rosmaster.master][INFO] 2024-10-28 23:58:43,712: -PUB [/rosout] /rostopic_11345_1730131019343 http://nx:36369/
+[rosmaster.master][INFO] 2024-10-28 23:58:43,712: -SERVICE [/rostopic_11345_1730131019343/get_loggers] /rostopic_11345_1730131019343 rosrpc://nx:41861
+[rosmaster.master][INFO] 2024-10-28 23:58:43,713: -SERVICE [/rostopic_11345_1730131019343/set_logger_level] /rostopic_11345_1730131019343 rosrpc://nx:41861
+[rosmaster.master][INFO] 2024-10-28 23:58:43,786: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/']
+[rosmaster.master][INFO] 2024-10-28 23:58:43,790: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:35721/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-28 23:58:46,647: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:35721/ ['http://nx:40937/']: sec=19.99, exception=[Errno 22] Invalid argument
+[rosmaster.threadpool][ERROR] 2024-10-28 23:58:46,659: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 22] Invalid argument
+
+[rosmaster.master][INFO] 2024-10-28 23:58:46,660: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:35721/ []
+[rosmaster.master][INFO] 2024-10-28 23:58:54,678: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:35721/ []: sec=8.02, exception=[Errno 22] Invalid argument
+[rosmaster.threadpool][ERROR] 2024-10-28 23:58:54,682: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 22] Invalid argument
+
+[rosmaster.master][INFO] 2024-10-29 00:05:49,557: +PUB [/rosout] /lcm_ros_bridge http://nx:40277/
+[rosmaster.master][INFO] 2024-10-29 00:05:49,558: +SERVICE [/lcm_ros_bridge/get_loggers] /lcm_ros_bridge http://nx:40277/
+[rosmaster.master][INFO] 2024-10-29 00:05:49,560: +SERVICE [/lcm_ros_bridge/set_logger_level] /lcm_ros_bridge http://nx:40277/
+[rosmaster.master][INFO] 2024-10-29 00:05:49,563: +PUB [/unitree_legged_msgs/HighState] /lcm_ros_bridge http://nx:40277/
+[rosmaster.master][INFO] 2024-10-29 00:05:49,570: +SUB [/unitree_legged_msgs/HighCmd] /lcm_ros_bridge http://nx:40277/
+[rosmaster.master][INFO] 2024-10-29 00:05:49,659: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/']
+[rosmaster.master][INFO] 2024-10-29 00:05:56,516: +PUB [/rosout] /rostopic_13776_1730131556311 http://nx:46691/
+[rosmaster.master][INFO] 2024-10-29 00:05:56,524: +SERVICE [/rostopic_13776_1730131556311/get_loggers] /rostopic_13776_1730131556311 http://nx:46691/
+[rosmaster.master][INFO] 2024-10-29 00:05:56,533: +SERVICE [/rostopic_13776_1730131556311/set_logger_level] /rostopic_13776_1730131556311 http://nx:46691/
+[rosmaster.master][INFO] 2024-10-29 00:05:56,556: +SUB [/unitree_legged_msgs/HighState] /rostopic_13776_1730131556311 http://nx:46691/
+[rosmaster.master][INFO] 2024-10-29 00:06:00,512: +PUB [/rosout] /rostopic_13800_1730131560304 http://nx:42593/
+[rosmaster.master][INFO] 2024-10-29 00:06:00,520: +SERVICE [/rostopic_13800_1730131560304/get_loggers] /rostopic_13800_1730131560304 http://nx:42593/
+[rosmaster.master][INFO] 2024-10-29 00:06:00,524: +SERVICE [/rostopic_13800_1730131560304/set_logger_level] /rostopic_13800_1730131560304 http://nx:42593/
+[rosmaster.master][INFO] 2024-10-29 00:06:00,547: +SUB [/unitree_legged_msgs/HighCmd] /rostopic_13800_1730131560304 http://nx:42593/
+[rosmaster.master][INFO] 2024-10-29 00:06:05,686: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/']: sec=16.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:06:05,686: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/', 'http://nx:46691/']
+[rosmaster.master][INFO] 2024-10-29 00:06:13,694: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/', 'http://nx:46691/']: sec=8.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:06:13,695: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/', 'http://nx:46691/', 'http://nx:42593/']
+[rosmaster.master][INFO] 2024-10-29 00:06:21,673: +PUB [/rosout] /walk_ros_mode http://nx:43953/
+[rosmaster.master][INFO] 2024-10-29 00:06:21,675: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:43953/
+[rosmaster.master][INFO] 2024-10-29 00:06:21,678: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:43953/
+[rosmaster.master][INFO] 2024-10-29 00:06:21,687: +PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:43953/
+[rosmaster.master][INFO] 2024-10-29 00:06:21,745: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:40277/ ['http://nx:43953/']
+[rosmaster.master][INFO] 2024-10-29 00:06:21,750: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:42593/ ['http://nx:43953/']
+[rosmaster.master][INFO] 2024-10-29 00:06:29,712: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/', 'http://nx:46691/', 'http://nx:42593/']: sec=16.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:06:29,712: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/', 'http://nx:46691/', 'http://nx:42593/', 'http://nx:43953/']
+[rosmaster.master][INFO] 2024-10-29 00:06:29,771: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:42593/ ['http://nx:43953/']: sec=8.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:06:37,219: -PUB [/rosout] /walk_ros_mode http://nx:43953/
+[rosmaster.master][INFO] 2024-10-29 00:06:37,221: -PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:43953/
+[rosmaster.master][INFO] 2024-10-29 00:06:37,223: -SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode rosrpc://nx:41561
+[rosmaster.master][INFO] 2024-10-29 00:06:37,225: -SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode rosrpc://nx:41561
+[rosmaster.master][INFO] 2024-10-29 00:06:37,295: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:42593/ []
+[rosmaster.master][INFO] 2024-10-29 00:06:37,313: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:42593/ []: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:06:37,734: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/', 'http://nx:46691/', 'http://nx:42593/', 'http://nx:43953/']: sec=8.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:06:37,737: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/', 'http://nx:46691/', 'http://nx:42593/']
+[rosmaster.master][INFO] 2024-10-29 00:06:45,364: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:40277/ ['http://nx:43953/']: sec=23.62, exception=[Errno 22] Invalid argument
+[rosmaster.threadpool][ERROR] 2024-10-29 00:06:45,366: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 22] Invalid argument
+
+[rosmaster.master][INFO] 2024-10-29 00:06:45,368: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:40277/ []
+[rosmaster.master][INFO] 2024-10-29 00:06:46,070: -SUB [/unitree_legged_msgs/HighState] /rostopic_13776_1730131556311 http://nx:46691/
+[rosmaster.master][INFO] 2024-10-29 00:06:46,071: -PUB [/rosout] /rostopic_13776_1730131556311 http://nx:46691/
+[rosmaster.master][INFO] 2024-10-29 00:06:46,071: -SERVICE [/rostopic_13776_1730131556311/set_logger_level] /rostopic_13776_1730131556311 rosrpc://nx:41655
+[rosmaster.master][INFO] 2024-10-29 00:06:46,072: -SERVICE [/rostopic_13776_1730131556311/get_loggers] /rostopic_13776_1730131556311 rosrpc://nx:41655
+[rosmaster.master][INFO] 2024-10-29 00:06:46,917: -SUB [/unitree_legged_msgs/HighCmd] /rostopic_13800_1730131560304 http://nx:42593/
+[rosmaster.master][INFO] 2024-10-29 00:06:46,917: -PUB [/rosout] /rostopic_13800_1730131560304 http://nx:42593/
+[rosmaster.master][INFO] 2024-10-29 00:06:46,918: -SERVICE [/rostopic_13800_1730131560304/set_logger_level] /rostopic_13800_1730131560304 rosrpc://nx:34433
+[rosmaster.master][INFO] 2024-10-29 00:06:46,918: -SERVICE [/rostopic_13800_1730131560304/get_loggers] /rostopic_13800_1730131560304 rosrpc://nx:34433
+[rosmaster.master][INFO] 2024-10-29 00:06:53,383: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:40277/ []: sec=8.01, exception=[Errno 22] Invalid argument
+[rosmaster.threadpool][ERROR] 2024-10-29 00:06:53,384: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 22] Invalid argument
+
+[rosmaster.master][INFO] 2024-10-29 00:06:53,758: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/', 'http://nx:46691/', 'http://nx:42593/']: sec=16.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:06:53,759: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/', 'http://nx:42593/']
+[rosmaster.master][INFO] 2024-10-29 00:06:53,761: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/', 'http://nx:42593/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:06:53,761: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/']
+[rosmaster.master][INFO] 2024-10-29 00:06:53,763: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:40277/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:14:08,362: +PUB [/rosout] /lcm_ros_bridge http://nx:44389/
+[rosmaster.master][INFO] 2024-10-29 00:14:08,369: +SERVICE [/lcm_ros_bridge/get_loggers] /lcm_ros_bridge http://nx:44389/
+[rosmaster.master][INFO] 2024-10-29 00:14:08,371: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/']
+[rosmaster.master][INFO] 2024-10-29 00:14:08,396: +SERVICE [/lcm_ros_bridge/set_logger_level] /lcm_ros_bridge http://nx:44389/
+[rosmaster.master][INFO] 2024-10-29 00:14:08,400: +PUB [/unitree_legged_msgs/HighState] /lcm_ros_bridge http://nx:44389/
+[rosmaster.master][INFO] 2024-10-29 00:14:08,407: +SUB [/unitree_legged_msgs/HighCmd] /lcm_ros_bridge http://nx:44389/
+[rosmaster.master][INFO] 2024-10-29 00:14:15,194: +PUB [/rosout] /rostopic_16791_1730132054986 http://nx:34629/
+[rosmaster.master][INFO] 2024-10-29 00:14:15,202: +SERVICE [/rostopic_16791_1730132054986/get_loggers] /rostopic_16791_1730132054986 http://nx:34629/
+[rosmaster.master][INFO] 2024-10-29 00:14:15,205: +SERVICE [/rostopic_16791_1730132054986/set_logger_level] /rostopic_16791_1730132054986 http://nx:34629/
+[rosmaster.master][INFO] 2024-10-29 00:14:15,219: +SUB [/unitree_legged_msgs/HighState] /rostopic_16791_1730132054986 http://nx:34629/
+[rosmaster.master][INFO] 2024-10-29 00:14:16,413: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/']: sec=8.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:14:16,415: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/', 'http://nx:34629/']
+[rosmaster.master][INFO] 2024-10-29 00:14:17,885: +PUB [/rosout] /rostopic_16815_1730132057660 http://nx:46735/
+[rosmaster.master][INFO] 2024-10-29 00:14:17,903: +SERVICE [/rostopic_16815_1730132057660/get_loggers] /rostopic_16815_1730132057660 http://nx:46735/
+[rosmaster.master][INFO] 2024-10-29 00:14:17,906: +SERVICE [/rostopic_16815_1730132057660/set_logger_level] /rostopic_16815_1730132057660 http://nx:46735/
+[rosmaster.master][INFO] 2024-10-29 00:14:17,937: +SUB [/unitree_legged_msgs/HighCmd] /rostopic_16815_1730132057660 http://nx:46735/
+[rosmaster.master][INFO] 2024-10-29 00:14:24,431: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/', 'http://nx:34629/']: sec=8.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:14:24,432: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/', 'http://nx:34629/', 'http://nx:46735/']
+[rosmaster.master][INFO] 2024-10-29 00:14:38,362: +PUB [/rosout] /walk_ros_mode http://nx:41297/
+[rosmaster.master][INFO] 2024-10-29 00:14:38,365: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:41297/
+[rosmaster.master][INFO] 2024-10-29 00:14:38,368: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:41297/
+[rosmaster.master][INFO] 2024-10-29 00:14:38,372: +PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:41297/
+[rosmaster.master][INFO] 2024-10-29 00:14:38,378: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:44389/ ['http://nx:41297/']
+[rosmaster.master][INFO] 2024-10-29 00:14:38,390: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:46735/ ['http://nx:41297/']
+[rosmaster.master][INFO] 2024-10-29 00:14:40,468: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/', 'http://nx:34629/', 'http://nx:46735/']: sec=16.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:14:40,473: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/', 'http://nx:34629/', 'http://nx:46735/', 'http://nx:41297/']
+[rosmaster.master][INFO] 2024-10-29 00:14:46,423: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:46735/ ['http://nx:41297/']: sec=8.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:14:48,500: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/', 'http://nx:34629/', 'http://nx:46735/', 'http://nx:41297/']: sec=8.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:14:49,704: -PUB [/rosout] /walk_ros_mode http://nx:41297/
+[rosmaster.master][INFO] 2024-10-29 00:14:49,709: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/', 'http://nx:34629/', 'http://nx:46735/']
+[rosmaster.master][INFO] 2024-10-29 00:14:49,719: -PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:41297/
+[rosmaster.master][INFO] 2024-10-29 00:14:49,721: -SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode rosrpc://nx:49349
+[rosmaster.master][INFO] 2024-10-29 00:14:49,723: -SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode rosrpc://nx:49349
+[rosmaster.master][INFO] 2024-10-29 00:14:49,737: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:46735/ []
+[rosmaster.master][INFO] 2024-10-29 00:14:49,741: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:46735/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:14:51,246: -SUB [/unitree_legged_msgs/HighCmd] /rostopic_16815_1730132057660 http://nx:46735/
+[rosmaster.master][INFO] 2024-10-29 00:14:51,250: -PUB [/rosout] /rostopic_16815_1730132057660 http://nx:46735/
+[rosmaster.master][INFO] 2024-10-29 00:14:51,252: -SERVICE [/rostopic_16815_1730132057660/get_loggers] /rostopic_16815_1730132057660 rosrpc://nx:45783
+[rosmaster.master][INFO] 2024-10-29 00:14:51,253: -SERVICE [/rostopic_16815_1730132057660/set_logger_level] /rostopic_16815_1730132057660 rosrpc://nx:45783
+[rosmaster.master][INFO] 2024-10-29 00:14:51,874: -SUB [/unitree_legged_msgs/HighState] /rostopic_16791_1730132054986 http://nx:34629/
+[rosmaster.master][INFO] 2024-10-29 00:14:51,880: -PUB [/rosout] /rostopic_16791_1730132054986 http://nx:34629/
+[rosmaster.master][INFO] 2024-10-29 00:14:51,883: -SERVICE [/rostopic_16791_1730132054986/get_loggers] /rostopic_16791_1730132054986 rosrpc://nx:43433
+[rosmaster.master][INFO] 2024-10-29 00:14:51,884: -SERVICE [/rostopic_16791_1730132054986/set_logger_level] /rostopic_16791_1730132054986 rosrpc://nx:43433
+[rosmaster.master][INFO] 2024-10-29 00:14:57,940: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:44389/ ['http://nx:41297/']: sec=19.56, exception=[Errno 22] Invalid argument
+[rosmaster.threadpool][ERROR] 2024-10-29 00:14:57,945: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 22] Invalid argument
+
+[rosmaster.master][INFO] 2024-10-29 00:14:57,946: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:44389/ []
+[rosmaster.master][INFO] 2024-10-29 00:15:04,533: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/', 'http://nx:34629/', 'http://nx:46735/']: sec=14.82, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:15:04,536: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/', 'http://nx:34629/']
+[rosmaster.master][INFO] 2024-10-29 00:15:05,970: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:44389/ []: sec=8.02, exception=[Errno 22] Invalid argument
+[rosmaster.threadpool][ERROR] 2024-10-29 00:15:05,974: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 22] Invalid argument
+
+[rosmaster.master][INFO] 2024-10-29 00:15:12,547: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/', 'http://nx:34629/']: sec=8.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:15:12,550: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/']
+[rosmaster.master][INFO] 2024-10-29 00:15:12,558: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:44389/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:33:52,106: +PUB [/rosout] /lcm_ros_bridge http://nx:38341/
+[rosmaster.master][INFO] 2024-10-29 00:33:52,108: +SERVICE [/lcm_ros_bridge/get_loggers] /lcm_ros_bridge http://nx:38341/
+[rosmaster.master][INFO] 2024-10-29 00:33:52,110: +SERVICE [/lcm_ros_bridge/set_logger_level] /lcm_ros_bridge http://nx:38341/
+[rosmaster.master][INFO] 2024-10-29 00:33:52,113: +PUB [/unitree_legged_msgs/HighState] /lcm_ros_bridge http://nx:38341/
+[rosmaster.master][INFO] 2024-10-29 00:33:52,119: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/']
+[rosmaster.master][INFO] 2024-10-29 00:33:52,120: +SUB [/unitree_legged_msgs/HighCmd] /lcm_ros_bridge http://nx:38341/
+[rosmaster.master][INFO] 2024-10-29 00:34:00,130: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/']: sec=8.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:34:00,370: +PUB [/rosout] /rostopic_21194_1730133240146 http://nx:39845/
+[rosmaster.master][INFO] 2024-10-29 00:34:00,394: +SERVICE [/rostopic_21194_1730133240146/get_loggers] /rostopic_21194_1730133240146 http://nx:39845/
+[rosmaster.master][INFO] 2024-10-29 00:34:00,400: +SERVICE [/rostopic_21194_1730133240146/set_logger_level] /rostopic_21194_1730133240146 http://nx:39845/
+[rosmaster.master][INFO] 2024-10-29 00:34:00,415: +SUB [/unitree_legged_msgs/HighState] /rostopic_21194_1730133240146 http://nx:39845/
+[rosmaster.master][INFO] 2024-10-29 00:34:00,430: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/', 'http://nx:39845/']
+[rosmaster.master][INFO] 2024-10-29 00:34:05,843: +PUB [/rosout] /rostopic_21245_1730133245631 http://nx:42835/
+[rosmaster.master][INFO] 2024-10-29 00:34:05,869: +SERVICE [/rostopic_21245_1730133245631/get_loggers] /rostopic_21245_1730133245631 http://nx:42835/
+[rosmaster.master][INFO] 2024-10-29 00:34:05,872: +SERVICE [/rostopic_21245_1730133245631/set_logger_level] /rostopic_21245_1730133245631 http://nx:42835/
+[rosmaster.master][INFO] 2024-10-29 00:34:05,903: +SUB [/unitree_legged_msgs/HighCmd] /rostopic_21245_1730133245631 http://nx:42835/
+[rosmaster.master][INFO] 2024-10-29 00:34:16,260: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/', 'http://nx:39845/']: sec=15.83, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:34:16,285: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/', 'http://nx:39845/', 'http://nx:42835/']
+[rosmaster.master][INFO] 2024-10-29 00:34:19,412: +PUB [/rosout] /walk_ros_mode http://nx:40649/
+[rosmaster.master][INFO] 2024-10-29 00:34:19,414: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:40649/
+[rosmaster.master][INFO] 2024-10-29 00:34:19,416: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:40649/
+[rosmaster.master][INFO] 2024-10-29 00:34:19,419: +PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:40649/
+[rosmaster.master][INFO] 2024-10-29 00:34:19,434: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:38341/ ['http://nx:40649/']
+[rosmaster.master][INFO] 2024-10-29 00:34:19,507: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:42835/ ['http://nx:40649/']
+[rosmaster.master][INFO] 2024-10-29 00:34:24,307: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/', 'http://nx:39845/', 'http://nx:42835/']: sec=8.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:34:24,310: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/', 'http://nx:39845/', 'http://nx:42835/', 'http://nx:40649/']
+[rosmaster.master][INFO] 2024-10-29 00:34:26,530: -PUB [/rosout] /walk_ros_mode http://nx:40649/
+[rosmaster.master][INFO] 2024-10-29 00:34:26,539: -PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:40649/
+[rosmaster.master][INFO] 2024-10-29 00:34:26,546: -SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode rosrpc://nx:39285
+[rosmaster.master][INFO] 2024-10-29 00:34:26,549: -SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode rosrpc://nx:39285
+[rosmaster.master][INFO] 2024-10-29 00:34:27,181: -SUB [/unitree_legged_msgs/HighState] /rostopic_21194_1730133240146 http://nx:39845/
+[rosmaster.master][INFO] 2024-10-29 00:34:27,183: -PUB [/rosout] /rostopic_21194_1730133240146 http://nx:39845/
+[rosmaster.master][INFO] 2024-10-29 00:34:27,183: -SERVICE [/rostopic_21194_1730133240146/get_loggers] /rostopic_21194_1730133240146 rosrpc://nx:44979
+[rosmaster.master][INFO] 2024-10-29 00:34:27,184: -SERVICE [/rostopic_21194_1730133240146/set_logger_level] /rostopic_21194_1730133240146 rosrpc://nx:44979
+[rosmaster.master][INFO] 2024-10-29 00:34:27,452: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:38341/ ['http://nx:40649/']: sec=8.01, exception=[Errno 22] Invalid argument
+[rosmaster.threadpool][ERROR] 2024-10-29 00:34:27,453: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 22] Invalid argument
+
+[rosmaster.master][INFO] 2024-10-29 00:34:27,454: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:38341/ []
+[rosmaster.master][INFO] 2024-10-29 00:34:27,537: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:42835/ ['http://nx:40649/']: sec=8.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:34:27,539: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:42835/ []
+[rosmaster.master][INFO] 2024-10-29 00:34:27,547: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:42835/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:34:27,824: -SUB [/unitree_legged_msgs/HighCmd] /rostopic_21245_1730133245631 http://nx:42835/
+[rosmaster.master][INFO] 2024-10-29 00:34:27,826: -PUB [/rosout] /rostopic_21245_1730133245631 http://nx:42835/
+[rosmaster.master][INFO] 2024-10-29 00:34:27,826: -SERVICE [/rostopic_21245_1730133245631/set_logger_level] /rostopic_21245_1730133245631 rosrpc://nx:41979
+[rosmaster.master][INFO] 2024-10-29 00:34:27,827: -SERVICE [/rostopic_21245_1730133245631/get_loggers] /rostopic_21245_1730133245631 rosrpc://nx:41979
+[rosmaster.master][INFO] 2024-10-29 00:34:35,465: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:38341/ []: sec=8.01, exception=[Errno 22] Invalid argument
+[rosmaster.threadpool][ERROR] 2024-10-29 00:34:35,466: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 22] Invalid argument
+
+[rosmaster.master][INFO] 2024-10-29 00:34:40,339: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/', 'http://nx:39845/', 'http://nx:42835/', 'http://nx:40649/']: sec=16.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:34:40,341: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/', 'http://nx:39845/', 'http://nx:42835/']
+[rosmaster.master][INFO] 2024-10-29 00:34:48,356: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/', 'http://nx:39845/', 'http://nx:42835/']: sec=8.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:34:48,358: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/', 'http://nx:42835/']
+[rosmaster.master][INFO] 2024-10-29 00:34:48,371: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/', 'http://nx:42835/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:34:48,371: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/']
+[rosmaster.master][INFO] 2024-10-29 00:34:48,373: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38341/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:35:38,034: +PUB [/rosout] /lcm_ros_bridge http://nx:38463/
+[rosmaster.master][INFO] 2024-10-29 00:35:38,039: +SERVICE [/lcm_ros_bridge/get_loggers] /lcm_ros_bridge http://nx:38463/
+[rosmaster.master][INFO] 2024-10-29 00:35:38,042: +SERVICE [/lcm_ros_bridge/set_logger_level] /lcm_ros_bridge http://nx:38463/
+[rosmaster.master][INFO] 2024-10-29 00:35:38,049: +PUB [/unitree_legged_msgs/HighState] /lcm_ros_bridge http://nx:38463/
+[rosmaster.master][INFO] 2024-10-29 00:35:38,063: +SUB [/unitree_legged_msgs/HighCmd] /lcm_ros_bridge http://nx:38463/
+[rosmaster.master][INFO] 2024-10-29 00:35:38,132: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38463/']
+[rosmaster.master][INFO] 2024-10-29 00:35:41,473: +PUB [/rosout] /rostopic_21387_1730133341242 http://nx:45037/
+[rosmaster.master][INFO] 2024-10-29 00:35:41,490: +SERVICE [/rostopic_21387_1730133341242/get_loggers] /rostopic_21387_1730133341242 http://nx:45037/
+[rosmaster.master][INFO] 2024-10-29 00:35:41,499: +SERVICE [/rostopic_21387_1730133341242/set_logger_level] /rostopic_21387_1730133341242 http://nx:45037/
+[rosmaster.master][INFO] 2024-10-29 00:35:41,529: +SUB [/unitree_legged_msgs/HighState] /rostopic_21387_1730133341242 http://nx:45037/
+[rosmaster.master][INFO] 2024-10-29 00:35:46,149: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38463/']: sec=8.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:35:46,149: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38463/', 'http://nx:45037/']
+[rosmaster.master][INFO] 2024-10-29 00:35:54,168: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38463/', 'http://nx:45037/']: sec=8.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:35:54,462: +PUB [/rosout] /walk_ros_mode http://nx:43619/
+[rosmaster.master][INFO] 2024-10-29 00:35:54,470: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:43619/
+[rosmaster.master][INFO] 2024-10-29 00:35:54,472: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38463/', 'http://nx:45037/', 'http://nx:43619/']
+[rosmaster.master][INFO] 2024-10-29 00:35:54,475: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:43619/
+[rosmaster.master][INFO] 2024-10-29 00:35:54,481: +PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:43619/
+[rosmaster.master][INFO] 2024-10-29 00:35:54,491: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:38463/ ['http://nx:43619/']
+[rosmaster.master][INFO] 2024-10-29 00:36:03,588: -PUB [/rosout] /walk_ros_mode http://nx:43619/
+[rosmaster.master][INFO] 2024-10-29 00:36:03,590: -PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:43619/
+[rosmaster.master][INFO] 2024-10-29 00:36:03,592: -SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode rosrpc://nx:47789
+[rosmaster.master][INFO] 2024-10-29 00:36:03,593: -SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode rosrpc://nx:47789
+[rosmaster.master][INFO] 2024-10-29 00:36:10,198: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38463/', 'http://nx:45037/', 'http://nx:43619/']: sec=15.72, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:36:10,202: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38463/', 'http://nx:45037/']
+[rosmaster.master][INFO] 2024-10-29 00:36:10,209: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:38463/', 'http://nx:45037/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:36:11,709: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:38463/ ['http://nx:43619/']: sec=17.22, exception=[Errno 22] Invalid argument
+[rosmaster.threadpool][ERROR] 2024-10-29 00:36:11,710: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 22] Invalid argument
+
+[rosmaster.master][INFO] 2024-10-29 00:36:11,710: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:38463/ []
+[rosmaster.master][INFO] 2024-10-29 00:36:12,132: +PUB [/rosout] /lcm_ros_bridge http://nx:45987/
+[rosmaster.master][INFO] 2024-10-29 00:36:12,136: +SERVICE [/lcm_ros_bridge/get_loggers] /lcm_ros_bridge http://nx:45987/
+[rosmaster.master][INFO] 2024-10-29 00:36:12,141: +SERVICE [/lcm_ros_bridge/set_logger_level] /lcm_ros_bridge http://nx:45987/
+[rosmaster.master][INFO] 2024-10-29 00:36:12,149: +PUB [/unitree_legged_msgs/HighState] /lcm_ros_bridge http://nx:45987/
+[rosmaster.master][INFO] 2024-10-29 00:36:12,163: +SUB [/unitree_legged_msgs/HighCmd] /lcm_ros_bridge http://nx:45987/
+[rosmaster.master][INFO] 2024-10-29 00:36:12,176: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:45037/', 'http://nx:45987/']
+[rosmaster.master][INFO] 2024-10-29 00:36:12,223: publisherUpdate[/unitree_legged_msgs/HighState] -> http://nx:45037/ ['http://nx:45987/']
+[rosmaster.master][INFO] 2024-10-29 00:36:19,727: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:38463/ []: sec=8.02, exception=[Errno 22] Invalid argument
+[rosmaster.threadpool][ERROR] 2024-10-29 00:36:19,730: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 22] Invalid argument
+
+[rosmaster.master][INFO] 2024-10-29 00:36:20,246: publisherUpdate[/unitree_legged_msgs/HighState] -> http://nx:45037/ ['http://nx:45987/']: sec=8.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:36:20,576: +PUB [/rosout] /walk_ros_mode http://nx:36467/
+[rosmaster.master][INFO] 2024-10-29 00:36:20,578: +SERVICE [/walk_ros_mode/get_loggers] /walk_ros_mode http://nx:36467/
+[rosmaster.master][INFO] 2024-10-29 00:36:20,580: +SERVICE [/walk_ros_mode/set_logger_level] /walk_ros_mode http://nx:36467/
+[rosmaster.master][INFO] 2024-10-29 00:36:20,589: +PUB [/unitree_legged_msgs/HighCmd] /walk_ros_mode http://nx:36467/
+[rosmaster.master][INFO] 2024-10-29 00:36:20,651: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:45987/ ['http://nx:36467/']
+[rosmaster.master][INFO] 2024-10-29 00:36:26,344: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:45037/', 'http://nx:45987/']: sec=14.17, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:36:26,345: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:45037/', 'http://nx:45987/', 'http://nx:36467/']
+[rosmaster.master][INFO] 2024-10-29 00:36:34,358: publisherUpdate[/rosout] -> http://nx:38907/ ['http://nx:45037/', 'http://nx:45987/', 'http://nx:36467/']: sec=8.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-10-29 00:36:36,683: publisherUpdate[/unitree_legged_msgs/HighCmd] -> http://nx:45987/ ['http://nx:36467/']: sec=16.03, result=[1, '', 0]
