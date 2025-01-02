@@ -1,0 +1,28 @@
+package slam_planner;
+
+struct HighState
+{
+                int8_t levelFlag;
+                int16_t commVersion;
+                int16_t robotID;
+                int32_t SN;
+                int8_t bandWidth;
+                int8_t mode;
+                IMU imu;
+                float forwardSpeed;
+                float sideSpeed;
+                float rotateSpeed;
+                float bodyHeight;
+                float updownSpeed;                 
+                float forwardPosition;             
+                float sidePosition;                
+                Cartesian footPosition2Body[4];    
+                Cartesian footSpeed2Body[4];
+                int16_t footForce[4];
+                int16_t footForceEst[4];
+                int32_t tick;
+                int8_t wirelessRemote[40];
+                int32_t reserve;
+                int32_t crc;
+}                    
+

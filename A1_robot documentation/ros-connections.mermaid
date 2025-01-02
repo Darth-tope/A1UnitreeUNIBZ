@@ -1,0 +1,60 @@
+graph TD
+    %% Transform Publishers
+    map2odom["/map2odom"]
+    base2laser["/base2laser"]
+    laser2foot["/laser2foot"]
+
+    %% Main Nodes
+    slamware["/slamware_ros_sdk_server_node"]
+    slam_planner["/slam_planner_node"]
+    base_controller["/base_controller_node"]
+
+    %% Topics as rectangles
+    tf["/tf"]
+    cmd_vel["/cmd_vel"]
+    map["/map"]
+    scan["/scan"]
+    odom["/odom"]
+    move_base["/move_base/*"]
+    costmaps["Costmap Topics"]
+    planner["Planner Topics"]
+
+    %% Transform Chain
+    map2odom -->|publishes| tf
+    base2laser -->|publishes| tf
+    laser2foot -->|publishes| tf
+    tf -->|subscribes| slam_planner
+
+    %% Slamware Server Connections
+    slamware -->|publishes| map
+    slamware -->|publishes| scan
+    slamware -->|publishes| odom
+    slamware -->|publishes| tf
+    
+    %% Slam Planner Connections
+    map -->|subscribes| slam_planner
+    scan -->|subscribes| slam_planner
+    odom -->|subscribes| slam_planner
+    slam_planner -->|publishes| cmd_vel
+    slam_planner -->|publishes| move_base
+    slam_planner -->|publishes| costmaps
+    slam_planner -->|publishes| planner
+
+    %% Base Controller
+    cmd_vel -->|subscribes| base_controller
+
+    %% Additional Topics
+    slamware -->|publishes| basic_sensors["basic_sensors_info\nbasic_sensors_values"]
+    slamware -->|publishes| robot_info["robot_basic_state\nrobot_device_info"]
+    slamware -->|subscribes| movement_cmds["move_*\nrotate_*\nother control commands"]
+
+    %% Costmap Details
+    costmaps --> global["global_costmap/*"]
+    costmaps --> local["local_costmap/*"]
+
+    %% Style
+    classDef node fill:#c2e0c6,stroke:#000000,stroke-width:2px;
+    classDef topic fill:#dae8fc,stroke:#6c8ebf,stroke-width:1px;
+    
+    class map2odom,base2laser,laser2foot,slamware,slam_planner,base_controller node;
+    class tf,cmd_vel,map,scan,odom,move_base,costmaps,planner,basic_sensors,robot_info,movement_cmds,global,local topic;

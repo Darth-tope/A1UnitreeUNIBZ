@@ -1,0 +1,33 @@
+graph TB
+    map["/map"]
+    odom["/odom"]
+    base_link["/base_link"]
+    base_footprint["/base_footprint"]
+    laser["/laser"]
+
+    %% Define connections with transforms
+    map -->|"map2odom<br/>static_transform_publisher"| odom
+    odom -->|"odometry<br/>transforms"| base_link
+    base_link -->|"base2laser<br/>static_transform_publisher"| laser
+    laser -->|"laser2foot<br/>static_transform_publisher"| base_footprint
+
+    %% Style nodes
+    classDef frame fill:#e6f3ff,stroke:#333,stroke-width:2px;
+    classDef transform fill:#f9f9f9,stroke:#666,stroke-dasharray: 5 5;
+    
+    class map,odom,base_link,base_footprint,laser frame;
+
+    %% Add notes
+    subgraph Frame Descriptions
+        map_note["map: Global reference frame<br/>Fixed world coordinates"]
+        odom_note["odom: Odometry reference frame<br/>Robot's starting position"]
+        base_note["base_link: Robot's center<br/>Main robot frame"]
+        foot_note["base_footprint: Robot's footprint<br/>Ground projection"]
+        laser_note["laser: Laser scanner frame<br/>Sensor position"]
+    end
+
+    %% Parameters from launch file
+    subgraph Important Parameters
+        direction LR
+        params["`Resolution: 0.05m<br>Update frequency: 3.0Hz<br>Robot radius: 0.2m<br>Max velocity: 0.3 m/s`"]
+    end
